@@ -2,10 +2,10 @@
 tags: [fil-conducteur, moc, systeme, vue-ensemble]
 ---
 
-# 🧭 Le Fil Conducteur — 54 thèmes, un seul système
+# 🧭 Le Fil Conducteur — 57 thèmes, un seul système
 
 > [!abstract] Pourquoi ce document existe
-> Les 54 thèmes du vault ne sont pas une liste à cocher : ce sont les **pièces d'une seule machine**. Ce document raconte comment elles s'emboîtent — le *flow* complet, de la facture du jour au rapport de l'analyste, en passant par l'impôt et le groupe.
+> Les 57 thèmes du vault ne sont pas une liste à cocher : ce sont les **pièces d'une seule machine**. Ce document raconte comment elles s'emboîtent — le *flow* complet, de la facture du jour au rapport de l'analyste, en passant par l'impôt et le groupe.
 >
 > **La règle d'or :** tout thème est un *organe* (compte), un *flux* (écriture), un *état* (sortie) ou un *contrôle* (audit/fiscal). Trouvez le circuit, vous trouvez le rôle.
 
@@ -157,6 +157,16 @@ Les **[[03 — Écritures comptables types]]** sont les briques du quotidien : v
 | [[53 — Templates d'écritures comptables]] | La table de référence : toutes les écritures types du système en un seul tableau, avec la fiche-source de chaque ligne |
 | [[54 — La logique des écritures comptables]] | La méthode : équation, tableau des 6 cas, raisonnement en 5 étapes — comment retrouver n'importe quelle écriture |
 
+## 5quater. La finance d'entreprise — la création de valeur (10/08/2026)
+
+> La sortie ultime de la machine : les 4 circuits produisent des états (04) et des ratios (09) — la finance d'entreprise les transforme en **décisions** : investir, valoriser, financer. C'est le pont entre le *passé comptable* et l'*avenir économique*.
+
+| Thème | Pourquoi il complète le système |
+| --- | --- |
+| [[55 — Choix d'investissement (VAN, TRI, Payback)]] | La décision d'emploi des capitaux du circuit 3 : flux actualisés, piège du BFG, bouclier fiscal |
+| [[56 — Valorisation d'entreprise (ANR, multiples, DCF)]] | Le prix des 4 circuits : retraitements (10) → ANR, comparables MASI, DCF |
+| [[57 — Structure de capital & CMPC (WACC)]] | Le taux d'exigence des apporteurs de capitaux : le CMPC actualise 55 et 56 — la ligne de flottaison de la création de valeur |
+
 ---
 
 ## 6. Les 3 fils transversaux (présents dans chaque circuit)
@@ -184,4 +194,4 @@ Actif fictif · stocks gonflés · pertes clients masquées (3424) · asphyxie f
 
 ---
 
-*Document maître du vault — généré le 08/08/2026, mis à jour le 09/08/2026. Les liens pointent vers les 54 fiches thématiques et les 6 rapports fondateurs.*
+*Document maître du vault — généré le 08/08/2026, mis à jour le 10/08/2026. Les liens pointent vers les 57 fiches thématiques et les 6 rapports fondateurs.*

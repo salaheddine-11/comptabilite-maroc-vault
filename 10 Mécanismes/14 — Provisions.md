@@ -40,5 +40,24 @@ Une provision pour créance douteuse n'est déductible de l'IS que si **individu
 - Circuit 2 : déprécient les stocks → [[22 — Stocks]] · les créances → [[16 — Créances]] · les immobilisations → [[05 — Amortissements]]
 - Fiscalité via le T22 → [[26 — Passage résultat comptable → fiscal]] · CAF additive (exclut les circulantes) → [[09 — Ratios & SIG]]
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Des dotations (619x/639x) qui chutent alors que le portefeuille clients se détériore (créances > 90 jours en hausse, sinistralité sectorielle en hausse) — ou des reprises massives (719x/739x/759x) qui apparaissent exactement l'année où le résultat opérationnel faiblit.
+
+> [!warning] L'intention
+> La direction **lisse** le résultat : surprovisionnement pendant les bonnes années (réserves cachées) → reprises libérées dans les mauvaises (*cookie jar accounting*). À l'inverse, l'absence de dotation sur un litige connu refuse la prudence pour protéger le résultat, le bonus ou le covenant bancaire.
+
+> [!warning] Le risque caché
+> Le résultat publié est un artefact. Quand le risque se matérialise sans provision (défaut massif, condamnation), la charge tombe en une fois : chute brutale du résultat, réintégration fiscale au T22 (provision non individualisée ou sans recours dans les 12 mois), dégradation du provisionnement bancaire 20/50/100 % (circulaire BAM 19/G/2002) — et redressement IS + majorations si la reprise était abusive.
+
+> [!danger] Red Flags & Omissions
+> 1. Dotation 6196/6396 en baisse alors que la dépréciation sectorielle observable (rapports AMMC des pairs) augmente.
+> 2. Reprises sur risques durables (15) sans événement extérieur justifiant la fin du risque — seule la performance de l'exercice a changé.
+> 3. ETIC B5 qui ne se concilie pas : ouverture + dotations − reprises ≠ clôture (reprises passées par le 719x sans transiter par le tableau).
+> 4. Le silence : aucun montant ni probabilité sur les litiges en cours dans l'ETIC, alors que le CAC mentionne une « incertitude » dans son rapport — la direction ne dit pas ce qu'elle sait.
+
 ## Sources
 CGNC (prudence) · loi 9-88 art. 16 · CGI art. 10-I-F · circulaire BAM 19/G/2002 · ETIC B5.
