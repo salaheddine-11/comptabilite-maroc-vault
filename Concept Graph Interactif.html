@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📊 Concept Graph — Comptabilité Maroc (42 thèmes)</title>
+<style>
+  :root { --bg:#0f172a; --panel:#1e293b; --border:#334155; --text:#e2e8f0; --dim:#94a3b8; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--text); font-family:'Segoe UI',system-ui,sans-serif; overflow:hidden; height:100vh; }
+  #header { position:fixed; top:0; left:0; right:0; z-index:20; display:flex; align-items:center; gap:14px;
+            padding:10px 16px; background:rgba(15,23,42,.92); border-bottom:1px solid var(--border); backdrop-filter:blur(6px); }
+  #header h1 { font-size:15px; font-weight:600; white-space:nowrap; }
+  #header h1 span { color:var(--dim); font-weight:400; }
+  #search { flex:1; max-width:340px; padding:7px 12px; border-radius:8px; border:1px solid var(--border);
+            background:#0b1220; color:var(--text); font-size:13px; outline:none; }
+  #search:focus { border-color:#3b82f6; }
+  #stats { font-size:12px; color:var(--dim); white-space:nowrap; }
+  #reset { padding:6px 12px; border-radius:8px; border:1px solid var(--border); background:#0b1220; color:var(--text);
+           cursor:pointer; font-size:12px; }
+  #reset:hover { border-color:#3b82f6; }
+  #legend { position:fixed; top:60px; left:16px; z-index:15; background:rgba(30,41,59,.9); border:1px solid var(--border);
+            border-radius:10px; padding:10px 12px; font-size:11px; max-width:230px; }
+  #legend .row { display:flex; align-items:center; gap:7px; padding:2px 0; }
+  #legend .dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+  #panel { position:fixed; top:60px; right:16px; z-index:15; width:300px; max-height:calc(100vh - 90px); overflow-y:auto;
+           background:rgba(30,41,59,.95); border:1px solid var(--border); border-radius:10px; padding:14px; display:none; font-size:13px; }
+  #panel h2 { font-size:14px; margin-bottom:8px; }
+  #panel .meta { color:var(--dim); font-size:12px; margin-bottom:8px; }
+  #panel .tag { display:inline-block; padding:2px 8px; border-radius:20px; font-size:11px; margin:2px 4px 2px 0; }
+  #panel ul { list-style:none; }
+  #panel li { padding:3px 0; }
+  #panel li a { color:#60a5fa; text-decoration:none; cursor:pointer; }
+  #panel li a:hover { text-decoration:underline; }
+  #panel .file { font-family:Consolas,monospace; font-size:11px; color:var(--dim); word-break:break-all; margin-top:8px; }
+  #closePanel { float:right; cursor:pointer; color:var(--dim); font-size:16px; }
+  #svgWrap { position:fixed; inset:0; }
+  svg { width:100%; height:100%; display:block; cursor:grab; }
+  svg.dragging { cursor:grabbing; }
+  .link { stroke:var(--dim); stroke-opacity:.25; }
+  .link.hot { stroke-opacity:.85; }
+  .node { cursor:pointer; }
+  .node circle { stroke:#0f172a; stroke-width:1.5; }
+  .node.dim { opacity:.15; }
+  .node text { fill:var(--text); font-size:10px; paint-order:stroke; stroke:#0f172a; stroke-width:2.5px;
+               stroke-linejoin:round; pointer-events:none; }
+  .node.searchHit circle { stroke:#fbbf24; stroke-width:3; }
+  .hint { position:fixed; bottom:10px; left:16px; z-index:15; color:var(--dim); font-size:11px; }
+</style>
+</head>
+<body>
+<div id="header">
+  <h1>📊 Concept Graph <span>— Comptabilité Maroc · 42 thèmes, un seul système</span></h1>
+  <input id="search" type="text" placeholder="🔍 Rechercher un thème… (ex: TVA, consolidation, stocks)">
+  <div id="stats"></div>
+  <button id="reset">⟲ Réinitialiser</button>
+</div>
+<div id="legend"></div>
+<div id="panel">
+  <span id="closePanel">✕</span>
+  <h2 id="pTitle"></h2>
+  <div class="meta" id="pMeta"></div>
+  <div id="pTags"></div>
+  <div id="pBody"></div>
+  <div class="file" id="pFile"></div>
+</div>
+<div id="svgWrap"><svg id="svg"></svg></div>
+<div class="hint">🖱 glisser = déplacer un nœud · molette = zoom · fond glissable = panoramique · cliquer un nœud = détail · survoler = voisins</div>
+
+<script>
+"use strict";
+const DATA = {"nodes": [{"id": "Le Fil Conducteur", "label": "Le Fil Conducteur", "cat": "hub", "ordre": "", "statut": "", "file": "Le Fil Conducteur.md"}, {"id": "🏠 Accueil", "label": "🏠 Accueil", "cat": "hub", "ordre": "", "statut": "", "file": "🏠 Accueil.md"}, {"id": "01 — Logique du PCGE & principes", "label": "01 — Logique du PCGE & principes", "cat": "Fondations", "ordre": "1", "statut": "✅ Expliqué", "file": "00 Fondations\\01 — Logique du PCGE & principes.md"}, {"id": "02 — Cycle comptable quotidien", "label": "02 — Cycle comptable quotidien", "cat": "Fondations", "ordre": "2", "statut": "✅ Expliqué", "file": "00 Fondations\\02 — Cycle comptable quotidien.md"}, {"id": "03 — Écritures comptables types", "label": "03 — Écritures comptables types", "cat": "Fondations", "ordre": "3", "statut": "✅ Expliqué", "file": "00 Fondations\\03 — Écritures comptables types.md"}, {"id": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)", "label": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)", "cat": "Fondations", "ordre": "4", "statut": "✅ Expliqué", "file": "00 Fondations\\04 — États de synthèse (BL, CPC, ESG, TF, ETIC).md"}, {"id": "05 — Amortissements", "label": "05 — Amortissements", "cat": "Mécanismes", "ordre": "5", "statut": "✅ Expliqué", "file": "10 Mécanismes\\05 — Amortissements.md"}, {"id": "06 — Contrats à long terme", "label": "06 — Contrats à long terme", "cat": "Mécanismes", "ordre": "6", "statut": "✅ Expliqué", "file": "10 Mécanismes\\06 — Contrats à long terme.md"}, {"id": "11 — Non-valeurs", "label": "11 — Non-valeurs", "cat": "Mécanismes", "ordre": "11", "statut": "✅ Expliqué", "file": "10 Mécanismes\\11 — Non-valeurs.md"}, {"id": "12 — Crédit-bail", "label": "12 — Crédit-bail", "cat": "Mécanismes", "ordre": "12", "statut": "✅ Expliqué", "file": "10 Mécanismes\\12 — Crédit-bail.md"}, {"id": "13 — Régularisations de fin d'exercice", "label": "13 — Régularisations de fin d'exercice", "cat": "Mécanismes", "ordre": "13", "statut": "✅ Expliqué", "file": "10 Mécanismes\\13 — Régularisations de fin d'exercice.md"}, {"id": "14 — Provisions", "label": "14 — Provisions", "cat": "Mécanismes", "ordre": "14", "statut": "✅ Expliqué", "file": "10 Mécanismes\\14 — Provisions.md"}, {"id": "16 — Créances", "label": "16 — Créances", "cat": "Mécanismes", "ordre": "16", "statut": "✅ Expliqué (complété 08/08/2026)", "file": "10 Mécanismes\\16 — Créances.md"}, {"id": "17 — Trésorerie", "label": "17 — Trésorerie", "cat": "Mécanismes", "ordre": "17", "statut": "✅ Expliqué (complété 08/08/2026)", "file": "10 Mécanismes\\17 — Trésorerie.md"}, {"id": "18 — Financement", "label": "18 — Financement", "cat": "Mécanismes", "ordre": "18", "statut": "✅ Expliqué (complété 08/08/2026)", "file": "10 Mécanismes\\18 — Financement.md"}, {"id": "19 — Cessions & réévaluation", "label": "19 — Cessions & réévaluation", "cat": "Mécanismes", "ordre": "19", "statut": "✅ Expliqué (complété 08/08/2026)", "file": "10 Mécanismes\\19 — Cessions & réévaluation.md"}, {"id": "22 — Stocks", "label": "22 — Stocks", "cat": "Mécanismes", "ordre": "22", "statut": "✅ Expliqué", "file": "10 Mécanismes\\22 — Stocks.md"}, {"id": "24 — Capitaux propres", "label": "24 — Capitaux propres", "cat": "Mécanismes", "ordre": "24", "statut": "✅ Expliqué", "file": "10 Mécanismes\\24 — Capitaux propres.md"}, {"id": "25 — Devises & ECA-ECP", "label": "25 — Devises & ECA-ECP", "cat": "Mécanismes", "ordre": "25", "statut": "✅ Expliqué", "file": "10 Mécanismes\\25 — Devises & ECA-ECP.md"}, {"id": "07 — Messages cachés (lecture entre les lignes)", "label": "07 — Messages cachés (lecture entre les lignes)", "cat": "Analyse", "ordre": "7", "statut": "✅ Expliqué", "file": "20 Analyse\\07 — Messages cachés (lecture entre les lignes).md"}, {"id": "08 — FRF, BFG & TN (analyse dynamique)", "label": "08 — FRF, BFG & TN (analyse dynamique)", "cat": "Analyse", "ordre": "8", "statut": "✅ Expliqué", "file": "20 Analyse\\08 — FRF, BFG & TN (analyse dynamique).md"}, {"id": "09 — Ratios & SIG", "label": "09 — Ratios & SIG", "cat": "Analyse", "ordre": "9", "statut": "✅ Expliqué", "file": "20 Analyse\\09 — Ratios & SIG.md"}, {"id": "10 — Retraitements (valeur comptable → valeur actuelle)", "label": "10 — Retraitements (valeur comptable → valeur actuelle)", "cat": "Analyse", "ordre": "10", "statut": "✅ Expliqué", "file": "20 Analyse\\10 — Retraitements (valeur comptable → valeur actuelle).md"}, {"id": "15 — Impôts (IS, IR, CM, CSS)", "label": "15 — Impôts (IS, IR, CM, CSS)", "cat": "Fiscal", "ordre": "15", "statut": "✅ Expliqué", "file": "30 Fiscal\\15 — Impôts (IS, IR, CM, CSS).md"}, {"id": "21 — Liasse fiscale", "label": "21 — Liasse fiscale", "cat": "Fiscal", "ordre": "21", "statut": "✅ Expliqué", "file": "30 Fiscal\\21 — Liasse fiscale.md"}, {"id": "23 — TVA", "label": "23 — TVA", "cat": "Fiscal", "ordre": "23", "statut": "✅ Expliqué", "file": "30 Fiscal\\23 — TVA.md"}, {"id": "26 — Passage résultat comptable → fiscal", "label": "26 — Passage résultat comptable → fiscal", "cat": "Fiscal", "ordre": "26", "statut": "✅ Expliqué", "file": "30 Fiscal\\26 — Passage résultat comptable → fiscal.md"}, {"id": "20 — Consolidation", "label": "20 — Consolidation", "cat": "Avancé", "ordre": "20", "statut": "✅ Expliqué (complété 08/08/2026)", "file": "40 Avancé\\20 — Consolidation.md"}, {"id": "27 — Engagements hors bilan (classe 0)", "label": "27 — Engagements hors bilan (classe 0)", "cat": "Avancé", "ordre": "27", "statut": "✅ Expliqué", "file": "40 Avancé\\27 — Engagements hors bilan (classe 0).md"}, {"id": "28 — Comptabilité analytique (classe 9)", "label": "28 — Comptabilité analytique (classe 9)", "cat": "Avancé", "ordre": "28", "statut": "✅ Expliqué", "file": "40 Avancé\\28 — Comptabilité analytique (classe 9).md"}, {"id": "29 — IFRS vs CGNC", "label": "29 — IFRS vs CGNC", "cat": "Avancé", "ordre": "29", "statut": "✅ Expliqué", "file": "40 Avancé\\29 — IFRS vs CGNC.md"}, {"id": "30 — Affacturage", "label": "30 — Affacturage", "cat": "Sectoriel", "ordre": "30", "statut": "✅ Expliqué (complété 08/08/2026)", "file": "50 Sectoriel\\30 — Affacturage.md"}, {"id": "31 — Comptes de liaison siège_succursales", "label": "31 — Comptes de liaison siège_succursales", "cat": "Sectoriel", "ordre": "31", "statut": "✅ Expliqué (complété 08/08/2026)", "file": "50 Sectoriel\\31 — Comptes de liaison siège_succursales.md"}, {"id": "32 — Plans comptables sectoriels", "label": "32 — Plans comptables sectoriels", "cat": "Sectoriel", "ordre": "32", "statut": "✅ Expliqué (complété 08/08/2026)", "file": "50 Sectoriel\\32 — Plans comptables sectoriels.md"}, {"id": "33 — Financements participatifs", "label": "33 — Financements participatifs", "cat": "Sectoriel", "ordre": "33", "statut": "✅ Expliqué (complété 08/08/2026)", "file": "50 Sectoriel\\33 — Financements participatifs.md"}, {"id": "34 — Normes comptables de l'État", "label": "34 — Normes comptables de l'État", "cat": "Sectoriel", "ordre": "34", "statut": "✅ Expliqué (complété 08/08/2026)", "file": "50 Sectoriel\\34 — Normes comptables de l'État.md"}, {"id": "35 — Réforme comptable marocaine (convergence IFRS)", "label": "35 — Réforme comptable marocaine (convergence IFRS)", "cat": "Compléments 2026", "ordre": "35", "statut": "✅ Expliqué (ajouté 08/08/2026 — deep research)", "file": "60 Compléments\\35 — Réforme comptable marocaine (convergence IFRS).md"}, {"id": "36 — Facturation électronique", "label": "36 — Facturation électronique", "cat": "Compléments 2026", "ordre": "36", "statut": "✅ Expliqué (ajouté 08/08/2026 — deep research)", "file": "60 Compléments\\36 — Facturation électronique.md"}, {"id": "37 — Loi 32-10 (délais de paiement)", "label": "37 — Loi 32-10 (délais de paiement)", "cat": "Compléments 2026", "ordre": "37", "statut": "✅ Expliqué (ajouté 08/08/2026 — deep research)", "file": "60 Compléments\\37 — Loi 32-10 (délais de paiement).md"}, {"id": "38 — Impôts différés", "label": "38 — Impôts différés", "cat": "Compléments 2026", "ordre": "38", "statut": "✅ Expliqué (ajouté 08/08/2026 — deep research)", "file": "60 Compléments\\38 — Impôts différés.md"}, {"id": "39 — Fusions & scissions", "label": "39 — Fusions & scissions", "cat": "Compléments 2026", "ordre": "39", "statut": "✅ Expliqué (ajouté 08/08/2026 — deep research)", "file": "60 Compléments\\39 — Fusions & scissions.md"}, {"id": "40 — Flux de trésorerie (IFRS vs TF CGNC)", "label": "40 — Flux de trésorerie (IFRS vs TF CGNC)", "cat": "Compléments 2026", "ordre": "40", "statut": "✅ Expliqué (ajouté 08/08/2026 — deep research)", "file": "60 Compléments\\40 — Flux de trésorerie (IFRS vs TF CGNC).md"}, {"id": "41 — Incitations fiscales & zones", "label": "41 — Incitations fiscales & zones", "cat": "Compléments 2026", "ordre": "41", "statut": "✅ Expliqué (ajouté 08/08/2026 — deep research)", "file": "60 Compléments\\41 — Incitations fiscales & zones.md"}, {"id": "42 — Application Souss-Massa", "label": "42 — Application Souss-Massa", "cat": "Compléments 2026", "ordre": "42", "statut": "✅ Expliqué (ajouté 08/08/2026 — synthèse corpus)", "file": "60 Compléments\\42 — Application Souss-Massa.md"}, {"id": "01 — Analyse Financière des Entreprises Marocaines (Guide Méthodologique)", "label": "01 — Analyse Financière des Entreprises Marocaines (Guide Méthodologique)", "cat": "Ressources", "ordre": "", "statut": "", "file": "90 Rapports\\01 — Analyse Financière des Entreprises Marocaines (Guide Méthodologique).md"}, {"id": "02 — Le Plan Comptable Marocain (PCGE) et l'Analyse Financière", "label": "02 — Le Plan Comptable Marocain (PCGE) et l'Analyse Financière", "cat": "Ressources", "ordre": "", "statut": "", "file": "90 Rapports\\02 — Le Plan Comptable Marocain (PCGE) et l'Analyse Financière.md"}, {"id": "03 — Les Rapports d'Analyse Financière (Guide Complet)", "label": "03 — Les Rapports d'Analyse Financière (Guide Complet)", "cat": "Ressources", "ordre": "", "statut": "", "file": "90 Rapports\\03 — Les Rapports d'Analyse Financière (Guide Complet).md"}, {"id": "04 — Analyse Financière Globale (Diagnostic Complet)", "label": "04 — Analyse Financière Globale (Diagnostic Complet)", "cat": "Ressources", "ordre": "", "statut": "", "file": "90 Rapports\\04 — Analyse Financière Globale (Diagnostic Complet).md"}, {"id": "05 — PCGE × Analyse Financière (Carte Mentale)", "label": "05 — PCGE × Analyse Financière (Carte Mentale)", "cat": "Ressources", "ordre": "", "statut": "", "file": "90 Rapports\\05 — PCGE × Analyse Financière (Carte Mentale).md"}, {"id": "06 — L'Histoire que racontent les chiffres (Manuel)", "label": "06 — L'Histoire que racontent les chiffres (Manuel)", "cat": "Ressources", "ordre": "", "statut": "", "file": "90 Rapports\\06 — L'Histoire que racontent les chiffres (Manuel).md"}, {"id": "Carte des relations — thèmes et liens", "label": "Carte des relations — thèmes et liens", "cat": "Ressources", "ordre": "", "statut": "", "file": "95 Ressources\\Carte des relations — thèmes et liens.md"}], "links": [{"source": "Le Fil Conducteur", "target": "01 — Logique du PCGE & principes"}, {"source": "Le Fil Conducteur", "target": "02 — Cycle comptable quotidien"}, {"source": "Le Fil Conducteur", "target": "03 — Écritures comptables types"}, {"source": "Le Fil Conducteur", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "Le Fil Conducteur", "target": "22 — Stocks"}, {"source": "Le Fil Conducteur", "target": "16 — Créances"}, {"source": "Le Fil Conducteur", "target": "30 — Affacturage"}, {"source": "Le Fil Conducteur", "target": "17 — Trésorerie"}, {"source": "Le Fil Conducteur", "target": "13 — Régularisations de fin d'exercice"}, {"source": "Le Fil Conducteur", "target": "14 — Provisions"}, {"source": "Le Fil Conducteur", "target": "05 — Amortissements"}, {"source": "Le Fil Conducteur", "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"}, {"source": "Le Fil Conducteur", "target": "23 — TVA"}, {"source": "Le Fil Conducteur", "target": "15 — Impôts (IS, IR, CM, CSS)"}, {"source": "Le Fil Conducteur", "target": "21 — Liasse fiscale"}, {"source": "Le Fil Conducteur", "target": "26 — Passage résultat comptable → fiscal"}, {"source": "Le Fil Conducteur", "target": "24 — Capitaux propres"}, {"source": "Le Fil Conducteur", "target": "18 — Financement"}, {"source": "Le Fil Conducteur", "target": "12 — Crédit-bail"}, {"source": "Le Fil Conducteur", "target": "11 — Non-valeurs"}, {"source": "Le Fil Conducteur", "target": "19 — Cessions & réévaluation"}, {"source": "Le Fil Conducteur", "target": "31 — Comptes de liaison siège_succursales"}, {"source": "Le Fil Conducteur", "target": "20 — Consolidation"}, {"source": "Le Fil Conducteur", "target": "29 — IFRS vs CGNC"}, {"source": "Le Fil Conducteur", "target": "25 — Devises & ECA-ECP"}, {"source": "Le Fil Conducteur", "target": "27 — Engagements hors bilan (classe 0)"}, {"source": "Le Fil Conducteur", "target": "28 — Comptabilité analytique (classe 9)"}, {"source": "Le Fil Conducteur", "target": "33 — Financements participatifs"}, {"source": "Le Fil Conducteur", "target": "32 — Plans comptables sectoriels"}, {"source": "Le Fil Conducteur", "target": "34 — Normes comptables de l'État"}, {"source": "Le Fil Conducteur", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "Le Fil Conducteur", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "Le Fil Conducteur", "target": "09 — Ratios & SIG"}, {"source": "Le Fil Conducteur", "target": "35 — Réforme comptable marocaine (convergence IFRS)"}, {"source": "Le Fil Conducteur", "target": "36 — Facturation électronique"}, {"source": "Le Fil Conducteur", "target": "37 — Loi 32-10 (délais de paiement)"}, {"source": "Le Fil Conducteur", "target": "38 — Impôts différés"}, {"source": "Le Fil Conducteur", "target": "39 — Fusions & scissions"}, {"source": "Le Fil Conducteur", "target": "40 — Flux de trésorerie (IFRS vs TF CGNC)"}, {"source": "Le Fil Conducteur", "target": "41 — Incitations fiscales & zones"}, {"source": "Le Fil Conducteur", "target": "42 — Application Souss-Massa"}, {"source": "🏠 Accueil", "target": "Le Fil Conducteur"}, {"source": "🏠 Accueil", "target": "02 — Cycle comptable quotidien"}, {"source": "🏠 Accueil", "target": "03 — Écritures comptables types"}, {"source": "🏠 Accueil", "target": "22 — Stocks"}, {"source": "🏠 Accueil", "target": "16 — Créances"}, {"source": "🏠 Accueil", "target": "17 — Trésorerie"}, {"source": "🏠 Accueil", "target": "13 — Régularisations de fin d'exercice"}, {"source": "🏠 Accueil", "target": "14 — Provisions"}, {"source": "🏠 Accueil", "target": "05 — Amortissements"}, {"source": "🏠 Accueil", "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"}, {"source": "🏠 Accueil", "target": "23 — TVA"}, {"source": "🏠 Accueil", "target": "15 — Impôts (IS, IR, CM, CSS)"}, {"source": "🏠 Accueil", "target": "21 — Liasse fiscale"}, {"source": "🏠 Accueil", "target": "26 — Passage résultat comptable → fiscal"}, {"source": "🏠 Accueil", "target": "24 — Capitaux propres"}, {"source": "🏠 Accueil", "target": "18 — Financement"}, {"source": "🏠 Accueil", "target": "12 — Crédit-bail"}, {"source": "🏠 Accueil", "target": "11 — Non-valeurs"}, {"source": "🏠 Accueil", "target": "19 — Cessions & réévaluation"}, {"source": "🏠 Accueil", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "🏠 Accueil", "target": "20 — Consolidation"}, {"source": "🏠 Accueil", "target": "29 — IFRS vs CGNC"}, {"source": "🏠 Accueil", "target": "31 — Comptes de liaison siège_succursales"}, {"source": "🏠 Accueil", "target": "25 — Devises & ECA-ECP"}, {"source": "🏠 Accueil", "target": "27 — Engagements hors bilan (classe 0)"}, {"source": "🏠 Accueil", "target": "01 — Logique du PCGE & principes"}, {"source": "🏠 Accueil", "target": "06 — Contrats à long terme"}, {"source": "🏠 Accueil", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "🏠 Accueil", "target": "09 — Ratios & SIG"}, {"source": "🏠 Accueil", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "🏠 Accueil", "target": "28 — Comptabilité analytique (classe 9)"}, {"source": "🏠 Accueil", "target": "30 — Affacturage"}, {"source": "🏠 Accueil", "target": "32 — Plans comptables sectoriels"}, {"source": "🏠 Accueil", "target": "33 — Financements participatifs"}, {"source": "🏠 Accueil", "target": "34 — Normes comptables de l'État"}, {"source": "🏠 Accueil", "target": "35 — Réforme comptable marocaine (convergence IFRS)"}, {"source": "🏠 Accueil", "target": "36 — Facturation électronique"}, {"source": "🏠 Accueil", "target": "37 — Loi 32-10 (délais de paiement)"}, {"source": "🏠 Accueil", "target": "38 — Impôts différés"}, {"source": "🏠 Accueil", "target": "39 — Fusions & scissions"}, {"source": "🏠 Accueil", "target": "40 — Flux de trésorerie (IFRS vs TF CGNC)"}, {"source": "🏠 Accueil", "target": "41 — Incitations fiscales & zones"}, {"source": "🏠 Accueil", "target": "42 — Application Souss-Massa"}, {"source": "🏠 Accueil", "target": "01 — Analyse Financière des Entreprises Marocaines (Guide Méthodologique)"}, {"source": "🏠 Accueil", "target": "02 — Le Plan Comptable Marocain (PCGE) et l'Analyse Financière"}, {"source": "🏠 Accueil", "target": "03 — Les Rapports d'Analyse Financière (Guide Complet)"}, {"source": "🏠 Accueil", "target": "04 — Analyse Financière Globale (Diagnostic Complet)"}, {"source": "🏠 Accueil", "target": "05 — PCGE × Analyse Financière (Carte Mentale)"}, {"source": "🏠 Accueil", "target": "06 — L'Histoire que racontent les chiffres (Manuel)"}, {"source": "🏠 Accueil", "target": "Carte des relations — thèmes et liens"}, {"source": "01 — Logique du PCGE & principes", "target": "02 — Cycle comptable quotidien"}, {"source": "01 — Logique du PCGE & principes", "target": "03 — Écritures comptables types"}, {"source": "01 — Logique du PCGE & principes", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "01 — Logique du PCGE & principes", "target": "09 — Ratios & SIG"}, {"source": "01 — Logique du PCGE & principes", "target": "02 — Le Plan Comptable Marocain (PCGE) et l'Analyse Financière"}, {"source": "02 — Cycle comptable quotidien", "target": "13 — Régularisations de fin d'exercice"}, {"source": "02 — Cycle comptable quotidien", "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"}, {"source": "03 — Écritures comptables types", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "03 — Écritures comptables types", "target": "22 — Stocks"}, {"source": "03 — Écritures comptables types", "target": "13 — Régularisations de fin d'exercice"}, {"source": "03 — Écritures comptables types", "target": "05 — Amortissements"}, {"source": "03 — Écritures comptables types", "target": "02 — Cycle comptable quotidien"}, {"source": "03 — Écritures comptables types", "target": "23 — TVA"}, {"source": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)", "target": "09 — Ratios & SIG"}, {"source": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)", "target": "13 — Régularisations de fin d'exercice"}, {"source": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)", "target": "14 — Provisions"}, {"source": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)", "target": "05 — Amortissements"}, {"source": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)", "target": "21 — Liasse fiscale"}, {"source": "05 — Amortissements", "target": "11 — Non-valeurs"}, {"source": "05 — Amortissements", "target": "12 — Crédit-bail"}, {"source": "05 — Amortissements", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "05 — Amortissements", "target": "09 — Ratios & SIG"}, {"source": "06 — Contrats à long terme", "target": "22 — Stocks"}, {"source": "06 — Contrats à long terme", "target": "09 — Ratios & SIG"}, {"source": "06 — Contrats à long terme", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "06 — Contrats à long terme", "target": "14 — Provisions"}, {"source": "11 — Non-valeurs", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "11 — Non-valeurs", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "11 — Non-valeurs", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "12 — Crédit-bail", "target": "29 — IFRS vs CGNC"}, {"source": "12 — Crédit-bail", "target": "18 — Financement"}, {"source": "12 — Crédit-bail", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "12 — Crédit-bail", "target": "27 — Engagements hors bilan (classe 0)"}, {"source": "12 — Crédit-bail", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "13 — Régularisations de fin d'exercice", "target": "16 — Créances"}, {"source": "13 — Régularisations de fin d'exercice", "target": "17 — Trésorerie"}, {"source": "13 — Régularisations de fin d'exercice", "target": "09 — Ratios & SIG"}, {"source": "13 — Régularisations de fin d'exercice", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "14 — Provisions", "target": "22 — Stocks"}, {"source": "14 — Provisions", "target": "16 — Créances"}, {"source": "14 — Provisions", "target": "05 — Amortissements"}, {"source": "14 — Provisions", "target": "26 — Passage résultat comptable → fiscal"}, {"source": "14 — Provisions", "target": "09 — Ratios & SIG"}, {"source": "16 — Créances", "target": "30 — Affacturage"}, {"source": "16 — Créances", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "16 — Créances", "target": "03 — Écritures comptables types"}, {"source": "17 — Trésorerie", "target": "23 — TVA"}, {"source": "17 — Trésorerie", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "17 — Trésorerie", "target": "18 — Financement"}, {"source": "17 — Trésorerie", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "17 — Trésorerie", "target": "16 — Créances"}, {"source": "18 — Financement", "target": "33 — Financements participatifs"}, {"source": "18 — Financement", "target": "26 — Passage résultat comptable → fiscal"}, {"source": "18 — Financement", "target": "24 — Capitaux propres"}, {"source": "18 — Financement", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "18 — Financement", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "19 — Cessions & réévaluation", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "19 — Cessions & réévaluation", "target": "05 — Amortissements"}, {"source": "19 — Cessions & réévaluation", "target": "24 — Capitaux propres"}, {"source": "19 — Cessions & réévaluation", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "19 — Cessions & réévaluation", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "22 — Stocks", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "22 — Stocks", "target": "28 — Comptabilité analytique (classe 9)"}, {"source": "24 — Capitaux propres", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "24 — Capitaux propres", "target": "26 — Passage résultat comptable → fiscal"}, {"source": "24 — Capitaux propres", "target": "17 — Trésorerie"}, {"source": "25 — Devises & ECA-ECP", "target": "16 — Créances"}, {"source": "25 — Devises & ECA-ECP", "target": "14 — Provisions"}, {"source": "25 — Devises & ECA-ECP", "target": "27 — Engagements hors bilan (classe 0)"}, {"source": "25 — Devises & ECA-ECP", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "07 — Messages cachés (lecture entre les lignes)", "target": "22 — Stocks"}, {"source": "07 — Messages cachés (lecture entre les lignes)", "target": "16 — Créances"}, {"source": "07 — Messages cachés (lecture entre les lignes)", "target": "14 — Provisions"}, {"source": "07 — Messages cachés (lecture entre les lignes)", "target": "05 — Amortissements"}, {"source": "07 — Messages cachés (lecture entre les lignes)", "target": "26 — Passage résultat comptable → fiscal"}, {"source": "07 — Messages cachés (lecture entre les lignes)", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "08 — FRF, BFG & TN (analyse dynamique)", "target": "09 — Ratios & SIG"}, {"source": "09 — Ratios & SIG", "target": "16 — Créances"}, {"source": "09 — Ratios & SIG", "target": "22 — Stocks"}, {"source": "09 — Ratios & SIG", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "09 — Ratios & SIG", "target": "04 — Analyse Financière Globale (Diagnostic Complet)"}, {"source": "10 — Retraitements (valeur comptable → valeur actuelle)", "target": "14 — Provisions"}, {"source": "10 — Retraitements (valeur comptable → valeur actuelle)", "target": "03 — Les Rapports d'Analyse Financière (Guide Complet)"}, {"source": "10 — Retraitements (valeur comptable → valeur actuelle)", "target": "20 — Consolidation"}, {"source": "10 — Retraitements (valeur comptable → valeur actuelle)", "target": "26 — Passage résultat comptable → fiscal"}, {"source": "15 — Impôts (IS, IR, CM, CSS)", "target": "26 — Passage résultat comptable → fiscal"}, {"source": "15 — Impôts (IS, IR, CM, CSS)", "target": "14 — Provisions"}, {"source": "15 — Impôts (IS, IR, CM, CSS)", "target": "23 — TVA"}, {"source": "15 — Impôts (IS, IR, CM, CSS)", "target": "17 — Trésorerie"}, {"source": "15 — Impôts (IS, IR, CM, CSS)", "target": "21 — Liasse fiscale"}, {"source": "21 — Liasse fiscale", "target": "23 — TVA"}, {"source": "21 — Liasse fiscale", "target": "26 — Passage résultat comptable → fiscal"}, {"source": "21 — Liasse fiscale", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "23 — TVA", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "26 — Passage résultat comptable → fiscal", "target": "37 — Loi 32-10 (délais de paiement)"}, {"source": "26 — Passage résultat comptable → fiscal", "target": "23 — TVA"}, {"source": "20 — Consolidation", "target": "29 — IFRS vs CGNC"}, {"source": "20 — Consolidation", "target": "01 — Logique du PCGE & principes"}, {"source": "20 — Consolidation", "target": "31 — Comptes de liaison siège_succursales"}, {"source": "20 — Consolidation", "target": "22 — Stocks"}, {"source": "27 — Engagements hors bilan (classe 0)", "target": "20 — Consolidation"}, {"source": "27 — Engagements hors bilan (classe 0)", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "27 — Engagements hors bilan (classe 0)", "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"}, {"source": "28 — Comptabilité analytique (classe 9)", "target": "01 — Logique du PCGE & principes"}, {"source": "28 — Comptabilité analytique (classe 9)", "target": "09 — Ratios & SIG"}, {"source": "29 — IFRS vs CGNC", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "29 — IFRS vs CGNC", "target": "32 — Plans comptables sectoriels"}, {"source": "29 — IFRS vs CGNC", "target": "15 — Impôts (IS, IR, CM, CSS)"}, {"source": "30 — Affacturage", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "30 — Affacturage", "target": "17 — Trésorerie"}, {"source": "30 — Affacturage", "target": "32 — Plans comptables sectoriels"}, {"source": "31 — Comptes de liaison siège_succursales", "target": "25 — Devises & ECA-ECP"}, {"source": "31 — Comptes de liaison siège_succursales", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "32 — Plans comptables sectoriels", "target": "33 — Financements participatifs"}, {"source": "32 — Plans comptables sectoriels", "target": "04 — Analyse Financière Globale (Diagnostic Complet)"}, {"source": "32 — Plans comptables sectoriels", "target": "01 — Logique du PCGE & principes"}, {"source": "32 — Plans comptables sectoriels", "target": "25 — Devises & ECA-ECP"}, {"source": "32 — Plans comptables sectoriels", "target": "22 — Stocks"}, {"source": "33 — Financements participatifs", "target": "12 — Crédit-bail"}, {"source": "33 — Financements participatifs", "target": "27 — Engagements hors bilan (classe 0)"}, {"source": "34 — Normes comptables de l'État", "target": "01 — Logique du PCGE & principes"}, {"source": "34 — Normes comptables de l'État", "target": "18 — Financement"}, {"source": "34 — Normes comptables de l'État", "target": "29 — IFRS vs CGNC"}, {"source": "35 — Réforme comptable marocaine (convergence IFRS)", "target": "29 — IFRS vs CGNC"}, {"source": "35 — Réforme comptable marocaine (convergence IFRS)", "target": "38 — Impôts différés"}, {"source": "35 — Réforme comptable marocaine (convergence IFRS)", "target": "40 — Flux de trésorerie (IFRS vs TF CGNC)"}, {"source": "35 — Réforme comptable marocaine (convergence IFRS)", "target": "01 — Logique du PCGE & principes"}, {"source": "35 — Réforme comptable marocaine (convergence IFRS)", "target": "34 — Normes comptables de l'État"}, {"source": "36 — Facturation électronique", "target": "23 — TVA"}, {"source": "36 — Facturation électronique", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "36 — Facturation électronique", "target": "02 — Cycle comptable quotidien"}, {"source": "36 — Facturation électronique", "target": "21 — Liasse fiscale"}, {"source": "37 — Loi 32-10 (délais de paiement)", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "37 — Loi 32-10 (délais de paiement)", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "37 — Loi 32-10 (délais de paiement)", "target": "09 — Ratios & SIG"}, {"source": "37 — Loi 32-10 (délais de paiement)", "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"}, {"source": "38 — Impôts différés", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "38 — Impôts différés", "target": "20 — Consolidation"}, {"source": "38 — Impôts différés", "target": "14 — Provisions"}, {"source": "38 — Impôts différés", "target": "29 — IFRS vs CGNC"}, {"source": "39 — Fusions & scissions", "target": "19 — Cessions & réévaluation"}, {"source": "39 — Fusions & scissions", "target": "03 — Les Rapports d'Analyse Financière (Guide Complet)"}, {"source": "39 — Fusions & scissions", "target": "20 — Consolidation"}, {"source": "39 — Fusions & scissions", "target": "11 — Non-valeurs"}, {"source": "39 — Fusions & scissions", "target": "24 — Capitaux propres"}, {"source": "39 — Fusions & scissions", "target": "38 — Impôts différés"}, {"source": "40 — Flux de trésorerie (IFRS vs TF CGNC)", "target": "20 — Consolidation"}, {"source": "40 — Flux de trésorerie (IFRS vs TF CGNC)", "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"}, {"source": "40 — Flux de trésorerie (IFRS vs TF CGNC)", "target": "09 — Ratios & SIG"}, {"source": "40 — Flux de trésorerie (IFRS vs TF CGNC)", "target": "29 — IFRS vs CGNC"}, {"source": "40 — Flux de trésorerie (IFRS vs TF CGNC)", "target": "12 — Crédit-bail"}, {"source": "41 — Incitations fiscales & zones", "target": "24 — Capitaux propres"}, {"source": "41 — Incitations fiscales & zones", "target": "15 — Impôts (IS, IR, CM, CSS)"}, {"source": "41 — Incitations fiscales & zones", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "41 — Incitations fiscales & zones", "target": "18 — Financement"}, {"source": "41 — Incitations fiscales & zones", "target": "42 — Application Souss-Massa"}, {"source": "42 — Application Souss-Massa", "target": "25 — Devises & ECA-ECP"}, {"source": "42 — Application Souss-Massa", "target": "22 — Stocks"}, {"source": "42 — Application Souss-Massa", "target": "08 — FRF, BFG & TN (analyse dynamique)"}, {"source": "42 — Application Souss-Massa", "target": "32 — Plans comptables sectoriels"}, {"source": "42 — Application Souss-Massa", "target": "23 — TVA"}, {"source": "42 — Application Souss-Massa", "target": "05 — Amortissements"}, {"source": "42 — Application Souss-Massa", "target": "18 — Financement"}, {"source": "42 — Application Souss-Massa", "target": "35 — Réforme comptable marocaine (convergence IFRS)"}, {"source": "42 — Application Souss-Massa", "target": "16 — Créances"}, {"source": "42 — Application Souss-Massa", "target": "36 — Facturation électronique"}, {"source": "42 — Application Souss-Massa", "target": "06 — Contrats à long terme"}, {"source": "42 — Application Souss-Massa", "target": "09 — Ratios & SIG"}, {"source": "42 — Application Souss-Massa", "target": "37 — Loi 32-10 (délais de paiement)"}, {"source": "42 — Application Souss-Massa", "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"}, {"source": "42 — Application Souss-Massa", "target": "03 — Les Rapports d'Analyse Financière (Guide Complet)"}, {"source": "42 — Application Souss-Massa", "target": "10 — Retraitements (valeur comptable → valeur actuelle)"}, {"source": "42 — Application Souss-Massa", "target": "26 — Passage résultat comptable → fiscal"}, {"source": "42 — Application Souss-Massa", "target": "07 — Messages cachés (lecture entre les lignes)"}, {"source": "42 — Application Souss-Massa", "target": "04 — Analyse Financière Globale (Diagnostic Complet)"}]};
+const PALETTE = {"Analyse": "#f59e0b", "Avancé": "#8b5cf6", "Compléments 2026": "#ec4899", "Fiscal": "#ef4444", "Fondations": "#3b82f6", "Mécanismes": "#10b981", "Ressources": "#94a3b8", "Sectoriel": "#14b8a6", "hub": "#eab308"};
+
+const W = 1600, H = 1050;
+const svg = document.getElementById('svg');
+const NS = 'http://www.w3.org/2000/svg';
+const gLinks = document.createElementNS(NS,'g');
+const gNodes = document.createElementNS(NS,'g');
+svg.appendChild(gLinks); svg.appendChild(gNodes);
+const view = {x:0, y:0, k:1};
+
+// ---------- force layout (velocity Verlet, no CDN) ----------
+const nodes = DATA.nodes.map(n => ({
+  ...n, x: Math.random()*W, y: Math.random()*H, vx:0, vy:0, r: 5 + (n.cat==='hub'?7:0) + (n.ordre? Math.min(3, parseInt(n.ordre)/20):0)
+}));
+const idx = {}; nodes.forEach((n,i)=>idx[n.id]=i);
+const links = DATA.links.map(l => ({s: idx[l.source], t: idx[l.target]}));
+const adj = nodes.map(()=>[]);
+links.forEach(l => { adj[l.s].push(l.t); adj[l.t].push(l.s); });
+
+const REP = 900, SPRING = 0.02, GRAV = 0.002, DAMP = 0.85;
+function tick() {
+  for (let i=0;i<nodes.length;i++){
+    const a=nodes[i];
+    for (let j=i+1;j<nodes.length;j++){
+      const b=nodes[j]; let dx=a.x-b.x, dy=a.y-b.y;
+      let d2=dx*dx+dy*dy; if(d2<1) d2=1;
+      const f=REP/d2; const d=Math.sqrt(d2);
+      dx/=d; dy/=d;
+      a.vx+=dx*f; a.vy+=dy*f; b.vx-=dx*f; b.vy-=dy*f;
+    }
+  }
+  for (const l of links){
+    const a=nodes[l.s], b=nodes[l.t];
+    const dx=b.x-a.x, dy=b.y-a.y, d=Math.sqrt(dx*dx+dy*dy)||1;
+    const f=(d-130)*SPRING;
+    a.vx+=dx/d*f; a.vy+=dy/d*f; b.vx-=dx/d*f; b.vy-=dy/d*f;
+  }
+  for (const n of nodes){
+    n.vx += (W/2 - n.x)*GRAV; n.vy += (H/2 - n.y)*GRAV;
+    n.vx*=DAMP; n.vy*=DAMP;
+    n.x+=n.vx; n.y+=n.vy;
+  }
+}
+let running = true;
+function loop(){
+  if (running) { for(let i=0;i<6;i++) tick(); draw(); }
+  requestAnimationFrame(loop);
+}
+
+const linkEls = links.map(l=>{
+  const el=document.createElementNS(NS,'line'); el.setAttribute('class','link'); gLinks.appendChild(el); return el;
+});
+const nodeEls = nodes.map(n=>{
+  const g=document.createElementNS(NS,'g'); g.setAttribute('class','node');
+  const c=document.createElementNS(NS,'circle'); c.setAttribute('r',n.r);
+  c.setAttribute('fill', PALETTE[n.cat]||'#9ca3af');
+  const t=document.createElementNS(NS,'text'); t.textContent=n.label; t.setAttribute('dy',n.r+11);
+  g.appendChild(c); g.appendChild(t); gNodes.appendChild(g); return g;
+});
+
+function draw(){
+  const tx = view.x, ty = view.y, k = view.k;
+  for (let i=0;i<linkEls.length;i++){
+    const a=nodes[links[i].s], b=nodes[links[i].t];
+    linkEls[i].setAttribute('x1', a.x*k+tx); linkEls[i].setAttribute('y1', a.y*k+ty);
+    linkEls[i].setAttribute('x2', b.x*k+tx); linkEls[i].setAttribute('y2', b.y*k+ty);
+  }
+  for (let i=0;i<nodeEls.length;i++){
+    const n=nodes[i];
+    nodeEls[i].setAttribute('transform', `translate(${n.x*k+tx},${n.y*k+ty}) scale(${k})`);
+  }
+}
+
+// ---------- interactions ----------
+let hovered = -1, selected = -1, dragging = -1, panning = false, panStart = null, panView = null;
+function setHover(i){
+  if (hovered===i) return;
+  hovered=i;
+  const hot = new Set();
+  if (i>=0){ hot.add(i); adj[i].forEach(j=>hot.add(j)); }
+  nodeEls.forEach((el,j)=>{ el.classList.toggle('dim', i>=0 && !hot.has(j)); });
+  linkEls.forEach((el,j)=>{ el.classList.toggle('hot', i>=0 && (links[j].s===i||links[j].t===i)); });
+}
+function showPanel(i){
+  selected=i;
+  const n=nodes[i];
+  const p=document.getElementById('panel');
+  document.getElementById('pTitle').textContent = n.label;
+  document.getElementById('pMeta').textContent = `Catégorie : ${n.cat} · Ordre : ${n.ordre||'—'} · Statut : ${n.statut||'—'}`;
+  const tags=document.getElementById('pTags'); tags.innerHTML='';
+  const t=document.createElement('span'); t.className='tag';
+  t.style.background=PALETTE[n.cat]||'#64748b'; t.textContent=n.cat; tags.appendChild(t);
+  const body=document.getElementById('pBody');
+  const neigh = [...new Set(adj[i])];
+  if (neigh.length){
+    const ul=document.createElement('ul');
+    const cap={hub:'🏠 Accueil'};
+    for (const j of neigh.slice(0,40)){
+      const li=document.createElement('li'); const a=document.createElement('a');
+      a.textContent='→ '+(cap[nodes[j].label]||nodes[j].label);
+      a.addEventListener('click',()=>showPanel(j));
+      li.appendChild(a); ul.appendChild(li);
+    }
+    body.innerHTML='<b>Liens dans le système ('+neigh.length+') :</b>'; body.appendChild(ul);
+  } else body.innerHTML='<i>Aucun lien — nœud isolé.</i>';
+  document.getElementById('pFile').textContent = n.file||'';
+  p.style.display='block';
+}
+document.getElementById('closePanel').addEventListener('click',()=>{ document.getElementById('panel').style.display='none'; selected=-1; });
+
+svg.addEventListener('pointerdown', e=>{
+  const el = e.target.closest('.node');
+  if (el){
+    const i = nodeEls.indexOf(el);
+    dragging=i; running=false;
+    const n=nodes[i]; const rect=svg.getBoundingClientRect();
+    const px=(e.clientX-rect.left-view.x)/view.k, py=(e.clientY-rect.top-view.y)/view.k;
+    n._ox=px-n.x; n._oy=py-n.y;
+    el.setPointerCapture(e.pointerId);
+  } else {
+    panning=true; panStart={x:e.clientX,y:e.clientY}; panView={x:view.x,y:view.y};
+  }
+});
+svg.addEventListener('pointermove', e=>{
+  if (dragging>=0){
+    const n=nodes[dragging]; const rect=svg.getBoundingClientRect();
+    n.x=(e.clientX-rect.left-view.x)/view.k - n._ox;
+    n.y=(e.clientY-rect.top-view.y)/view.k - n._oy;
+    draw();
+  } else if (panning){
+    view.x = panView.x + (e.clientX-panStart.x);
+    view.y = panView.y + (e.clientY-panStart.y);
+    draw();
+  }
+});
+svg.addEventListener('pointerup', e=>{
+  if (dragging>=0){
+    const i=dragging; dragging=-1; running=true;
+    if (i===hovered || e.target.closest('.node')) showPanel(i);
+  } else if (panning){ panning=false; }
+});
+svg.addEventListener('wheel', e=>{
+  e.preventDefault();
+  const rect=svg.getBoundingClientRect();
+  const mx=e.clientX-rect.left, my=e.clientY-rect.top;
+  const f = e.deltaY<0 ? 1.12 : 0.89;
+  view.x = mx - (mx-view.x)*f; view.y = my - (my-view.y)*f; view.k*=f;
+  draw();
+},{passive:false});
+nodeEls.forEach((el,i)=>{
+  el.addEventListener('pointerenter', ()=>setHover(i));
+  el.addEventListener('pointerleave', ()=>{ if(hovered===i) setHover(-1); });
+});
+
+// ---------- search ----------
+const q = document.getElementById('search');
+function doSearch(){
+  const s=q.value.trim().toLowerCase();
+  nodeEls.forEach((el,i)=>{
+    const hit = !s || nodes[i].label.toLowerCase().includes(s);
+    el.classList.toggle('searchHit', !!s && hit);
+    el.style.display = hit?'':'none';
+  });
+  linkEls.forEach(el=>el.style.display = s?'none':'');
+  if (s){
+    const i = nodes.findIndex(n=>n.label.toLowerCase().includes(s));
+    if (i>=0) showPanel(i);
+  }
+}
+q.addEventListener('input', doSearch);
+
+// ---------- legend & stats ----------
+const legend=document.getElementById('legend');
+Object.entries(PALETTE).forEach(([cat,col])=>{
+  const row=document.createElement('div'); row.className='row';
+  const dot=document.createElement('span'); dot.className='dot'; dot.style.background=col;
+  row.appendChild(dot); row.appendChild(document.createTextNode(cat));
+  legend.appendChild(row);
+});
+document.getElementById('stats').textContent = DATA.nodes.length+' thèmes · '+DATA.links.length+' connexions';
+document.getElementById('reset').addEventListener('click',()=>{ view.x=0; view.y=0; view.k=1; });
+loop();
+</script>
+</body>
+</html>

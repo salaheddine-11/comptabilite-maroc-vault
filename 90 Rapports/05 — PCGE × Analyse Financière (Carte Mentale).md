@@ -1,0 +1,385 @@
+# PCGE × Analyse Financière — Carte Mentale Détaillée (1)
+
+Arborescence complète : chaque classe de comptes, ses rubriques et comptes clés, **quand les utiliser**, et **vers quels indicateurs d'analyse ils mènent** (numéros de comptes vérifiés sur le Plan Comptable Marocain officiel).
+
+- 🧭 Comptes de BILAN — classes 1 à 5 → Bilan → FRF / BFG / TN
+    - Classe 1 — Financement permanent (ressources stables)
+        - Rubrique 11 — Capitaux propres
+            - **1111** Capital social (constitution, augmentation ; 1119 = capital souscrit non appelé)
+            - **1121/1122/1123** Primes d'émission, de fusion, d'apport (levées de fonds)
+            - **1130** Écart de réévaluation (réévaluation libre des immobilisations — loi 9-88 art. 14)
+            - **1140** Réserve légale (dotation annuelle ≈ 5 % du bénéfice, plafond 10 % du capital) [À VÉRIFIER]
+            - **1151/1152/1155** Réserves statutaires, facultatives, réglementées
+            - **1161/1169** Report à nouveau (créditeur / débiteur)
+            - **1181/1189** Résultats nets en instance d'affectation · **1191/1199** Résultat net de l'exercice
+        - Rubrique 13 — Capitaux propres assimilés (quasi-fonds propres)
+            - **1311/1319** Subventions d'investissement (étalées au CPC au rythme des amortissements)
+            - **1351** Amortissements dérogatoires · **1352** Plus-values en instance d'imposition
+            - **1354** Provisions pour investissements · **1355** Reconstitution de gisements · **1356** Logements
+            - ⚠️ Dette d'impôt latent incorporée → retraitement analytique en quasi-fonds propres
+        - Rubriques 14 à 17
+            - **14** Dettes de financement : **1410** emprunts obligataires · **1481** emprunts bancaires · **1482** avances de l'État · **1485** avances reçues et comptes courants bloqués · **1486** fournisseurs d'immobilisation · **1487** dépôts et cautionnements
+            - **15** Provisions durables : **1511** litiges · **1512** garanties clients · **1515** amendes · **1516** pertes de change · **1552** pensions de retraite · **1555** charges à répartir
+            - **16** Comptes de liaison siège/succursales (1601/1605) · **17** Écarts de conversion passif stables (1710/1720)
+        - ➡ Ce que l'analyste en fait
+            - **FRF = Classe 1 − Classe 2** (≥ 0 = marge de sécurité de long terme)
+            - **Autonomie financière = 11 / 14** (> 1 = indépendance vis-à-vis des banques)
+            - **Quasi-fonds propres** : 13 + provisions 15 sans objet réel → renforcent l'ANR
+            - Provisions 15 à échéance < 1 an → reclassées en passif circulant (44)
+            - Réévaluation libre (1130) → améliore instantanément les ratios de solvabilité perçus par les banques
+    - Classe 2 — Actif immobilisé (emplois durables)
+        - Rubrique 21 — Non-valeurs (ACTIF FICTIF)
+            - **2111** Frais de constitution · **2112** Frais préalables au démarrage · **2113** Augmentation de capital · **2116** Prospection · **2117** Publicité
+            - **2121/2125/2128** Charges à répartir · **2130** Primes de remboursement des obligations
+            - Amortissement linéaire ≤ 5 ans · ⚠️ **À éliminer de l'actif net réel** (aucune valeur de revente)
+        - Rubriques 22-23 — Incorporelles et corporelles
+            - **2210** R&D · **2220** Brevets et marques (amortissables) · **2230** Fonds commercial (**non amorti**, provision si dépréciation) · **2285** En cours
+            - **2311** Terrains nus (non amortis) · **2314** Terrains de gisement (épuisement) · **2321** Bâtiments · **2331/2332** Installations techniques, matériel et outillage · **2340** Matériel de transport · **2351** Mobilier · **2355** Informatique · **2392-2397** Corporelles en cours + avances
+        - Rubriques 24/25, 27, 28, 29 — Financières, écarts, corrections
+            - **2411** Prêts au personnel · **2415** Prêts aux associés · **2481** Titres immobilisés · **2486** Dépôts et cautionnements · **2510** Titres de participation (**valeur d'utilité**) · **2581** Actions
+            - **27** Écarts de conversion actif stables (2710/2720) — contre-passés à l'ouverture
+            - **28** Amortissements (281/282/283 — dotation via 619) · **29** Provisions pour dépréciation (2920/2930/2941/2948/2951/2958)
+        - ➡ Ce que l'analyste en fait
+            - **VNC = Brut (21-27) − 28 − 29** ; **ANR** = substitution par les valeurs actuelles (terrains, constructions)
+            - **Couverture des emplois stables = Classe 1 / Classe 2 ≥ 1**
+            - **TF module II** : acquisitions = emplois stables ; cessions = ressources stables ; croiser investissements bruts vs dotations pour juger du renouvellement de l'outil productif
+    - Classe 3 — Actif circulant (hors trésorerie)
+        - Rubrique 31 — Stocks
+            - **311** Marchandises (3111/3112) · **3121** Matières premières · **3122** Matières et fournitures consommables · **3123** Emballages
+            - **313** Produits en cours · **314** Produits intermédiaires et résiduels · **315** Produits finis
+            - Clôture : stock initial → débit 6114/6124 ; stock final → crédit 6114/6124 (variation)
+        - Rubrique 34 — Créances de l'actif circulant
+            - **3411** Fournisseurs — avances versées · **3417** RRR à obtenir
+            - **3421** Clients · **3423** Retenues de garantie · **3424** Clients douteux ou litigieux · **3425** Effets à recevoir · **34271** Factures à établir
+            - **3431** Avances au personnel · **3451** Subventions à recevoir · **3453** Acomptes IS · **3455** TVA récupérable · **3456** Crédit de TVA
+            - **3461** Apports en société · **3462** Capital souscrit non versé · **3463** Comptes courants d'associés débiteurs
+            - **3481** Créances sur cessions d'immobilisations · **3491** Charges constatées d'avance · **3493** Intérêts courus à percevoir · **3497** Transitoires débiteurs
+        - Rubriques 35, 37, 39
+            - **35** Titres et valeurs de placement (3501 actions · 3504 obligations · 3506 bons)
+            - **37** Écarts de conversion actif circulants (3701/3702)
+            - **39** Provisions pour dépréciation : **3911-3915** stocks · **3941-3948** créances (3942 clients) · **3950** TVP — dotations via 61961/61964
+        - ➡ Ce que l'analyste en fait
+            - **BFG = (31 + 34 + 35) − 44** — le cœur du cycle d'exploitation
+            - **DSO** (délai d'encaissement) sur 3421/3425 [standard] ; allongement → BFG qui gonfle
+            - Glissement **3421 → 3424** = signal de dégradation du crédit client
+            - Lire les créances **nettes des provisions 3942** ; les dotations 61964 pèsent sur le résultat mais sont **exclues de la CAF additive**
+    - Classe 4 — Passif circulant (hors trésorerie)
+        - Rubrique 44 — Dettes du passif circulant
+            - **4411** Fournisseurs · **4413** Retenues de garantie · **4415** Effets à payer · **4417** Factures non parvenues (rattachement)
+            - **4421** Avances clients reçues · **4425** Emballages consignés
+            - **4432** Rémunérations dues · **4433** Dépôts du personnel · **4437** Charges à payer (congés payés)
+            - **4441** CNSS · **4443** Caisses de retraite · **4445** Mutuelles · **4447** Charges sociales à payer
+            - **4452** Impôts et taxes · **4453** IS · **4455** TVA facturée · **4456** TVA due
+            - **4463** Comptes courants d'associés créditeurs · **4465** Dividendes à payer
+            - **4481** Dettes sur acquisitions d'immobilisations · **4491** Produits constatés d'avance · **4493** Intérêts courus à payer · **4497** Transitoires créditeurs
+        - Rubriques 45, 47
+            - **45** Autres provisions pour risques et charges court terme (4501 litiges · 4505 amendes · 4507 impôts)
+            - **47** Écarts de conversion passif circulants (4701/4702)
+        - ➡ Ce que l'analyste en fait
+            - **Ressources gratuites du cycle** : 4411 + 4432 + 4441 + 4491 → réduisent le BFG
+            - **DPO** (délai fournisseurs) [standard] ; délais légaux de paiement (loi 32-10) contrôlés par le CAC
+            - **4463 CCA créditeurs** = quasi-fonds propres quand bloqués ; **4465 dividendes** = sortie de trésorerie à prévoir
+            - **4453 IS** = dette certaine nette des acomptes (4 acomptes de 25 %)
+    - Classe 5 — Trésorerie
+        - 51 Trésorerie-Actif · 55 Trésorerie-Passif · 59 Provisions
+            - **5111** Chèques à encaisser · **5113** Effets à encaisser · **5115** Virements de fonds (passage) · **5141** Banques (débiteur) · **5143** Trésorerie Générale · **5146** Chèques postaux · **5161** Caisses · **5165** Régies d'avances
+            - **5520** Crédits d'escompte · **5530** Crédits de trésorerie · **5541** Banques (créditeur / découvert)
+            - **5900** Provisions pour dépréciation des comptes de trésorerie
+        - ➡ Ce que l'analyste en fait
+            - **TN = 51 − 55 = FRF − BFG** (bouclage de l'équilibre financier)
+            - **Rapprochement bancaire** : chèques émis non présentés, agios (6147), intérêts (738), virements non saisis
+            - Découverts récurrents (5541) = BFG financé par du court terme bancaire → fragilité
+            - Liquidité immédiate = 51 / exigible à court terme [standard]
+- 📊 Comptes de GESTION — classes 6 à 8 → CPC + ESG → Soldes intermédiaires → Ratios
+    - Classe 6 — Charges (débit du CPC, hors taxes récupérables)
+        - 61 — Charges d'exploitation
+            - **611** Achats revendus de marchandises (6111/6112 · 6114 variation · 6119 RRR)
+            - **612** Achats consommés de matières et fournitures (6121 matières premières · 6122 consommables · 6123 emballages · 6124 variation · 6125 non stockés · 6126 travaux-études-prestations · 6129 RRR)
+            - **613/614** Autres charges externes (6131 locations · 6132 crédit-bail · 6133 entretien · 6134 assurances · 6135 personnel extérieur · 6136 honoraires · 6141 études · 6142 transports · 6143 déplacements · 6144 publicité · 6145 postaux/télécoms · 6146 cotisations et dons · **6147 services bancaires**)
+            - **616** Impôts et taxes (6161 taxe urbaine, patente · 6167 enregistrement, timbre, taxes véhicules)
+            - **617** Charges de personnel (6171 rémunérations · 6174 charges sociales · 6176 autres · 6177 rémunération de l'exploitant)
+            - **618** Autres charges d'exploitation (6181 jetons de présence · 6182 pertes sur créances irrécouvrables)
+            - **619** Dotations d'exploitation (6191-6193 amortissements · 6194 provisions immobilisations · 61955/61957 risques et charges · 61961/61964 provisions actif circulant)
+        - 63 — Charges financières · 65 — Non courantes · 67 — IS
+            - **6311** Intérêts des emprunts et dettes (63114 intérêts des CCA) · **633** Pertes de change · **6386** Escomptes accordés · **6391-6394** Dotations financières
+            - **651** VNA des immobilisations cédées · **656** Subventions accordées · **6581** Pénalités sur marchés · **6583** Pénalités et amendes fiscales (non déductibles) · **6585** Créances irrécouvrables · **6586** Dons · **6591** Amortissements exceptionnels · **65941** Amortissements dérogatoires · **65962/65963** Provisions non courantes
+            - **6701** IS · **6705** Cotisation minimale · **6708** Rappels et dégrèvements
+        - ➡ Ce que l'analyste en fait
+            - **MB = 711 − 611** ; **VA = MB + Production − (612 + 613/614)** ; **EBE = VA + 716 − 616 − 617**
+            - **Résultat financier = 73 − 63** ; base des réintégrations fiscales : amendes 6583, véhicules > 400 000 DH, espèces > 5 000 DH/jour, intérêts CCA non conformes, provisions irrégulières
+            - **CAF additive** : réintègre les dotations stables (619/639/659 sur immobilisations et passif permanent)
+    - Classe 7 — Produits (crédit du CPC, hors TVA collectée)
+        - 71 — Produits d'exploitation
+            - **711** Ventes de marchandises (7111 Maroc · 7113 étranger · 7118 antérieurs · 7119 RRR accordés)
+            - **712** Ventes de biens et services produits (7121 biens Maroc : 71211 produits finis, 71212 intermédiaires, 71217 résiduels · 7122 étranger · 7124/7125 services · 7126 redevances brevets · 7127 accessoires · 7129 RRR)
+            - **713** Variation des stocks de produits (7131 en cours · 7132 biens produits · 7134 services en cours)
+            - **714** Immobilisations produites par l'entreprise pour elle-même (neutralité sur le résultat)
+            - **716** Subventions d'exploitation · **718** Autres produits (7181 jetons reçus · 7182 revenus des immeubles)
+            - **719** Reprises d'exploitation et transferts (7191-7193 amortissements · 7194 provisions immobilisations · 7195 risques · 7196 actif circulant · 7197 transferts · 7198 antérieurs)
+        - 73 — Produits financiers · 75 — Non courants
+            - **7321** Revenus des participations · **7331** Gains de change · **7381** Intérêts des prêts · **7384** Revenus des TVP · **7385** Produits nets sur cessions de TVP · **7386** Escomptes obtenus · **739** Reprises financières (7397 transferts)
+            - **7512-7518** Produits des cessions d'immobilisations · **756** Subventions d'équilibre · **757** Reprises sur subventions d'investissement · **7581** Pénalités reçues · **7582** Dégrèvements · **7585** Rentrées sur créances soldées · **7586** Dons reçus · **7591/7594/7595/7596** Reprises non courantes · **7597** Transferts non courants
+        - ➡ Ce que l'analyste en fait
+            - **Production de l'exercice = 712 + 713 + 714** → alimente la **VA** (création de richesse)
+            - **EBE = VA + 716 − 616 − 617** (performance monétaire avant amortissements et intérêts)
+            - **CAF additive** : exclut les produits de cession (751) et les reprises sur circulants ; dividendes reçus → abattement fiscal 100 % (art. 6-I-C-1° CGI)
+            - ⚠️ Pas de rubriques globales 78/79 : reprises/transferts ventilés par niveau (719/739/759)
+    - Classe 8 — Résultats (cascade du CPC/ESG)
+        - La cascade complète
+            - **8100** Résultat d'exploitation (8110 marge brute · 8140 valeur ajoutée · 8171 EBE / 8179 insuffisance brute)
+            - **8300** Résultat financier → **8400** Résultat courant (cyclique, se prête à la prévision)
+            - **8500** Résultat non courant → **8600** Résultat avant impôts → **8800** Résultat après impôts
+        - ➡ Ce que l'analyste en fait
+            - **8800 → 1191/1199** au bilan (passif, capitaux propres)
+            - **Affectation en AGO** : 1140 réserve légale (5 % du bénéfice, plafond 10 % du capital) [À VÉRIFIER] · 4465 dividendes (retenue à la source art. 247-XXXVII-C CGI) · 1161 report à nouveau
+            - **CAF** (méthode additive depuis l'ESG) · **ROE = RN / fonds propres** · **taux de marge** (MB/CA, VA/CA, EBE/CA)
+- ⚙️ Comptes SPÉCIAUX — classes 9 et 0
+    - Classe 9 — Comptabilité analytique d'exploitation (contrôle de gestion)
+        - Les 10 rubriques
+            - **90** Comptes réfléchis : 903 stocks · 906 charges (9061 exploitation · 9063 financières · 9065 non courantes · 9067 IS) · 907 produits · 908 résultats
+            - **91** Comptes de reclassement et d'analyse (libres) · **92** Sections analytiques : 921 générales · 923 approvisionnement · 925 production · 927 distribution · 928 autres
+            - **93** Coûts d'achat ou de production (9331 marchandises · 9351 produits · 9381 immobilisations) · **94** Inventaire permanent des stocks (941-945 · 949 provisions)
+            - **95** Coûts de revient (953 marchandises · 955 produits) · **96** Écarts sur coûts préétablis (962 sections · 964 inventaire)
+            - **97** Différences d'incorporation : 971 charges non incorporables · 972 charges supplétives · 973 produits non incorporés · 976 différences d'inventaire · 977 niveau d'activité
+            - **98** Résultats analytiques (981-983 par catégorie · 986 reports des écarts · 987 reports des différences d'incorporation) · **99** Liaisons internes (991 · 995 cessions inter-établissements)
+        - ➡ Usage
+            - Coût complet (méthode des sections homogènes + unités d'œuvre), coûts partiels (coût variable, seuil de rentabilité)
+            - Contrôle budgétaire : écarts sur quantités et sur coûts (96)
+            - **Réconciliation obligatoire** : résultat analytique (98) ↔ résultat général (88)
+    - Classe 0 — Comptes spéciaux (hors bilan)
+        - Les rubriques
+            - **01** Bilan d'ouverture (011-015 réouverture des comptes) · **02** Clôture du bilan (021-025) · **03** Comptes d'ordre (031/033 instances de dénouement · 035/036 devises · 038 statistiques)
+            - **04** Engagements donnés : 041 avals, cautions et garanties · 043 pensions de retraite · 045 effets endossés · 046 prêts consentis non versés
+            - **05** Engagements reçus : 051 avals reçus · 055 biens détenus en garantie · 056 emprunts non encaissés · 057 découverts non utilisés
+            - **06** Crédit-bail : 061 redevances restant à courir · 065 engagements reçus pour utilisation · **08** Autres
+        - ➡ Usage
+            - Repris dans l'**ETIC** → retraitements de solvabilité : cautions données = dettes éventuelles · crédit-bail (061) = dette financière retraitée · engagements de retraite (043) = dette sociale latente
+- 📑 États de synthèse (loi 9-88) — où chaque classe alimente
+    - **Bilan (BL)** ← Classes 1 à 5 (lecture fonctionnelle en masses : FRF, BFG, TN)
+    - **CPC** ← Classes 6 et 7 (cascade 81 → 83 → 84 → 85 → 86 → 88)
+    - **ESG** ← Classes 6-7-8 : TFR (MB 811, VA 814, EBE 817) + tableau de détermination de la **CAF** et de l'autofinancement
+    - **Tableau de Financement (TF)** ← Classes 1-5 + autofinancement : module I (synthèse des masses) + module II (emplois et ressources stables)
+    - **ETIC** ← Notes + Classes 2-4 + Classe 0 : A1 dérogations, A2 changements de méthodes, tableaux des immobilisations/provisions, échéanciers, engagements hors bilan
+    - Modèle normal = 5 états (BL, CPC, ESG, TF, ETIC) · modèle simplifié = 4 états (sans ESG)
+- 🎯 Ratios et indicateurs clés (sorties de l'analyse)
+    - Équilibre financier
+        - **FRF = Classe 1 − Classe 2** (≥ 0 : marge de sécurité ; < 0 : déséquilibre structurel)
+        - **BFG = (31 + 34 + 35) − (44 + 45)** (> 0 : besoin ; < 0 : ressource)
+        - **TN = 51 − 55 = FRF − BFG** (ΔTN = ΔFRF − ΔBFG : contrôle croisé des états)
+        - Couverture des emplois stables = Classe 1 / Classe 2 ≥ 1 · Autonomie financière = 11 / 14
+    - Rentabilité et performance
+        - **MB = 711 − 611** (négociants) · **VA = MB + (712+713+714) − (612+613/614)** · **EBE = VA + 716 − 616 − 617**
+        - Taux de marge = MB/CA · Taux de VA = VA/CA · Taux d'EBE = EBE/CA
+        - **ROE = Résultat net / Fonds propres moyens** · **ROA = Résultat net / Total bilan moyen**
+        - **CAF** (additive) · **Capacité de remboursement = Dettes financières / CAF** [standard]
+    - Cycle d'exploitation et liquidité [standard]
+        - **DSO** = (Clients 3421+3425) × 360 / CA TTC · **DPO** = (Fournisseurs 4411) × 360 / Achats TTC · **DIO** = Stocks × 360 / Coût des ventes
+        - Liquidité générale = AC/PC ≥ 1 · Liquidité réduite = (AC − stocks)/PC ≥ 1 · Liquidité immédiate = 51/PC
+    - Bourse et fiscalité
+        - **PER** = Cours / BPA (à comparer à la moyenne sectorielle — AMMC) · P/B, rendement du dividende [standard]
+        - **IS** = (Résultat comptable + réintégrations − déductions) × taux (20 % / 35 % / 40 % depuis 2026) vs **cotisation minimale** (0,25 %, min 3 000 DH) → **Max** ; **CSS** 1,5 % à 5 % si BNF ≥ 1 M DH
+- ⚠️ Les 12 pièges du référentiel marocain
+    1. Analyse **fonctionnelle** (par fonction économique) et non par échéance
+    2. **Non-valeurs (21)** = actif fictif → à éliminer de l'actif net réel
+    3. **Capitaux propres assimilés (13)** = quasi-fonds propres malgré la dette d'impôt latent
+    4. **Rubrique 16 = comptes de liaison** (pas les emprunts) ; RAN en 116 ; résultats en instance d'affectation en 118 ; dettes financières en 14
+    5. Tiers **non compensés** : débiteurs en 34, créditeurs en 44
+    6. Trésorerie positive (51) et négative (55) **présentées séparément**
+    7. **Escomptes accordés en charges financières (6386)** ; pas de 78/79 globales (719/739/759)
+    8. **CAF additive** : exclut les dotations/reprises circulantes et les produits de cession (751), réintègre les VNA (651)
+    9. **IS (6701/6705) non déductible**, CSS non déductible, amendes fiscales (6583) réintégrées
+    10. Classe 8 en cascade : 81 → 83 → 84 → 85 → 86 → 88, puis 1191/1199
+    11. **Engagements hors bilan (classe 0)** : cautions, retraites, crédit-bail → retraitements de solvabilité
+    12. Classe 9 autonome (comptes réfléchis 90) : le résultat analytique (98) doit se **réconcilier** avec le résultat général
+
+Arborescence complète : chaque classe de comptes, ses rubriques et comptes clés, **quand les utiliser**, et **vers quels indicateurs d'analyse ils mènent** (numéros de comptes vérifiés sur le Plan Comptable Marocain officiel).
+
+- 🧭 Comptes de BILAN — classes 1 à 5 → Bilan → FRF / BFG / TN
+    - Classe 1 — Financement permanent (ressources stables)
+        - Rubrique 11 — Capitaux propres
+            - **1111** Capital social (constitution, augmentation ; 1119 = capital souscrit non appelé)
+            - **1121/1122/1123** Primes d'émission, de fusion, d'apport (levées de fonds)
+            - **1130** Écart de réévaluation (réévaluation libre des immobilisations — loi 9-88 art. 14)
+            - **1140** Réserve légale (dotation annuelle ≈ 5 % du bénéfice, plafond 10 % du capital) [À VÉRIFIER]
+            - **1151/1152/1155** Réserves statutaires, facultatives, réglementées
+            - **1161/1169** Report à nouveau (créditeur / débiteur)
+            - **1181/1189** Résultats nets en instance d'affectation · **1191/1199** Résultat net de l'exercice
+        - Rubrique 13 — Capitaux propres assimilés (quasi-fonds propres)
+            - **1311/1319** Subventions d'investissement (étalées au CPC au rythme des amortissements)
+            - **1351** Amortissements dérogatoires · **1352** Plus-values en instance d'imposition
+            - **1354** Provisions pour investissements · **1355** Reconstitution de gisements · **1356** Logements
+            - ⚠️ Dette d'impôt latent incorporée → retraitement analytique en quasi-fonds propres
+        - Rubriques 14 à 17
+            - **14** Dettes de financement : **1410** emprunts obligataires · **1481** emprunts bancaires · **1482** avances de l'État · **1485** avances reçues et comptes courants bloqués · **1486** fournisseurs d'immobilisation · **1487** dépôts et cautionnements
+            - **15** Provisions durables : **1511** litiges · **1512** garanties clients · **1515** amendes · **1516** pertes de change · **1552** pensions de retraite · **1555** charges à répartir
+            - **16** Comptes de liaison siège/succursales (1601/1605) · **17** Écarts de conversion passif stables (1710/1720)
+        - ➡ Ce que l'analyste en fait
+            - **FRF = Classe 1 − Classe 2** (≥ 0 = marge de sécurité de long terme)
+            - **Autonomie financière = 11 / 14** (> 1 = indépendance vis-à-vis des banques)
+            - **Quasi-fonds propres** : 13 + provisions 15 sans objet réel → renforcent l'ANR
+            - Provisions 15 à échéance < 1 an → reclassées en passif circulant (44)
+            - Réévaluation libre (1130) → améliore instantanément les ratios de solvabilité perçus par les banques
+    - Classe 2 — Actif immobilisé (emplois durables)
+        - Rubrique 21 — Non-valeurs (ACTIF FICTIF)
+            - **2111** Frais de constitution · **2112** Frais préalables au démarrage · **2113** Augmentation de capital · **2116** Prospection · **2117** Publicité
+            - **2121/2125/2128** Charges à répartir · **2130** Primes de remboursement des obligations
+            - Amortissement linéaire ≤ 5 ans · ⚠️ **À éliminer de l'actif net réel** (aucune valeur de revente)
+        - Rubriques 22-23 — Incorporelles et corporelles
+            - **2210** R&D · **2220** Brevets et marques (amortissables) · **2230** Fonds commercial (**non amorti**, provision si dépréciation) · **2285** En cours
+            - **2311** Terrains nus (non amortis) · **2314** Terrains de gisement (épuisement) · **2321** Bâtiments · **2331/2332** Installations techniques, matériel et outillage · **2340** Matériel de transport · **2351** Mobilier · **2355** Informatique · **2392-2397** Corporelles en cours + avances
+        - Rubriques 24/25, 27, 28, 29 — Financières, écarts, corrections
+            - **2411** Prêts au personnel · **2415** Prêts aux associés · **2481** Titres immobilisés · **2486** Dépôts et cautionnements · **2510** Titres de participation (**valeur d'utilité**) · **2581** Actions
+            - **27** Écarts de conversion actif stables (2710/2720) — contre-passés à l'ouverture
+            - **28** Amortissements (281/282/283 — dotation via 619) · **29** Provisions pour dépréciation (2920/2930/2941/2948/2951/2958)
+        - ➡ Ce que l'analyste en fait
+            - **VNC = Brut (21-27) − 28 − 29** ; **ANR** = substitution par les valeurs actuelles (terrains, constructions)
+            - **Couverture des emplois stables = Classe 1 / Classe 2 ≥ 1**
+            - **TF module II** : acquisitions = emplois stables ; cessions = ressources stables ; croiser investissements bruts vs dotations pour juger du renouvellement de l'outil productif
+    - Classe 3 — Actif circulant (hors trésorerie)
+        - Rubrique 31 — Stocks
+            - **311** Marchandises (3111/3112) · **3121** Matières premières · **3122** Matières et fournitures consommables · **3123** Emballages
+            - **313** Produits en cours · **314** Produits intermédiaires et résiduels · **315** Produits finis
+            - Clôture : stock initial → débit 6114/6124 ; stock final → crédit 6114/6124 (variation)
+        - Rubrique 34 — Créances de l'actif circulant
+            - **3411** Fournisseurs — avances versées · **3417** RRR à obtenir
+            - **3421** Clients · **3423** Retenues de garantie · **3424** Clients douteux ou litigieux · **3425** Effets à recevoir · **34271** Factures à établir
+            - **3431** Avances au personnel · **3451** Subventions à recevoir · **3453** Acomptes IS · **3455** TVA récupérable · **3456** Crédit de TVA
+            - **3461** Apports en société · **3462** Capital souscrit non versé · **3463** Comptes courants d'associés débiteurs
+            - **3481** Créances sur cessions d'immobilisations · **3491** Charges constatées d'avance · **3493** Intérêts courus à percevoir · **3497** Transitoires débiteurs
+        - Rubriques 35, 37, 39
+            - **35** Titres et valeurs de placement (3501 actions · 3504 obligations · 3506 bons)
+            - **37** Écarts de conversion actif circulants (3701/3702)
+            - **39** Provisions pour dépréciation : **3911-3915** stocks · **3941-3948** créances (3942 clients) · **3950** TVP — dotations via 61961/61964
+        - ➡ Ce que l'analyste en fait
+            - **BFG = (31 + 34 + 35) − 44** — le cœur du cycle d'exploitation
+            - **DSO** (délai d'encaissement) sur 3421/3425 [standard] ; allongement → BFG qui gonfle
+            - Glissement **3421 → 3424** = signal de dégradation du crédit client
+            - Lire les créances **nettes des provisions 3942** ; les dotations 61964 pèsent sur le résultat mais sont **exclues de la CAF additive**
+    - Classe 4 — Passif circulant (hors trésorerie)
+        - Rubrique 44 — Dettes du passif circulant
+            - **4411** Fournisseurs · **4413** Retenues de garantie · **4415** Effets à payer · **4417** Factures non parvenues (rattachement)
+            - **4421** Avances clients reçues · **4425** Emballages consignés
+            - **4432** Rémunérations dues · **4433** Dépôts du personnel · **4437** Charges à payer (congés payés)
+            - **4441** CNSS · **4443** Caisses de retraite · **4445** Mutuelles · **4447** Charges sociales à payer
+            - **4452** Impôts et taxes · **4453** IS · **4455** TVA facturée · **4456** TVA due
+            - **4463** Comptes courants d'associés créditeurs · **4465** Dividendes à payer
+            - **4481** Dettes sur acquisitions d'immobilisations · **4491** Produits constatés d'avance · **4493** Intérêts courus à payer · **4497** Transitoires créditeurs
+        - Rubriques 45, 47
+            - **45** Autres provisions pour risques et charges court terme (4501 litiges · 4505 amendes · 4507 impôts)
+            - **47** Écarts de conversion passif circulants (4701/4702)
+        - ➡ Ce que l'analyste en fait
+            - **Ressources gratuites du cycle** : 4411 + 4432 + 4441 + 4491 → réduisent le BFG
+            - **DPO** (délai fournisseurs) [standard] ; délais légaux de paiement (loi 32-10) contrôlés par le CAC
+            - **4463 CCA créditeurs** = quasi-fonds propres quand bloqués ; **4465 dividendes** = sortie de trésorerie à prévoir
+            - **4453 IS** = dette certaine nette des acomptes (4 acomptes de 25 %)
+    - Classe 5 — Trésorerie
+        - 51 Trésorerie-Actif · 55 Trésorerie-Passif · 59 Provisions
+            - **5111** Chèques à encaisser · **5113** Effets à encaisser · **5115** Virements de fonds (passage) · **5141** Banques (débiteur) · **5143** Trésorerie Générale · **5146** Chèques postaux · **5161** Caisses · **5165** Régies d'avances
+            - **5520** Crédits d'escompte · **5530** Crédits de trésorerie · **5541** Banques (créditeur / découvert)
+            - **5900** Provisions pour dépréciation des comptes de trésorerie
+        - ➡ Ce que l'analyste en fait
+            - **TN = 51 − 55 = FRF − BFG** (bouclage de l'équilibre financier)
+            - **Rapprochement bancaire** : chèques émis non présentés, agios (6147), intérêts (738), virements non saisis
+            - Découverts récurrents (5541) = BFG financé par du court terme bancaire → fragilité
+            - Liquidité immédiate = 51 / exigible à court terme [standard]
+- 📊 Comptes de GESTION — classes 6 à 8 → CPC + ESG → Soldes intermédiaires → Ratios
+    - Classe 6 — Charges (débit du CPC, hors taxes récupérables)
+        - 61 — Charges d'exploitation
+            - **611** Achats revendus de marchandises (6111/6112 · 6114 variation · 6119 RRR)
+            - **612** Achats consommés de matières et fournitures (6121 matières premières · 6122 consommables · 6123 emballages · 6124 variation · 6125 non stockés · 6126 travaux-études-prestations · 6129 RRR)
+            - **613/614** Autres charges externes (6131 locations · 6132 crédit-bail · 6133 entretien · 6134 assurances · 6135 personnel extérieur · 6136 honoraires · 6141 études · 6142 transports · 6143 déplacements · 6144 publicité · 6145 postaux/télécoms · 6146 cotisations et dons · **6147 services bancaires**)
+            - **616** Impôts et taxes (6161 taxe urbaine, patente · 6167 enregistrement, timbre, taxes véhicules)
+            - **617** Charges de personnel (6171 rémunérations · 6174 charges sociales · 6176 autres · 6177 rémunération de l'exploitant)
+            - **618** Autres charges d'exploitation (6181 jetons de présence · 6182 pertes sur créances irrécouvrables)
+            - **619** Dotations d'exploitation (6191-6193 amortissements · 6194 provisions immobilisations · 61955/61957 risques et charges · 61961/61964 provisions actif circulant)
+        - 63 — Charges financières · 65 — Non courantes · 67 — IS
+            - **6311** Intérêts des emprunts et dettes (63114 intérêts des CCA) · **633** Pertes de change · **6386** Escomptes accordés · **6391-6394** Dotations financières
+            - **651** VNA des immobilisations cédées · **656** Subventions accordées · **6581** Pénalités sur marchés · **6583** Pénalités et amendes fiscales (non déductibles) · **6585** Créances irrécouvrables · **6586** Dons · **6591** Amortissements exceptionnels · **65941** Amortissements dérogatoires · **65962/65963** Provisions non courantes
+            - **6701** IS · **6705** Cotisation minimale · **6708** Rappels et dégrèvements
+        - ➡ Ce que l'analyste en fait
+            - **MB = 711 − 611** ; **VA = MB + Production − (612 + 613/614)** ; **EBE = VA + 716 − 616 − 617**
+            - **Résultat financier = 73 − 63** ; base des réintégrations fiscales : amendes 6583, véhicules > 400 000 DH, espèces > 5 000 DH/jour, intérêts CCA non conformes, provisions irrégulières
+            - **CAF additive** : réintègre les dotations stables (619/639/659 sur immobilisations et passif permanent)
+    - Classe 7 — Produits (crédit du CPC, hors TVA collectée)
+        - 71 — Produits d'exploitation
+            - **711** Ventes de marchandises (7111 Maroc · 7113 étranger · 7118 antérieurs · 7119 RRR accordés)
+            - **712** Ventes de biens et services produits (7121 biens Maroc : 71211 produits finis, 71212 intermédiaires, 71217 résiduels · 7122 étranger · 7124/7125 services · 7126 redevances brevets · 7127 accessoires · 7129 RRR)
+            - **713** Variation des stocks de produits (7131 en cours · 7132 biens produits · 7134 services en cours)
+            - **714** Immobilisations produites par l'entreprise pour elle-même (neutralité sur le résultat)
+            - **716** Subventions d'exploitation · **718** Autres produits (7181 jetons reçus · 7182 revenus des immeubles)
+            - **719** Reprises d'exploitation et transferts (7191-7193 amortissements · 7194 provisions immobilisations · 7195 risques · 7196 actif circulant · 7197 transferts · 7198 antérieurs)
+        - 73 — Produits financiers · 75 — Non courants
+            - **7321** Revenus des participations · **7331** Gains de change · **7381** Intérêts des prêts · **7384** Revenus des TVP · **7385** Produits nets sur cessions de TVP · **7386** Escomptes obtenus · **739** Reprises financières (7397 transferts)
+            - **7512-7518** Produits des cessions d'immobilisations · **756** Subventions d'équilibre · **757** Reprises sur subventions d'investissement · **7581** Pénalités reçues · **7582** Dégrèvements · **7585** Rentrées sur créances soldées · **7586** Dons reçus · **7591/7594/7595/7596** Reprises non courantes · **7597** Transferts non courants
+        - ➡ Ce que l'analyste en fait
+            - **Production de l'exercice = 712 + 713 + 714** → alimente la **VA** (création de richesse)
+            - **EBE = VA + 716 − 616 − 617** (performance monétaire avant amortissements et intérêts)
+            - **CAF additive** : exclut les produits de cession (751) et les reprises sur circulants ; dividendes reçus → abattement fiscal 100 % (art. 6-I-C-1° CGI)
+            - ⚠️ Pas de rubriques globales 78/79 : reprises/transferts ventilés par niveau (719/739/759)
+    - Classe 8 — Résultats (cascade du CPC/ESG)
+        - La cascade complète
+            - **8100** Résultat d'exploitation (8110 marge brute · 8140 valeur ajoutée · 8171 EBE / 8179 insuffisance brute)
+            - **8300** Résultat financier → **8400** Résultat courant (cyclique, se prête à la prévision)
+            - **8500** Résultat non courant → **8600** Résultat avant impôts → **8800** Résultat après impôts
+        - ➡ Ce que l'analyste en fait
+            - **8800 → 1191/1199** au bilan (passif, capitaux propres)
+            - **Affectation en AGO** : 1140 réserve légale (5 % du bénéfice, plafond 10 % du capital) [À VÉRIFIER] · 4465 dividendes (retenue à la source art. 247-XXXVII-C CGI) · 1161 report à nouveau
+            - **CAF** (méthode additive depuis l'ESG) · **ROE = RN / fonds propres** · **taux de marge** (MB/CA, VA/CA, EBE/CA)
+- ⚙️ Comptes SPÉCIAUX — classes 9 et 0
+    - Classe 9 — Comptabilité analytique d'exploitation (contrôle de gestion)
+        - Les 10 rubriques
+            - **90** Comptes réfléchis : 903 stocks · 906 charges (9061 exploitation · 9063 financières · 9065 non courantes · 9067 IS) · 907 produits · 908 résultats
+            - **91** Comptes de reclassement et d'analyse (libres) · **92** Sections analytiques : 921 générales · 923 approvisionnement · 925 production · 927 distribution · 928 autres
+            - **93** Coûts d'achat ou de production (9331 marchandises · 9351 produits · 9381 immobilisations) · **94** Inventaire permanent des stocks (941-945 · 949 provisions)
+            - **95** Coûts de revient (953 marchandises · 955 produits) · **96** Écarts sur coûts préétablis (962 sections · 964 inventaire)
+            - **97** Différences d'incorporation : 971 charges non incorporables · 972 charges supplétives · 973 produits non incorporés · 976 différences d'inventaire · 977 niveau d'activité
+            - **98** Résultats analytiques (981-983 par catégorie · 986 reports des écarts · 987 reports des différences d'incorporation) · **99** Liaisons internes (991 · 995 cessions inter-établissements)
+        - ➡ Usage
+            - Coût complet (méthode des sections homogènes + unités d'œuvre), coûts partiels (coût variable, seuil de rentabilité)
+            - Contrôle budgétaire : écarts sur quantités et sur coûts (96)
+            - **Réconciliation obligatoire** : résultat analytique (98) ↔ résultat général (88)
+    - Classe 0 — Comptes spéciaux (hors bilan)
+        - Les rubriques
+            - **01** Bilan d'ouverture (011-015 réouverture des comptes) · **02** Clôture du bilan (021-025) · **03** Comptes d'ordre (031/033 instances de dénouement · 035/036 devises · 038 statistiques)
+            - **04** Engagements donnés : 041 avals, cautions et garanties · 043 pensions de retraite · 045 effets endossés · 046 prêts consentis non versés
+            - **05** Engagements reçus : 051 avals reçus · 055 biens détenus en garantie · 056 emprunts non encaissés · 057 découverts non utilisés
+            - **06** Crédit-bail : 061 redevances restant à courir · 065 engagements reçus pour utilisation · **08** Autres
+        - ➡ Usage
+            - Repris dans l'**ETIC** → retraitements de solvabilité : cautions données = dettes éventuelles · crédit-bail (061) = dette financière retraitée · engagements de retraite (043) = dette sociale latente
+- 📑 États de synthèse (loi 9-88) — où chaque classe alimente
+    - **Bilan (BL)** ← Classes 1 à 5 (lecture fonctionnelle en masses : FRF, BFG, TN)
+    - **CPC** ← Classes 6 et 7 (cascade 81 → 83 → 84 → 85 → 86 → 88)
+    - **ESG** ← Classes 6-7-8 : TFR (MB 811, VA 814, EBE 817) + tableau de détermination de la **CAF** et de l'autofinancement
+    - **Tableau de Financement (TF)** ← Classes 1-5 + autofinancement : module I (synthèse des masses) + module II (emplois et ressources stables)
+    - **ETIC** ← Notes + Classes 2-4 + Classe 0 : A1 dérogations, A2 changements de méthodes, tableaux des immobilisations/provisions, échéanciers, engagements hors bilan
+    - Modèle normal = 5 états (BL, CPC, ESG, TF, ETIC) · modèle simplifié = 4 états (sans ESG)
+- 🎯 Ratios et indicateurs clés (sorties de l'analyse)
+    - Équilibre financier
+        - **FRF = Classe 1 − Classe 2** (≥ 0 : marge de sécurité ; < 0 : déséquilibre structurel)
+        - **BFG = (31 + 34 + 35) − (44 + 45)** (> 0 : besoin ; < 0 : ressource)
+        - **TN = 51 − 55 = FRF − BFG** (ΔTN = ΔFRF − ΔBFG : contrôle croisé des états)
+        - Couverture des emplois stables = Classe 1 / Classe 2 ≥ 1 · Autonomie financière = 11 / 14
+    - Rentabilité et performance
+        - **MB = 711 − 611** (négociants) · **VA = MB + (712+713+714) − (612+613/614)** · **EBE = VA + 716 − 616 − 617**
+        - Taux de marge = MB/CA · Taux de VA = VA/CA · Taux d'EBE = EBE/CA
+        - **ROE = Résultat net / Fonds propres moyens** · **ROA = Résultat net / Total bilan moyen**
+        - **CAF** (additive) · **Capacité de remboursement = Dettes financières / CAF** [standard]
+    - Cycle d'exploitation et liquidité [standard]
+        - **DSO** = (Clients 3421+3425) × 360 / CA TTC · **DPO** = (Fournisseurs 4411) × 360 / Achats TTC · **DIO** = Stocks × 360 / Coût des ventes
+        - Liquidité générale = AC/PC ≥ 1 · Liquidité réduite = (AC − stocks)/PC ≥ 1 · Liquidité immédiate = 51/PC
+    - Bourse et fiscalité
+        - **PER** = Cours / BPA (à comparer à la moyenne sectorielle — AMMC) · P/B, rendement du dividende [standard]
+        - **IS** = (Résultat comptable + réintégrations − déductions) × taux (20 % / 35 % / 40 % depuis 2026) vs **cotisation minimale** (0,25 %, min 3 000 DH) → **Max** ; **CSS** 1,5 % à 5 % si BNF ≥ 1 M DH
+- ⚠️ Les 12 pièges du référentiel marocain
+    1. Analyse **fonctionnelle** (par fonction économique) et non par échéance
+    2. **Non-valeurs (21)** = actif fictif → à éliminer de l'actif net réel
+    3. **Capitaux propres assimilés (13)** = quasi-fonds propres malgré la dette d'impôt latent
+    4. **Rubrique 16 = comptes de liaison** (pas les emprunts) ; RAN en 116 ; résultats en instance d'affectation en 118 ; dettes financières en 14
+    5. Tiers **non compensés** : débiteurs en 34, créditeurs en 44
+    6. Trésorerie positive (51) et négative (55) **présentées séparément**
+    7. **Escomptes accordés en charges financières (6386)** ; pas de 78/79 globales (719/739/759)
+    8. **CAF additive** : exclut les dotations/reprises circulantes et les produits de cession (751), réintègre les VNA (651)
+    9. **IS (6701/6705) non déductible**, CSS non déductible, amendes fiscales (6583) réintégrées
+    10. Classe 8 en cascade : 81 → 83 → 84 → 85 → 86 → 88, puis 1191/1199
+    11. **Engagements hors bilan (classe 0)** : cautions, retraites, crédit-bail → retraitements de solvabilité
+    12. Classe 9 autonome (comptes réfléchis 90) : le résultat analytique (98) doit se **réconcilier** avec le résultat général

@@ -1,0 +1,19 @@
+# Vault backup archive (redundant — the repo IS the backup)
+Reasearch.zip
+
+# Obsidian workspace state (per-user, churns constantly)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Plugin data files can contain API keys / TLS private keys (e.g. Local REST API) — NEVER push
+.obsidian/plugins/*/data.json
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temp files
+*.tmp
+*.swp
