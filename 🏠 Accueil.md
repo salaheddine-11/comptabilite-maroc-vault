@@ -5,7 +5,7 @@ tags: [hub, moc, accueil, comptabilite, maroc]
 # 🏠 Accueil — Recherche Comptabilité & Analyse Financière Maroc
 
 > [!important] Bienvenue
-> Ce vault est la **base de connaissances complète** sur la comptabilité et l'analyse financière des entreprises marocaines : **57 thèmes interconnectés**, 6 rapports fondateurs, et un **fil conducteur** qui relie tout.
+> Ce vault est la **base de connaissances complète** sur la comptabilité et l'analyse financière des entreprises marocaines : **59 thèmes interconnectés**, 6 rapports fondateurs, et un **fil conducteur** qui relie tout.
 > Construit à partir du corpus **NotebookLM (577+ sources)** : CGNC, loi 9-88, PCGE officiel, CGI, AMMC, Bank Al-Maghrib, DGI, liasse fiscale, documents de référence d'émetteurs marocains.
 
 **Règle d'or de cette recherche** : *un ratio = une relation entre deux lignes des états financiers. Un poste du bilan = une décision passée. Un choix comptable = une intention.*
@@ -119,6 +119,8 @@ tags: [hub, moc, accueil, comptabilite, maroc]
 | 55 | [[55 — Choix d'investissement (VAN, TRI, Payback)]] | VAN/TRI/Payback, construction des flux, piège du BFG, contexte Maroc |
 | 56 | [[56 — Valorisation d'entreprise (ANR, multiples, DCF)]] | ANR/ANCC, multiples, DCF, valeur terminale, cas particuliers (banques, holdings, PME) |
 | 57 | [[57 — Structure de capital & CMPC (WACC)]] | CMPC, MEDAF, effet de levier, arbitrages dette/fonds propres au Maroc |
+| 58 | [[58 — Fusions & acquisitions (M&A)]] | Prime de contrôle, due diligence, survaleur (écart d'acquisition), comptabilisation CGNC |
+| 59 | [[59 — Politique de financement & dividende]] | Taux de distribution, RAS, signaux du dividende, autofinancement vs dette |
 
 ---
 
@@ -152,8 +154,8 @@ tags: [hub, moc, accueil, comptabilite, maroc]
 
 ## 📌 État d'avancement & méthode
 
-- **Avancement** : **57/57 thèmes** expliqués (complété le 09/08/2026 — 9 fiches complémentaires ajoutées par recherche profonde NotebookLM : immobilisations financières, effets de commerce, RRR & emballages, opérations sur capital, subventions, transferts de charges & réouverture, paie 2026, TVA import/export, dissolution & liquidation — + tableau de référence des templates d'écritures + la logique des écritures).
-- **Pilier Finance d'Entreprise** (10/08/2026) : 3 fiches de création de valeur — choix d'investissement (55), valorisation (56), structure de capital & CMPC (57) — avec blocs forensiques standardisés `[!warning]` / `[!danger]` ; fiche [[14 — Provisions]] mise à niveau forensique (Mission 2).
+- **Avancement** : **59/59 thèmes** expliqués (complété le 09/08/2026 — 9 fiches complémentaires ajoutées par recherche profonde NotebookLM : immobilisations financières, effets de commerce, RRR & emballages, opérations sur capital, subventions, transferts de charges & réouverture, paie 2026, TVA import/export, dissolution & liquidation — + tableau de référence des templates d'écritures + la logique des écritures).
+- **Pilier Finance d'Entreprise** (10/08/2026) : 5 fiches de création de valeur — choix d'investissement (55), valorisation (56), structure de capital & CMPC (57), fusions & acquisitions (58), politique de financement & dividende (59) — avec blocs forensiques standardisés `[!warning]` / `[!danger]` ; fiche [[14 — Provisions]] mise à niveau forensique (Mission 2).
 - **Bibliothèque de documents réels** (08/08/2026) : 10 textes officiels (CGI 2025, **LF 2026**, circulaires 717/721, charte d'investissement, thèse ISCAE…) + **15 documents de référence AMMC exercice 2025** (Salafin, CFG Bank, Bank of Africa, FEC, CDG Capital, Auto Hall, CIH, Immorente Invest…) → voir [[README — Index des documents réels]] (dossier `96 Documents Réels`).
 - **Bibliothèque livres pour BookRAG** (08/08/2026) : table des ouvrages cités par le corpus + recommandés — logique → BookRAG, faits datés → NotebookLM → voir [[📚 Bibliothèque recommandée — corpus RAG]].
 - **Graph interactif** : `Concept Graph.canvas` (Obsidian natif, 73 cartes, 384 connexions) + `Concept Graph Interactif.html` (autonome).

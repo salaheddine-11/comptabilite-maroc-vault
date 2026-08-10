@@ -2,21 +2,21 @@
 tags: [fil-conducteur, moc, systeme, vue-ensemble]
 ---
 
-# 🧭 Le Fil Conducteur — 57 thèmes, un seul système
+# 🧭 Le Fil Conducteur — 59 thèmes, un seul système
 
 > [!abstract] Pourquoi ce document existe
-> Les 57 thèmes du vault ne sont pas une liste à cocher : ce sont les **pièces d'une seule machine**. Ce document raconte comment elles s'emboîtent — le *flow* complet, de la facture du jour au rapport de l'analyste, en passant par l'impôt et le groupe.
+> Les 59 thèmes du vault ne sont pas une liste à cocher : ce sont les **pièces d'une seule machine**. Ce document raconte comment elles s'emboîtent — le *flow* complet, de la facture du jour au rapport de l'analyste, en passant par l'impôt et le groupe.
 >
 > **La règle d'or :** tout thème est un *organe* (compte), un *flux* (écriture), un *état* (sortie) ou un *contrôle* (audit/fiscal). Trouvez le circuit, vous trouvez le rôle.
 
 ---
 
-## 0. La carte générale : une machine à 4 circuits + 2 miroirs
+## 0. La carte générale : une machine à 4 circuits + 2 miroirs + 3 sorties
 
 ```
                         ┌────────────────────────────────────────────────────┐
                         │            CIRCUIT 3 — LE FINANCEMENT              │
-                        │   (16 Capitaux propres · 13 Financement ·          │
+                        │   (24 Capitaux propres · 18 Financement ·          │
                         │    12 Crédit-bail · 05 Amortissements · 08 FRF)    │
                         └──────────────────────────┬─────────────────────────┘
                                                    │ porte la structure
@@ -24,7 +24,7 @@ tags: [fil-conducteur, moc, systeme, vue-ensemble]
 ┌────────────────────────────────────────────────────────────────────────────────────┐
 │              CIRCUIT 1 — L'EXPLOITATION (le cœur qui tourne chaque jour)            │
 │                                                                                    │
-│   01 PCGE ─→ 02 Cycle ─→ 03 Écritures ─→ 15 Stocks ─→ 11 Créances ─→ 12 Trésorerie │
+│   01 PCGE ─→ 02 Cycle ─→ 03 Écritures ─→ 22 Stocks ─→ 16 Créances ─→ 17 Trésorerie │
 │   (grammaire)  (pipeline)   (briques)     (valeur)    (crédit client)   (cash)     │
 │                                                                                    │
 │   ▲ chaque jour : acheter → stocker → vendre → encaisser — c'est ici que naît le BFG│
@@ -34,7 +34,7 @@ tags: [fil-conducteur, moc, systeme, vue-ensemble]
 ┌────────────────────────────────────────────────────────────────────────────────────┐
 │              CIRCUIT 2 — LA CLÔTURE (la vérité annuelle)                            │
 │                                                                                    │
-│   13 Régularisations → 10 Provisions → 05 Amortissements → 04 États de synthèse     │
+│   13 Régularisations → 14 Provisions → 05 Amortissements → 04 États de synthèse     │
 │   (rattacher N)          (prudence)       (étaler)         (BL·CPC·ESG·TF·ETIC)     │
 │        │                                                                           │
 │        └──→ 23 TVA → 15 Impôts (IS/CM/CSS) → 21 Liasse fiscale → 26 Passage fiscal │
@@ -44,11 +44,12 @@ tags: [fil-conducteur, moc, systeme, vue-ensemble]
                         ▼  quand l'entreprise grandit
 ┌────────────────────────────────────────────────────────────────────────────────────┐
 │              CIRCUIT 4 — LE GROUPE & L'INTERNATIONAL                               │
-│   31 Comptes de liaison → 20 Consolidation → 29 IFRS · 17 Devises · 27 Hors bilan  │
+│   31 Comptes de liaison → 20 Consolidation → 29 IFRS · 25 Devises · 27 Hors bilan  │
 └────────────────────────────────────────────────────────────────────────────────────┘
 
-MIROIRS PARALLÈLES :  28 Comptabilité analytique (classe 9, interne) · 32-34 Sectoriel
+MIROIRS PARALLÈLES :  28 Comptabilité analytique (classe 9, interne) · 30 Affacturage · 32-34 Sectoriel
 SORTIES D'ANALYSE :   07 Messages cachés · 09 Ratios & SIG · 08 FRF/BFG/TN · 10 Retraitements
+SORTIES DE VALEUR :   55 Choix d'investissement · 56 Valorisation · 57 Structure de capital (CMPC)
 ```
 
 ---
@@ -166,6 +167,8 @@ Les **[[03 — Écritures comptables types]]** sont les briques du quotidien : v
 | [[55 — Choix d'investissement (VAN, TRI, Payback)]] | La décision d'emploi des capitaux du circuit 3 : flux actualisés, piège du BFG, bouclier fiscal |
 | [[56 — Valorisation d'entreprise (ANR, multiples, DCF)]] | Le prix des 4 circuits : retraitements (10) → ANR, comparables MASI, DCF |
 | [[57 — Structure de capital & CMPC (WACC)]] | Le taux d'exigence des apporteurs de capitaux : le CMPC actualise 55 et 56 — la ligne de flottaison de la création de valeur |
+| [[58 — Fusions & acquisitions (M&A)]] | L'acquisition : prime de contrôle, due diligence, survaleur (écart d'acquisition) — payer le juste prix d'un pari |
+| [[59 — Politique de financement & dividende]] | Le retour aux actionnaires : taux de distribution, RAS, signaux — la politique de dividende comme message |
 
 ---
 
@@ -194,4 +197,4 @@ Actif fictif · stocks gonflés · pertes clients masquées (3424) · asphyxie f
 
 ---
 
-*Document maître du vault — généré le 08/08/2026, mis à jour le 10/08/2026. Les liens pointent vers les 57 fiches thématiques et les 6 rapports fondateurs.*
+*Document maître du vault — généré le 08/08/2026, mis à jour le 10/08/2026. Les liens pointent vers les 59 fiches thématiques et les 6 rapports fondateurs.*
