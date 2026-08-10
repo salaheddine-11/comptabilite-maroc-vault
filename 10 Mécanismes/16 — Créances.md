@@ -40,5 +40,24 @@ corpus: OUI + deep research
 - Circuit 1 : nées des ventes → [[03 — Écritures comptables types]] · financées par l'affacturage → [[30 — Affacturage]] · DSO → BFG → [[08 — FRF, BFG & TN (analyse dynamique)]]
 - Dépréciées par provisions → [[14 — Provisions]] · FAE à la clôture → [[13 — Régularisations de fin d'exercice]]
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Un DSO qui se dégrade (→ [[09 — Ratios & SIG]]) sans provisions correspondantes (3942), ou un glissement 3421 → 3424 anormalement lent alors que la balance âgée montre des créances à 180+ jours.
+
+> [!warning] L'intention
+> Masquer l'insolvabilité des clients pour protéger le résultat : les créances douteuses restent en 3421 « saines », les provisions sont sous-estimées ou non individualisées. L'affacturage croissant (→ [[30 — Affacturage]]) ou les cessions de créances (→ [[82 — Financements structurés & titrisation]]) peuvent aussi « nettoyer » le bilan sans régler le problème.
+
+> [!warning] Le risque caché
+> La provision massive différée (3942) tombe en une fois ; les provisions non individualisées ou sans recours judiciaire dans les 12 mois sont réintégrées au T22 (art. 10-I-F) ; la banque dégrade la créance (circulaire BAM 19/G/2002) et le crédit se resserre.
+
+> [!danger] Red Flags & Omissions
+> 1. Balance âgée (créances > 90 jours) en hausse alors que les dotations 6196 baissent.
+> 2. Des créances cédées à l'affacturage avec recours — le risque est conservé, le bilan est nettoyé.
+> 3. ETIC B5 (provisions) qui ne se concilie pas, ou reprises 7392 sans encaissement réel.
+> 4. Le silence : aucun montant sur les litiges clients dans l'ETIC, aucune information sur les concentrations (un client = 40 % du CA) — la direction ne dit pas qui la paie vraiment.
+
 ## Sources
 PCGE (3421, 3424, 3425, 3481, 3942, 5520, 6182/6585) · PCEC (2211-2228, 8768) · Code de Commerce 529-536 · circulaire BAM 19/G/2002 · deep research NotebookLM (08/08/2026).

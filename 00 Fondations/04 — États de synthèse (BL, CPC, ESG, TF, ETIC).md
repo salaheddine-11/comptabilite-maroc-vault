@@ -38,5 +38,24 @@ corpus: OUI
 - Circuit 2 : produit final du cycle → [[02 — Cycle comptable quotidien]] · la clôture les construit ([[13 — Régularisations de fin d'exercice]] → [[14 — Provisions]] → [[05 — Amortissements]])
 - La version fiscale → [[21 — Liasse fiscale]] · le TFR de l'ESG → [[09 — Ratios & SIG]]
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Des états qui ne se recoupent pas entre eux : TF qui ne boucle pas avec la variation de trésorerie, ETIC B5/B6 incohérents, résultat net ≠ tableau de répartition, ou CA déclaré en TVA (→ [[23 — TVA]]) ≠ CA du CPC.
+
+> [!warning] L'intention
+> Les 5 états sont **« tout indissociable »** (loi 9-88 art. 9) : chaque incohérence entre eux est un mensonge qui ne tient pas — le BL dit ce que le CPC cache, le TF dit ce que le résultat ne dit pas, l'ETIC dit ce que la direction a décidé. Une annexe incomplète (méthodes non décrites) est un refus de transparence.
+
+> [!warning] Le risque caché
+> Le refus ou la réserve de certification du CAC ; le redressement fiscal fondé sur les incohérences (TVA vs CA) ; et pour l'analyste, des retraitements (→ [[10 — Retraitements (valeur comptable → valeur actuelle)]]) impossibles à fiabiliser — la base même de la valorisation (→ [[56 — Valorisation d'entreprise (ANR, multiples, DCF)]]) est minée.
+
+> [!danger] Red Flags & Omissions
+> 1. TF dont le solde ne correspond pas à Δ trésorerie du bilan — l'explication du cash est fausse quelque part.
+> 2. CA TVA (T21) ≠ CA CPC — l'un des deux ment (→ [[23 — TVA]]).
+> 3. ETIC incomplet : tableaux B vides, méthodes non décrites, conventions réglementées absentes.
+> 4. Le silence : des changements de méthode (ETIC A2) jamais justifiés — la direction ne dit pas pourquoi l'histoire a changé.
+
 ## Sources
 Loi 9-88 art. 9-11 · CGNC · ESG/CAF (T5), TF (T6/T7) dans la liasse DGI.

@@ -134,6 +134,28 @@ corpus: Synthèse de tous les rapports + fiches
 
 ---
 
+## 5bis. 💼 Les mots de la finance d'entreprise (le pilier 55-59)
+
+| Terme | Explication | Voir |
+| --- | --- | --- |
+| **VAN / TRI / Payback** | Valeur actuelle nette (création de valeur en DH) / taux qui annule la VAN / délai de récupération — les 3 critères d'investissement | [[55 — Choix d'investissement (VAN, TRI, Payback)]] |
+| **CMPC (WACC)** | Coût moyen pondéré du capital = coût des fonds propres + coût de la dette après IS — le taux d'actualisation | [[57 — Structure de capital & CMPC (WACC)]] |
+| **DCF / valeur terminale** | Discounted cash flows : actualisation des flux futurs ; la valeur terminale (Gordon) représente souvent 60-80 % de la valeur | [[56 — Valorisation d'entreprise (ANR, multiples, DCF)]] |
+| **ANR / ANCC** | Actif net réel (capitaux propres retraités) / corrigé (plus-values latentes incluses) | [[56 — Valorisation d'entreprise (ANR, multiples, DCF)]] |
+| **VE (valeur d'entreprise)** | Valeur des fonds propres + dette nette − trésorerie — la base des multiples VE/EBITDA | [[56 — Valorisation d'entreprise (ANR, multiples, DCF)]] |
+| **Prime de contrôle / earn-out / GAP** | Surcoût pour prendre le contrôle / complément de prix conditionné / garantie d'actif et de passif — les 3 mots du deal | [[58 — Fusions & acquisitions (M&A)]] |
+| **Survaleur (goodwill)** | Écart entre le prix payé et l'actif net — amortie ≤ 10 ans CGNC, testée en IFRS 3 | [[58 — Fusions & acquisitions (M&A)]] · [[20 — Consolidation]] |
+| **Payout / RAS** | Taux de distribution du résultat / retenue à la source sur les dividendes | [[59 — Politique de financement & dividende]] |
+| **Due diligence** | Vérification approfondie d'une cible (comptable, fiscale, juridique) avant acquisition | [[58 — Fusions & acquisitions (M&A)]] |
+| **Z-score** | Score de probabilité de défaillance à 2 ans (Altman) — à adapter au Maroc | [[71 — Diagnostic de défaillance & scoring]] |
+| **Cash pooling** | Centralisation des trésoreries d'un groupe (compensation excédents/besoins) | [[81 — Cash pooling & trésorerie de groupe]] |
+| **SPV / FCT / titrisation** | Véhicule ad hoc / fonds de titrisation de créances (loi 33-06) / transformation de créances en titres | [[82 — Financements structurés & titrisation]] |
+| **Dérivés (forward, swap, option)** | Contrats de couverture du change et des taux — à documenter comme couverture, sinon spéculation | [[80 — Couverture des risques financiers (dérivés)]] |
+| **KPI / budget slack** | Indicateur clé de pilotage (avec seuil de décision) / marge cachée dans les objectifs budgétaires | [[66 — Tableaux de bord & KPIs (pilotage)]] · [[65 — Budget & contrôle budgétaire (écarts)]] |
+| **ESG / RSE** | Environnement, Social, Gouvernance / responsabilité sociale — le reporting extra-financier AMMC | [[75 — ESG & reporting extra-financier (AMMC)]] |
+
+---
+
 ## 6. 📚 Les mots des documents réels (AMMC, banques, liasse)
 
 | Terme | Explication |

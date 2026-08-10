@@ -39,5 +39,24 @@ Premier réflexe devant un bilan : ouvrir l'ETIC et regarder les comptes **3491,
 - Circuit 2 : ajustent le cycle → [[02 — Cycle comptable quotidien]] · FAE ↔ créances → [[16 — Créances]] · FNP ↔ fournisseurs → [[17 — Trésorerie]]
 - Impactent le résultat → [[09 — Ratios & SIG]] · zone de l'audit → [[07 — Messages cachés (lecture entre les lignes)]]
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Des CCA (3491) ou charges à payer anormalement gonflés, des FNP (44171) systématiquement supérieures en fin d'exercice, ou des FAE (34271) qui enflent sans lien avec les ventes — les régularisations sont **le réceptacle préféré de la gestion du résultat** (calculs internes, sans flux de trésorerie).
+
+> [!warning] L'intention
+> Déplacer le résultat entre les exercices : gonfler les charges à payer (résultat N baissé, N+1 gonflé par la reprise), ou au contraire activer des charges en CCA pour lisser. Les extournes « oubliées » au 01/01 créent des doubles charges ou des produits fantômes.
+
+> [!warning] Le risque caché
+> Le redressement (provisions/charges sans justification réelle réintégrées au T22), la perte d'image fidèle (→ [[04 — États de synthèse (BL, CPC, ESG, TF, ETIC)]]), et une comparaison inter-exercices faussée qui trompe l'analyste (→ [[09 — Ratios & SIG]]).
+
+> [!danger] Red Flags & Omissions
+> 1. CCA (3491) > 5-10 % du CA sans explication — quelle charge future justifie cela ?
+> 2. FNP en hausse régulière alors que les fournisseurs (4411) baissent — les charges sont-elles réelles ou « provisionnées » ?
+> 3. Extournes non effectuées au 01/01 (→ [[49 — Transferts de charges, clôture & réouverture]]) — doubles charges ou produits fantômes.
+> 4. Le silence : l'ETIC ne détaille pas la nature des CCA/PCA/FAE/FNP — la direction ne dit pas ce qu'elle a déplacé d'un exercice à l'autre.
+
 ## Sources
 CGNC · loi 9-88 art. 17 · guides de travaux de fin d'exercice · PCGE (3491, 4491, 34271, 44171, 4458/3458).

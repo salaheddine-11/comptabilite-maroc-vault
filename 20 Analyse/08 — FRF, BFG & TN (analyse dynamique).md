@@ -49,5 +49,24 @@ $$\text{CAF} = \text{RN} + \text{dotations stables} − \text{reprises stables} 
 - Circuit 1 : BFG = cycle ([[22 — Stocks]] + [[16 — Créances]] − dettes fournisseurs) · TN = [[17 — Trésorerie]]
 - Le TF → [[04 — États de synthèse (BL, CPC, ESG, TF, ETIC)]] · la CAF → [[09 — Ratios & SIG]]
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Un FRF négatif présenté comme « structurel » ou « acceptable », ou un BFG financé en permanence par découvert bancaire (5541) — la chaîne TN = FRF − BFG qui devient négative sans que le rapport de gestion ne l'explique.
+
+> [!warning] L'intention
+> Masquer le déséquilibre structurel : le financement permanent ne couvre plus les emplois durables, mais la direction « gère » au jour le jour avec la banque. Les « améliorations » du FRF obtenues par cessions d'actifs (→ [[19 — Cessions & réévaluation]]) ou par des dettes à court terme reclassées sont des leurres : la structure n'est pas réparée, elle est déguisée.
+
+> [!warning] Le risque caché
+> La cessation des paiements (→ [[70 — Restructuration & entreprises en difficulté (Loi 73-17)]]) au premier resserrement bancaire — le déséquilibre structurel ne pardonne pas les accidents conjoncturels.
+
+> [!danger] Red Flags & Omissions
+> 1. FRF < 0 récurrent sur plusieurs exercices avec un discours « c'est notre modèle » — aucun modèle ne survit à un FRF négatif permanent.
+> 2. BFG/CA en hausse continue — le cycle d'exploitation exige plus de cash chaque année (→ [[09 — Ratios & SIG]]).
+> 3. TF (module 2 : variation du FRF) qui ne s'explique pas — le cash dit où est passé l'argent.
+> 4. Le silence : aucune information sur la structure de financement des emplois durables (ETIC) — la direction ne dit pas qui paie les immobilisations.
+
 ## Sources
 CGNC (TF, ESG) · loi 9-88 · PCGE (1-5) · liasse fiscale T6/T7 · guides Upsilon.

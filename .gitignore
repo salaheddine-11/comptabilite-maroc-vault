@@ -17,3 +17,7 @@ desktop.ini
 # Temp files
 *.tmp
 *.swp
+
+# Python bytecode
+__pycache__/
+*.pyc

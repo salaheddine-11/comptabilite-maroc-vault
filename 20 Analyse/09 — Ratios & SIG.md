@@ -51,5 +51,24 @@ corpus: OUI
 - Consomme le CPC/ESG → [[04 — États de synthèse (BL, CPC, ESG, TF, ETIC)]] · relie CPC et bilan : DSO↔[[16 — Créances]], DIO↔[[22 — Stocks]], DPO↔fournisseurs
 - Nourrit les messages cachés → [[07 — Messages cachés (lecture entre les lignes)]] · DuPont/benchmark → [[04 — Analyse Financière Globale (Diagnostic Complet)]]
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Des ratios stables alors que leurs composantes se dégradent (marge en hausse + CA en baisse = mix produit trompeur), ou un ROE élevé obtenu par un levier extrême (→ [[57 — Structure de capital & CMPC (WACC)]]) plutôt que par la rentabilité économique.
+
+> [!warning] L'intention
+> Choisir les ratios flatteurs et les présenter hors contexte : résultat non courant inclus dans le « résultat net », EBE « ajusté » qui exclut des charges récurrentes, comparaison sectorielle biaisée (→ [[42 — Application Souss-Massa]]). Un ratio n'est jamais faux — il est seulement incomplet.
+
+> [!warning] Le risque caché
+> La décision fondée sur le ratio isolé (crédit, investissement, valorisation) rate la dégradation réelle : quand les composantes se retournent, le ratio « stable » explose. Le ratio est un symptôme, jamais un diagnostic.
+
+> [!danger] Red Flags & Omissions
+> 1. CAF (→ [[04 — États de synthèse (BL, CPC, ESG, TF, ETIC)]]) très inférieure au résultat net — le résultat est fait de papier (provisions, régularisations).
+> 2. Ratios calculés sur un résultat incluant des produits non récurrents (751, reprises 739x) — le pérenne n'est pas le publié.
+> 3. Capacité de remboursement (dette/CAF) en hausse continue sans commentaire.
+> 4. Le silence : aucune définition des ratios utilisés dans le rapport de gestion — on ne peut pas vérifier ce qui n'est pas défini.
+
 ## Sources
 CGNC (ESG) · AMMC (PER, ROE) · liasse fiscale T4/T5 · guides bancaires · **[standard]** pour les formules classiques.

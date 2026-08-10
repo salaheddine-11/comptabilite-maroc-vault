@@ -51,5 +51,24 @@ RÉSULTAT NET COMPTABLE (avant IS)
 - Circuit 2 : le cœur des impôts → [[15 — Impôts (IS, IR, CM, CSS)]] · se matérialise dans la liasse → [[21 — Liasse fiscale]]
 - Réintégrations issues de → [[14 — Provisions]] · [[23 — TVA]] · [[24 — Capitaux propres]] (CCA)
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Un écart croissant et persistant entre le résultat comptable et le résultat fiscal (réintégrations massives au T22) — ou des réintégrations récurrentes pour provisions non déductibles (3942 sans recours judiciaire), intérêts non déductibles, amortissements excédentaires.
+
+> [!warning] L'intention
+> **Le T22 est la vérité que le comptable ne peut pas lisser** : ce que la direction refuse de provisionner ou de payer, l'inspecteur le réintègre. Un écart qui explose dit que la comptabilité « embellit » — provisions insuffisantes, charges déguisées, ou au contraire sur-déduction pour minimiser l'IS.
+
+> [!warning] Le risque caché
+> Le redressement fiscal (majorations 10-50 %, intérêts de retard), l'IS de rappel qui tombe en une fois, et la preuve comptable retournée contre l'entreprise : le tableau de passage est la pièce que l'analyste croise avec le résultat publié (→ [[09 — Ratios & SIG]]).
+
+> [!danger] Red Flags & Omissions
+> 1. Réintégrations > 20 % du résultat comptable — le « vrai » résultat fiscal raconte autre chose.
+> 2. Provisions pour créances non individualisées ou sans recours dans les 12 mois (art. 10-I-F) — le risque est réel, la déduction ne l'est pas.
+> 3. Déficits reportables (T23) qui expirent sans être utilisés — ou utilisés après une fusion sans respect des règles (→ [[39 — Fusions & scissions]]).
+> 4. Le silence : les écarts entre comptable et fiscal jamais commentés dans le rapport de gestion — la direction ne dit pas pourquoi elle paie (ou ne paie pas) plus d'impôt que son résultat ne le suggère.
+
 ## Sources
 CGI art. 6, 10, 11, 12 · liasse fiscale T22/B12 · loi 9-88 art. 23 · CNEC 2013.

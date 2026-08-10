@@ -2,10 +2,10 @@
 tags: [fil-conducteur, moc, systeme, vue-ensemble]
 ---
 
-# 🧭 Le Fil Conducteur — 68 thèmes, un seul système
+# 🧭 Le Fil Conducteur — 71 thèmes, un seul système
 
 > [!abstract] Pourquoi ce document existe
-> Les 68 thèmes du vault ne sont pas une liste à cocher : ce sont les **pièces d'une seule machine**. Ce document raconte comment elles s'emboîtent — le *flow* complet, de la facture du jour au rapport de l'analyste, en passant par l'impôt et le groupe.
+> Les 71 thèmes du vault ne sont pas une liste à cocher : ce sont les **pièces d'une seule machine**. Ce document raconte comment elles s'emboîtent — le *flow* complet, de la facture du jour au rapport de l'analyste, en passant par l'impôt et le groupe.
 >
 > **La règle d'or :** tout thème est un *organe* (compte), un *flux* (écriture), un *état* (sortie) ou un *contrôle* (audit/fiscal). Trouvez le circuit, vous trouvez le rôle.
 
@@ -178,6 +178,7 @@ Les **[[03 — Écritures comptables types]]** sont les briques du quotidien : v
 | --- | --- |
 | [[65 — Budget & contrôle budgétaire (écarts)]] | La projection des circuits 1-2 : budget de trésorerie = la survie ; écarts = la vérité de l'exécution |
 | [[66 — Tableaux de bord & KPIs (pilotage)]] | Les 5-7 indicateurs qui pilotent : DSO/DIO/DPO, CAF, cash forecast — chaque KPI est une décision attachée |
+| [[67 — Le prévisionnel financier & le business plan]] | Le budget projeté à 3-5 ans : bilan prévisionnel, plan de financement, scénarios — le pont vers la valorisation (56) |
 
 ## 5sexies. Le cycle de vie extrême — la restructuration (10/08/2026)
 
@@ -187,6 +188,7 @@ Les **[[03 — Écritures comptables types]]** sont les briques du quotidien : v
 | --- | --- |
 | [[70 — Restructuration & entreprises en difficulté (Loi 73-17)]] | Les 4 dispositifs légaux + la comptabilité de la crise (continuité d'exploitation, provisions) |
 | [[71 — Diagnostic de défaillance & scoring]] | Le radar FRF → BFG → TN + les signaux externes (protêts, incidents BAM) + le plan de redressement |
+| [[73 — Droit des sociétés marocain (formes & gouvernance légale)]] | Le squelette juridique : SNC/SCS/SARL/SA, conventions réglementées, seuils — la transparence varie avec la forme |
 
 ## 5septies. La modernité — ESG, gouvernance, digitalisation (10/08/2026)
 
@@ -196,6 +198,7 @@ Les **[[03 — Écritures comptables types]]** sont les briques du quotidien : v
 | --- | --- |
 | [[75 — ESG & reporting extra-financier (AMMC)]] | Le E/S/G comme indicateur avancé du passif — provisions environnementales, coût du capital, greenwashing |
 | [[76 — Gouvernance d'entreprise & contrôle interne]] | Conseil, comités, conventions réglementées, séparation des fonctions — le contrôle de tous les circuits |
+| [[79 — Fraude financière & cybersécurité]] | Le triangle de la fraude, les faux états, la détection forensique — le contrôle interne comme vaccin, le cyber comme nouveau champ |
 
 ## 5octies. La couverture — trésorerie avancée & risques (10/08/2026)
 
@@ -234,4 +237,4 @@ Actif fictif · stocks gonflés · pertes clients masquées (3424) · asphyxie f
 
 ---
 
-*Document maître du vault — généré le 08/08/2026, mis à jour le 10/08/2026. Les liens pointent vers les 68 fiches thématiques et les 6 rapports fondateurs.*
+*Document maître du vault — généré le 08/08/2026, mis à jour le 10/08/2026. Les liens pointent vers les 71 fiches thématiques et les 6 rapports fondateurs.*

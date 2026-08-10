@@ -17,6 +17,14 @@
    "file": "🏠 Accueil.md"
   },
   {
+   "id": "📖 Lexique — Comprendre les rapports",
+   "label": "📖 Lexique — Comprendre les rapports",
+   "cat": "Lexique",
+   "ordre": "0",
+   "statut": "✅ Expliqué (ajouté 08/08/2026)",
+   "file": "📖 Lexique — Comprendre les rapports.md"
+  },
+  {
    "id": "01 — Logique du PCGE & principes",
    "label": "01 — Logique du PCGE & principes",
    "cat": "Fondations",
@@ -153,6 +161,86 @@
    "file": "10 Mécanismes\\25 — Devises & ECA-ECP.md"
   },
   {
+   "id": "44 — Immobilisations financières & titres",
+   "label": "44 — Immobilisations financières & titres",
+   "cat": "Mécanismes",
+   "ordre": "44",
+   "statut": "✅ Expliqué (ajouté 09/08/2026)",
+   "file": "10 Mécanismes\\44 — Immobilisations financières & titres.md"
+  },
+  {
+   "id": "45 — Effets de commerce (LCR, BOR, escompte, protêt)",
+   "label": "45 — Effets de commerce (LCR, BOR, escompte, protêt)",
+   "cat": "Mécanismes",
+   "ordre": "45",
+   "statut": "✅ Expliqué (ajouté 09/08/2026)",
+   "file": "10 Mécanismes\\45 — Effets de commerce (LCR, BOR, escompte, protêt).md"
+  },
+  {
+   "id": "46 — RRR & emballages (rabais, remises, ristournes)",
+   "label": "46 — RRR & emballages (rabais, remises, ristournes)",
+   "cat": "Mécanismes",
+   "ordre": "46",
+   "statut": "✅ Expliqué (ajouté 09/08/2026)",
+   "file": "10 Mécanismes\\46 — RRR & emballages (rabais, remises, ristournes).md"
+  },
+  {
+   "id": "47 — Opérations sur capital",
+   "label": "47 — Opérations sur capital",
+   "cat": "Mécanismes",
+   "ordre": "47",
+   "statut": "✅ Expliqué (ajouté 09/08/2026)",
+   "file": "10 Mécanismes\\47 — Opérations sur capital.md"
+  },
+  {
+   "id": "48 — Subventions (exploitation, équilibre, investissement)",
+   "label": "48 — Subventions (exploitation, équilibre, investissement)",
+   "cat": "Mécanismes",
+   "ordre": "48",
+   "statut": "✅ Expliqué (ajouté 09/08/2026)",
+   "file": "10 Mécanismes\\48 — Subventions (exploitation, équilibre, investissement).md"
+  },
+  {
+   "id": "49 — Transferts de charges, clôture & réouverture",
+   "label": "49 — Transferts de charges, clôture & réouverture",
+   "cat": "Mécanismes",
+   "ordre": "49",
+   "statut": "✅ Expliqué (ajouté 09/08/2026)",
+   "file": "10 Mécanismes\\49 — Transferts de charges, clôture & réouverture.md"
+  },
+  {
+   "id": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)",
+   "label": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)",
+   "cat": "Mécanismes",
+   "ordre": "50",
+   "statut": "✅ Expliqué (ajouté 09/08/2026 — taux LF 2026 vérifiés)",
+   "file": "10 Mécanismes\\50 — Paie & charges sociales 2026 (CNSS, IR, CIMR).md"
+  },
+  {
+   "id": "52 — Dissolution & liquidation",
+   "label": "52 — Dissolution & liquidation",
+   "cat": "Mécanismes",
+   "ordre": "52",
+   "statut": "✅ Expliqué (ajouté 09/08/2026)",
+   "file": "10 Mécanismes\\52 — Dissolution & liquidation.md"
+  },
+  {
+   "id": "53 — Templates d'écritures comptables",
+   "label": "53 — Templates d'écritures comptables",
+   "cat": "Mécanismes",
+   "ordre": "53",
+   "statut": "✅ Expliqué (ajouté 09/08/2026)",
+   "file": "10 Mécanismes\\53 — Templates d'écritures comptables.md"
+  },
+  {
+   "id": "54 — La logique des écritures comptables",
+   "label": "54 — La logique des écritures comptables",
+   "cat": "Mécanismes",
+   "ordre": "54",
+   "statut": "✅ Expliqué (ajouté 09/08/2026)",
+   "file": "10 Mécanismes\\54 — La logique des écritures comptables.md"
+  },
+  {
    "id": "07 — Messages cachés (lecture entre les lignes)",
    "label": "07 — Messages cachés (lecture entre les lignes)",
    "cat": "Analyse",
@@ -215,6 +303,14 @@
    "ordre": "26",
    "statut": "✅ Expliqué",
    "file": "30 Fiscal\\26 — Passage résultat comptable → fiscal.md"
+  },
+  {
+   "id": "51 — TVA à l'importation & exportation",
+   "label": "51 — TVA à l'importation & exportation",
+   "cat": "Fiscal",
+   "ordre": "51",
+   "statut": "✅ Expliqué (ajouté 09/08/2026 — LF 2026 vérifiée)",
+   "file": "30 Fiscal\\51 — TVA à l'importation & exportation.md"
   },
   {
    "id": "20 — Consolidation",
@@ -289,6 +385,46 @@
    "file": "50 Sectoriel\\34 — Normes comptables de l'État.md"
   },
   {
+   "id": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "label": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "cat": "Finance d'Entreprise",
+   "ordre": "55",
+   "statut": "✅ Expliqué",
+   "file": "55 Finance d'Entreprise\\55 — Choix d'investissement (VAN, TRI, Payback).md"
+  },
+  {
+   "id": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "label": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "cat": "Finance d'Entreprise",
+   "ordre": "56",
+   "statut": "✅ Expliqué",
+   "file": "55 Finance d'Entreprise\\56 — Valorisation d'entreprise (ANR, multiples, DCF).md"
+  },
+  {
+   "id": "57 — Structure de capital & CMPC (WACC)",
+   "label": "57 — Structure de capital & CMPC (WACC)",
+   "cat": "Finance d'Entreprise",
+   "ordre": "57",
+   "statut": "✅ Expliqué",
+   "file": "55 Finance d'Entreprise\\57 — Structure de capital & CMPC (WACC).md"
+  },
+  {
+   "id": "58 — Fusions & acquisitions (M&A)",
+   "label": "58 — Fusions & acquisitions (M&A)",
+   "cat": "Finance d'Entreprise",
+   "ordre": "58",
+   "statut": "✅ Expliqué",
+   "file": "55 Finance d'Entreprise\\58 — Fusions & acquisitions (M&A).md"
+  },
+  {
+   "id": "59 — Politique de financement & dividende",
+   "label": "59 — Politique de financement & dividende",
+   "cat": "Finance d'Entreprise",
+   "ordre": "59",
+   "statut": "✅ Expliqué",
+   "file": "55 Finance d'Entreprise\\59 — Politique de financement & dividende.md"
+  },
+  {
    "id": "35 — Réforme comptable marocaine (convergence IFRS)",
    "label": "35 — Réforme comptable marocaine (convergence IFRS)",
    "cat": "Compléments 2026",
@@ -353,6 +489,110 @@
    "file": "60 Compléments\\42 — Application Souss-Massa.md"
   },
   {
+   "id": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "label": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "cat": "Cas pratiques",
+   "ordre": "43",
+   "statut": "✅ Expliqué (ajouté 08/08/2026 — cas réel)",
+   "file": "60 Compléments\\43 — Cas pratique — Auto Hall S.A. (exercice 2025).md"
+  },
+  {
+   "id": "65 — Budget & contrôle budgétaire (écarts)",
+   "label": "65 — Budget & contrôle budgétaire (écarts)",
+   "cat": "Pilotage",
+   "ordre": "65",
+   "statut": "✅ Expliqué",
+   "file": "65 Pilotage\\65 — Budget & contrôle budgétaire (écarts).md"
+  },
+  {
+   "id": "66 — Tableaux de bord & KPIs (pilotage)",
+   "label": "66 — Tableaux de bord & KPIs (pilotage)",
+   "cat": "Pilotage",
+   "ordre": "66",
+   "statut": "✅ Expliqué",
+   "file": "65 Pilotage\\66 — Tableaux de bord & KPIs (pilotage).md"
+  },
+  {
+   "id": "67 — Le prévisionnel financier & le business plan",
+   "label": "67 — Le prévisionnel financier & le business plan",
+   "cat": "Pilotage",
+   "ordre": "67",
+   "statut": "✅ Expliqué",
+   "file": "65 Pilotage\\67 — Le prévisionnel financier & le business plan.md"
+  },
+  {
+   "id": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "label": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "cat": "Restructuration",
+   "ordre": "70",
+   "statut": "✅ Expliqué",
+   "file": "70 Restructuration\\70 — Restructuration & entreprises en difficulté (Loi 73-17).md"
+  },
+  {
+   "id": "71 — Diagnostic de défaillance & scoring",
+   "label": "71 — Diagnostic de défaillance & scoring",
+   "cat": "Restructuration",
+   "ordre": "71",
+   "statut": "✅ Expliqué",
+   "file": "70 Restructuration\\71 — Diagnostic de défaillance & scoring.md"
+  },
+  {
+   "id": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "label": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "cat": "Restructuration",
+   "ordre": "73",
+   "statut": "✅ Expliqué",
+   "file": "70 Restructuration\\73 — Droit des sociétés marocain (formes & gouvernance légale).md"
+  },
+  {
+   "id": "75 — ESG & reporting extra-financier (AMMC)",
+   "label": "75 — ESG & reporting extra-financier (AMMC)",
+   "cat": "ESG & Modernité",
+   "ordre": "75",
+   "statut": "✅ Expliqué",
+   "file": "75 ESG & Modernité\\75 — ESG & reporting extra-financier (AMMC).md"
+  },
+  {
+   "id": "76 — Gouvernance d'entreprise & contrôle interne",
+   "label": "76 — Gouvernance d'entreprise & contrôle interne",
+   "cat": "ESG & Modernité",
+   "ordre": "76",
+   "statut": "✅ Expliqué",
+   "file": "75 ESG & Modernité\\76 — Gouvernance d'entreprise & contrôle interne.md"
+  },
+  {
+   "id": "79 — Fraude financière & cybersécurité",
+   "label": "79 — Fraude financière & cybersécurité",
+   "cat": "ESG & Modernité",
+   "ordre": "79",
+   "statut": "✅ Expliqué",
+   "file": "75 ESG & Modernité\\79 — Fraude financière & cybersécurité.md"
+  },
+  {
+   "id": "80 — Couverture des risques financiers (dérivés)",
+   "label": "80 — Couverture des risques financiers (dérivés)",
+   "cat": "Trésorerie & Risques",
+   "ordre": "80",
+   "statut": "✅ Expliqué",
+   "file": "80 Trésorerie & Risques\\80 — Couverture des risques financiers (dérivés).md"
+  },
+  {
+   "id": "81 — Cash pooling & trésorerie de groupe",
+   "label": "81 — Cash pooling & trésorerie de groupe",
+   "cat": "Trésorerie & Risques",
+   "ordre": "81",
+   "statut": "✅ Expliqué",
+   "file": "80 Trésorerie & Risques\\81 — Cash pooling & trésorerie de groupe.md"
+  },
+  {
+   "id": "82 — Financements structurés & titrisation",
+   "label": "82 — Financements structurés & titrisation",
+   "cat": "Trésorerie & Risques",
+   "ordre": "82",
+   "statut": "✅ Expliqué",
+   "file": "80 Trésorerie & Risques\\82 — Financements structurés & titrisation.md"
+  },
+  {
    "id": "01 — Analyse Financière des Entreprises Marocaines (Guide Méthodologique)",
    "label": "01 — Analyse Financière des Entreprises Marocaines (Guide Méthodologique)",
    "cat": "Ressources",
@@ -407,6 +647,94 @@
    "ordre": "",
    "statut": "",
    "file": "95 Ressources\\Carte des relations — thèmes et liens.md"
+  },
+  {
+   "id": "📚 Bibliothèque recommandée — corpus RAG",
+   "label": "📚 Bibliothèque recommandée — corpus RAG",
+   "cat": "Ressources",
+   "ordre": "97",
+   "statut": "✅ Expliqué (ajouté 08/08/2026 — corpus-grounded)",
+   "file": "95 Ressources\\📚 Bibliothèque recommandée — corpus RAG.md"
+  },
+  {
+   "id": "README — Index des documents réels",
+   "label": "README — Index des documents réels",
+   "cat": "Ressources",
+   "ordre": "96",
+   "statut": "✅ Expliqué (ajouté 08/08/2026)",
+   "file": "96 Documents Réels\\README — Index des documents réels.md"
+  },
+  {
+   "id": "00_rrr_emballages",
+   "label": "00_rrr_emballages",
+   "cat": "Ressources",
+   "ordre": "",
+   "statut": "",
+   "file": "98 Outils\\synth\\00_rrr_emballages.md"
+  },
+  {
+   "id": "01_immobilisations_financieres",
+   "label": "01_immobilisations_financieres",
+   "cat": "Ressources",
+   "ordre": "",
+   "statut": "",
+   "file": "98 Outils\\synth\\01_immobilisations_financieres.md"
+  },
+  {
+   "id": "02_effets_commerce",
+   "label": "02_effets_commerce",
+   "cat": "Ressources",
+   "ordre": "",
+   "statut": "",
+   "file": "98 Outils\\synth\\02_effets_commerce.md"
+  },
+  {
+   "id": "03_capital",
+   "label": "03_capital",
+   "cat": "Ressources",
+   "ordre": "",
+   "statut": "",
+   "file": "98 Outils\\synth\\03_capital.md"
+  },
+  {
+   "id": "04_subventions",
+   "label": "04_subventions",
+   "cat": "Ressources",
+   "ordre": "",
+   "statut": "",
+   "file": "98 Outils\\synth\\04_subventions.md"
+  },
+  {
+   "id": "05_transferts_reouverture",
+   "label": "05_transferts_reouverture",
+   "cat": "Ressources",
+   "ordre": "",
+   "statut": "",
+   "file": "98 Outils\\synth\\05_transferts_reouverture.md"
+  },
+  {
+   "id": "06_paie_2026",
+   "label": "06_paie_2026",
+   "cat": "Ressources",
+   "ordre": "",
+   "statut": "",
+   "file": "98 Outils\\synth\\06_paie_2026.md"
+  },
+  {
+   "id": "07_tva_import_export",
+   "label": "07_tva_import_export",
+   "cat": "Ressources",
+   "ordre": "",
+   "statut": "",
+   "file": "98 Outils\\synth\\07_tva_import_export.md"
+  },
+  {
+   "id": "08_dissolution_liquidation",
+   "label": "08_dissolution_liquidation",
+   "cat": "Ressources",
+   "ordre": "",
+   "statut": "",
+   "file": "98 Outils\\synth\\08_dissolution_liquidation.md"
   }
  ],
  "links": [
@@ -428,11 +756,23 @@
   },
   {
    "source": "Le Fil Conducteur",
+   "target": "46 — RRR & emballages (rabais, remises, ristournes)"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)"
+  },
+  {
+   "source": "Le Fil Conducteur",
    "target": "22 — Stocks"
   },
   {
    "source": "Le Fil Conducteur",
    "target": "16 — Créances"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "45 — Effets de commerce (LCR, BOR, escompte, protêt)"
   },
   {
    "source": "Le Fil Conducteur",
@@ -445,6 +785,10 @@
   {
    "source": "Le Fil Conducteur",
    "target": "13 — Régularisations de fin d'exercice"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "49 — Transferts de charges, clôture & réouverture"
   },
   {
    "source": "Le Fil Conducteur",
@@ -477,6 +821,18 @@
   {
    "source": "Le Fil Conducteur",
    "target": "24 — Capitaux propres"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "47 — Opérations sur capital"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "44 — Immobilisations financières & titres"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "48 — Subventions (exploitation, équilibre, investissement)"
   },
   {
    "source": "Le Fil Conducteur",
@@ -513,6 +869,14 @@
   {
    "source": "Le Fil Conducteur",
    "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "51 — TVA à l'importation & exportation"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "52 — Dissolution & liquidation"
   },
   {
    "source": "Le Fil Conducteur",
@@ -575,8 +939,88 @@
    "target": "42 — Application Souss-Massa"
   },
   {
+   "source": "Le Fil Conducteur",
+   "target": "53 — Templates d'écritures comptables"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "54 — La logique des écritures comptables"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "55 — Choix d'investissement (VAN, TRI, Payback)"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "56 — Valorisation d'entreprise (ANR, multiples, DCF)"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "58 — Fusions & acquisitions (M&A)"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "59 — Politique de financement & dividende"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "65 — Budget & contrôle budgétaire (écarts)"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "66 — Tableaux de bord & KPIs (pilotage)"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "67 — Le prévisionnel financier & le business plan"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "70 — Restructuration & entreprises en difficulté (Loi 73-17)"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "71 — Diagnostic de défaillance & scoring"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "73 — Droit des sociétés marocain (formes & gouvernance légale)"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "75 — ESG & reporting extra-financier (AMMC)"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "76 — Gouvernance d'entreprise & contrôle interne"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "79 — Fraude financière & cybersécurité"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "80 — Couverture des risques financiers (dérivés)"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "81 — Cash pooling & trésorerie de groupe"
+  },
+  {
+   "source": "Le Fil Conducteur",
+   "target": "82 — Financements structurés & titrisation"
+  },
+  {
    "source": "🏠 Accueil",
    "target": "Le Fil Conducteur"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "📖 Lexique — Comprendre les rapports"
   },
   {
    "source": "🏠 Accueil",
@@ -588,6 +1032,10 @@
   },
   {
    "source": "🏠 Accueil",
+   "target": "46 — RRR & emballages (rabais, remises, ristournes)"
+  },
+  {
+   "source": "🏠 Accueil",
    "target": "22 — Stocks"
   },
   {
@@ -596,11 +1044,23 @@
   },
   {
    "source": "🏠 Accueil",
+   "target": "45 — Effets de commerce (LCR, BOR, escompte, protêt)"
+  },
+  {
+   "source": "🏠 Accueil",
    "target": "17 — Trésorerie"
   },
   {
    "source": "🏠 Accueil",
+   "target": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)"
+  },
+  {
+   "source": "🏠 Accueil",
    "target": "13 — Régularisations de fin d'exercice"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "49 — Transferts de charges, clôture & réouverture"
   },
   {
    "source": "🏠 Accueil",
@@ -633,6 +1093,18 @@
   {
    "source": "🏠 Accueil",
    "target": "24 — Capitaux propres"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "47 — Opérations sur capital"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "44 — Immobilisations financières & titres"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "48 — Subventions (exploitation, équilibre, investissement)"
   },
   {
    "source": "🏠 Accueil",
@@ -672,7 +1144,15 @@
   },
   {
    "source": "🏠 Accueil",
+   "target": "51 — TVA à l'importation & exportation"
+  },
+  {
+   "source": "🏠 Accueil",
    "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "52 — Dissolution & liquidation"
   },
   {
    "source": "🏠 Accueil",
@@ -681,6 +1161,14 @@
   {
    "source": "🏠 Accueil",
    "target": "06 — Contrats à long terme"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "53 — Templates d'écritures comptables"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "54 — La logique des écritures comptables"
   },
   {
    "source": "🏠 Accueil",
@@ -745,6 +1233,78 @@
   {
    "source": "🏠 Accueil",
    "target": "42 — Application Souss-Massa"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "55 — Choix d'investissement (VAN, TRI, Payback)"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "56 — Valorisation d'entreprise (ANR, multiples, DCF)"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "58 — Fusions & acquisitions (M&A)"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "59 — Politique de financement & dividende"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "65 — Budget & contrôle budgétaire (écarts)"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "66 — Tableaux de bord & KPIs (pilotage)"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "67 — Le prévisionnel financier & le business plan"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "70 — Restructuration & entreprises en difficulté (Loi 73-17)"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "71 — Diagnostic de défaillance & scoring"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "73 — Droit des sociétés marocain (formes & gouvernance légale)"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "75 — ESG & reporting extra-financier (AMMC)"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "76 — Gouvernance d'entreprise & contrôle interne"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "79 — Fraude financière & cybersécurité"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "80 — Couverture des risques financiers (dérivés)"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "81 — Cash pooling & trésorerie de groupe"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "82 — Financements structurés & titrisation"
   },
   {
    "source": "🏠 Accueil",
@@ -775,6 +1335,170 @@
    "target": "Carte des relations — thèmes et liens"
   },
   {
+   "source": "🏠 Accueil",
+   "target": "README — Index des documents réels"
+  },
+  {
+   "source": "🏠 Accueil",
+   "target": "📚 Bibliothèque recommandée — corpus RAG"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "24 — Capitaux propres"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "39 — Fusions & scissions"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "15 — Impôts (IS, IR, CM, CSS)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "03 — Les Rapports d'Analyse Financière (Guide Complet)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "41 — Incitations fiscales & zones"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "01 — Logique du PCGE & principes"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "35 — Réforme comptable marocaine (convergence IFRS)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "05 — Amortissements"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "21 — Liasse fiscale"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "23 — TVA"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "13 — Régularisations de fin d'exercice"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "20 — Consolidation"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "32 — Plans comptables sectoriels"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "26 — Passage résultat comptable → fiscal"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "19 — Cessions & réévaluation"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "28 — Comptabilité analytique (classe 9)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "02 — Cycle comptable quotidien"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "29 — IFRS vs CGNC"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "18 — Financement"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "10 — Retraitements (valeur comptable → valeur actuelle)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "55 — Choix d'investissement (VAN, TRI, Payback)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "56 — Valorisation d'entreprise (ANR, multiples, DCF)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "58 — Fusions & acquisitions (M&A)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "59 — Politique de financement & dividende"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "71 — Diagnostic de défaillance & scoring"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "81 — Cash pooling & trésorerie de groupe"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "82 — Financements structurés & titrisation"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "80 — Couverture des risques financiers (dérivés)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "66 — Tableaux de bord & KPIs (pilotage)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "65 — Budget & contrôle budgétaire (écarts)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "75 — ESG & reporting extra-financier (AMMC)"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "README — Index des documents réels"
+  },
+  {
+   "source": "📖 Lexique — Comprendre les rapports",
+   "target": "Le Fil Conducteur"
+  },
+  {
    "source": "01 — Logique du PCGE & principes",
    "target": "02 — Cycle comptable quotidien"
   },
@@ -855,6 +1579,18 @@
    "target": "21 — Liasse fiscale"
   },
   {
+   "source": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)",
+   "target": "23 — TVA"
+  },
+  {
+   "source": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)",
+   "target": "10 — Retraitements (valeur comptable → valeur actuelle)"
+  },
+  {
+   "source": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)",
+   "target": "56 — Valorisation d'entreprise (ANR, multiples, DCF)"
+  },
+  {
    "source": "05 — Amortissements",
    "target": "11 — Non-valeurs"
   },
@@ -869,6 +1605,14 @@
   {
    "source": "05 — Amortissements",
    "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "05 — Amortissements",
+   "target": "55 — Choix d'investissement (VAN, TRI, Payback)"
+  },
+  {
+   "source": "05 — Amortissements",
+   "target": "19 — Cessions & réévaluation"
   },
   {
    "source": "06 — Contrats à long terme",
@@ -935,6 +1679,10 @@
    "target": "07 — Messages cachés (lecture entre les lignes)"
   },
   {
+   "source": "13 — Régularisations de fin d'exercice",
+   "target": "49 — Transferts de charges, clôture & réouverture"
+  },
+  {
    "source": "14 — Provisions",
    "target": "22 — Stocks"
   },
@@ -967,6 +1715,14 @@
    "target": "03 — Écritures comptables types"
   },
   {
+   "source": "16 — Créances",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "16 — Créances",
+   "target": "82 — Financements structurés & titrisation"
+  },
+  {
    "source": "17 — Trésorerie",
    "target": "23 — TVA"
   },
@@ -985,6 +1741,18 @@
   {
    "source": "17 — Trésorerie",
    "target": "16 — Créances"
+  },
+  {
+   "source": "17 — Trésorerie",
+   "target": "82 — Financements structurés & titrisation"
+  },
+  {
+   "source": "17 — Trésorerie",
+   "target": "70 — Restructuration & entreprises en difficulté (Loi 73-17)"
+  },
+  {
+   "source": "17 — Trésorerie",
+   "target": "30 — Affacturage"
   },
   {
    "source": "18 — Financement",
@@ -1007,12 +1775,28 @@
    "target": "08 — FRF, BFG & TN (analyse dynamique)"
   },
   {
-   "source": "19 — Cessions & réévaluation",
-   "target": "07 — Messages cachés (lecture entre les lignes)"
+   "source": "18 — Financement",
+   "target": "48 — Subventions (exploitation, équilibre, investissement)"
+  },
+  {
+   "source": "18 — Financement",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "18 — Financement",
+   "target": "25 — Devises & ECA-ECP"
+  },
+  {
+   "source": "18 — Financement",
+   "target": "80 — Couverture des risques financiers (dérivés)"
+  },
+  {
+   "source": "18 — Financement",
+   "target": "27 — Engagements hors bilan (classe 0)"
   },
   {
    "source": "19 — Cessions & réévaluation",
-   "target": "05 — Amortissements"
+   "target": "07 — Messages cachés (lecture entre les lignes)"
   },
   {
    "source": "19 — Cessions & réévaluation",
@@ -1047,6 +1831,14 @@
    "target": "17 — Trésorerie"
   },
   {
+   "source": "24 — Capitaux propres",
+   "target": "59 — Politique de financement & dividende"
+  },
+  {
+   "source": "24 — Capitaux propres",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
    "source": "25 — Devises & ECA-ECP",
    "target": "16 — Créances"
   },
@@ -1061,6 +1853,242 @@
   {
    "source": "25 — Devises & ECA-ECP",
    "target": "10 — Retraitements (valeur comptable → valeur actuelle)"
+  },
+  {
+   "source": "25 — Devises & ECA-ECP",
+   "target": "80 — Couverture des risques financiers (dérivés)"
+  },
+  {
+   "source": "25 — Devises & ECA-ECP",
+   "target": "42 — Application Souss-Massa"
+  },
+  {
+   "source": "44 — Immobilisations financières & titres",
+   "target": "05 — Amortissements"
+  },
+  {
+   "source": "44 — Immobilisations financières & titres",
+   "target": "19 — Cessions & réévaluation"
+  },
+  {
+   "source": "44 — Immobilisations financières & titres",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "44 — Immobilisations financières & titres",
+   "target": "20 — Consolidation"
+  },
+  {
+   "source": "44 — Immobilisations financières & titres",
+   "target": "17 — Trésorerie"
+  },
+  {
+   "source": "45 — Effets de commerce (LCR, BOR, escompte, protêt)",
+   "target": "16 — Créances"
+  },
+  {
+   "source": "45 — Effets de commerce (LCR, BOR, escompte, protêt)",
+   "target": "17 — Trésorerie"
+  },
+  {
+   "source": "45 — Effets de commerce (LCR, BOR, escompte, protêt)",
+   "target": "18 — Financement"
+  },
+  {
+   "source": "45 — Effets de commerce (LCR, BOR, escompte, protêt)",
+   "target": "30 — Affacturage"
+  },
+  {
+   "source": "45 — Effets de commerce (LCR, BOR, escompte, protêt)",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "46 — RRR & emballages (rabais, remises, ristournes)",
+   "target": "03 — Écritures comptables types"
+  },
+  {
+   "source": "46 — RRR & emballages (rabais, remises, ristournes)",
+   "target": "23 — TVA"
+  },
+  {
+   "source": "46 — RRR & emballages (rabais, remises, ristournes)",
+   "target": "13 — Régularisations de fin d'exercice"
+  },
+  {
+   "source": "46 — RRR & emballages (rabais, remises, ristournes)",
+   "target": "22 — Stocks"
+  },
+  {
+   "source": "47 — Opérations sur capital",
+   "target": "24 — Capitaux propres"
+  },
+  {
+   "source": "47 — Opérations sur capital",
+   "target": "11 — Non-valeurs"
+  },
+  {
+   "source": "47 — Opérations sur capital",
+   "target": "26 — Passage résultat comptable → fiscal"
+  },
+  {
+   "source": "47 — Opérations sur capital",
+   "target": "39 — Fusions & scissions"
+  },
+  {
+   "source": "47 — Opérations sur capital",
+   "target": "52 — Dissolution & liquidation"
+  },
+  {
+   "source": "48 — Subventions (exploitation, équilibre, investissement)",
+   "target": "01 — Logique du PCGE & principes"
+  },
+  {
+   "source": "48 — Subventions (exploitation, équilibre, investissement)",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
+   "source": "48 — Subventions (exploitation, équilibre, investissement)",
+   "target": "26 — Passage résultat comptable → fiscal"
+  },
+  {
+   "source": "48 — Subventions (exploitation, équilibre, investissement)",
+   "target": "41 — Incitations fiscales & zones"
+  },
+  {
+   "source": "49 — Transferts de charges, clôture & réouverture",
+   "target": "02 — Cycle comptable quotidien"
+  },
+  {
+   "source": "49 — Transferts de charges, clôture & réouverture",
+   "target": "22 — Stocks"
+  },
+  {
+   "source": "49 — Transferts de charges, clôture & réouverture",
+   "target": "05 — Amortissements"
+  },
+  {
+   "source": "49 — Transferts de charges, clôture & réouverture",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)",
+   "target": "03 — Écritures comptables types"
+  },
+  {
+   "source": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)",
+   "target": "15 — Impôts (IS, IR, CM, CSS)"
+  },
+  {
+   "source": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)",
+   "target": "21 — Liasse fiscale"
+  },
+  {
+   "source": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "52 — Dissolution & liquidation",
+   "target": "39 — Fusions & scissions"
+  },
+  {
+   "source": "52 — Dissolution & liquidation",
+   "target": "19 — Cessions & réévaluation"
+  },
+  {
+   "source": "52 — Dissolution & liquidation",
+   "target": "23 — TVA"
+  },
+  {
+   "source": "52 — Dissolution & liquidation",
+   "target": "24 — Capitaux propres"
+  },
+  {
+   "source": "52 — Dissolution & liquidation",
+   "target": "26 — Passage résultat comptable → fiscal"
+  },
+  {
+   "source": "53 — Templates d'écritures comptables",
+   "target": "54 — La logique des écritures comptables"
+  },
+  {
+   "source": "53 — Templates d'écritures comptables",
+   "target": "03 — Écritures comptables types"
+  },
+  {
+   "source": "53 — Templates d'écritures comptables",
+   "target": "13 — Régularisations de fin d'exercice"
+  },
+  {
+   "source": "53 — Templates d'écritures comptables",
+   "target": "49 — Transferts de charges, clôture & réouverture"
+  },
+  {
+   "source": "53 — Templates d'écritures comptables",
+   "target": "44 — Immobilisations financières & titres"
+  },
+  {
+   "source": "53 — Templates d'écritures comptables",
+   "target": "45 — Effets de commerce (LCR, BOR, escompte, protêt)"
+  },
+  {
+   "source": "53 — Templates d'écritures comptables",
+   "target": "46 — RRR & emballages (rabais, remises, ristournes)"
+  },
+  {
+   "source": "53 — Templates d'écritures comptables",
+   "target": "47 — Opérations sur capital"
+  },
+  {
+   "source": "53 — Templates d'écritures comptables",
+   "target": "48 — Subventions (exploitation, équilibre, investissement)"
+  },
+  {
+   "source": "53 — Templates d'écritures comptables",
+   "target": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)"
+  },
+  {
+   "source": "53 — Templates d'écritures comptables",
+   "target": "51 — TVA à l'importation & exportation"
+  },
+  {
+   "source": "53 — Templates d'écritures comptables",
+   "target": "52 — Dissolution & liquidation"
+  },
+  {
+   "source": "54 — La logique des écritures comptables",
+   "target": "26 — Passage résultat comptable → fiscal"
+  },
+  {
+   "source": "54 — La logique des écritures comptables",
+   "target": "49 — Transferts de charges, clôture & réouverture"
+  },
+  {
+   "source": "54 — La logique des écritures comptables",
+   "target": "01 — Logique du PCGE & principes"
+  },
+  {
+   "source": "54 — La logique des écritures comptables",
+   "target": "02 — Cycle comptable quotidien"
+  },
+  {
+   "source": "54 — La logique des écritures comptables",
+   "target": "03 — Écritures comptables types"
+  },
+  {
+   "source": "54 — La logique des écritures comptables",
+   "target": "13 — Régularisations de fin d'exercice"
+  },
+  {
+   "source": "54 — La logique des écritures comptables",
+   "target": "44 — Immobilisations financières & titres"
+  },
+  {
+   "source": "54 — La logique des écritures comptables",
+   "target": "46 — RRR & emballages (rabais, remises, ristournes)"
+  },
+  {
+   "source": "54 — La logique des écritures comptables",
+   "target": "47 — Opérations sur capital"
   },
   {
    "source": "07 — Messages cachés (lecture entre les lignes)",
@@ -1091,8 +2119,8 @@
    "target": "09 — Ratios & SIG"
   },
   {
-   "source": "09 — Ratios & SIG",
-   "target": "16 — Créances"
+   "source": "08 — FRF, BFG & TN (analyse dynamique)",
+   "target": "70 — Restructuration & entreprises en difficulté (Loi 73-17)"
   },
   {
    "source": "09 — Ratios & SIG",
@@ -1105,6 +2133,14 @@
   {
    "source": "09 — Ratios & SIG",
    "target": "04 — Analyse Financière Globale (Diagnostic Complet)"
+  },
+  {
+   "source": "09 — Ratios & SIG",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "09 — Ratios & SIG",
+   "target": "42 — Application Souss-Massa"
   },
   {
    "source": "10 — Retraitements (valeur comptable → valeur actuelle)",
@@ -1167,6 +2203,34 @@
    "target": "23 — TVA"
   },
   {
+   "source": "26 — Passage résultat comptable → fiscal",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "26 — Passage résultat comptable → fiscal",
+   "target": "39 — Fusions & scissions"
+  },
+  {
+   "source": "51 — TVA à l'importation & exportation",
+   "target": "23 — TVA"
+  },
+  {
+   "source": "51 — TVA à l'importation & exportation",
+   "target": "03 — Écritures comptables types"
+  },
+  {
+   "source": "51 — TVA à l'importation & exportation",
+   "target": "25 — Devises & ECA-ECP"
+  },
+  {
+   "source": "51 — TVA à l'importation & exportation",
+   "target": "41 — Incitations fiscales & zones"
+  },
+  {
+   "source": "51 — TVA à l'importation & exportation",
+   "target": "17 — Trésorerie"
+  },
+  {
    "source": "20 — Consolidation",
    "target": "29 — IFRS vs CGNC"
   },
@@ -1220,10 +2284,6 @@
   },
   {
    "source": "30 — Affacturage",
-   "target": "17 — Trésorerie"
-  },
-  {
-   "source": "30 — Affacturage",
    "target": "32 — Plans comptables sectoriels"
   },
   {
@@ -1273,6 +2333,278 @@
   {
    "source": "34 — Normes comptables de l'État",
    "target": "29 — IFRS vs CGNC"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "19 — Cessions & réévaluation"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "15 — Impôts (IS, IR, CM, CSS)"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "12 — Crédit-bail"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "23 — TVA"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "48 — Subventions (exploitation, équilibre, investissement)"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "41 — Incitations fiscales & zones"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "33 — Financements participatifs"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "56 — Valorisation d'entreprise (ANR, multiples, DCF)"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "18 — Financement"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "24 — Capitaux propres"
+  },
+  {
+   "source": "55 — Choix d'investissement (VAN, TRI, Payback)",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "10 — Retraitements (valeur comptable → valeur actuelle)"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "11 — Non-valeurs"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "19 — Cessions & réévaluation"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "44 — Immobilisations financières & titres"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "52 — Dissolution & liquidation"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "12 — Crédit-bail"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "48 — Subventions (exploitation, équilibre, investissement)"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "32 — Plans comptables sectoriels"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "41 — Incitations fiscales & zones"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "05 — Amortissements"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "56 — Valorisation d'entreprise (ANR, multiples, DCF)",
+   "target": "39 — Fusions & scissions"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "15 — Impôts (IS, IR, CM, CSS)"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "26 — Passage résultat comptable → fiscal"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "18 — Financement"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "12 — Crédit-bail"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "33 — Financements participatifs"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "25 — Devises & ECA-ECP"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "10 — Retraitements (valeur comptable → valeur actuelle)"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "11 — Non-valeurs"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "24 — Capitaux propres"
+  },
+  {
+   "source": "57 — Structure de capital & CMPC (WACC)",
+   "target": "41 — Incitations fiscales & zones"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "56 — Valorisation d'entreprise (ANR, multiples, DCF)"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "52 — Dissolution & liquidation"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "10 — Retraitements (valeur comptable → valeur actuelle)"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "38 — Impôts différés"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "23 — TVA"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "44 — Immobilisations financières & titres"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "20 — Consolidation"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "29 — IFRS vs CGNC"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "39 — Fusions & scissions"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "19 — Cessions & réévaluation"
+  },
+  {
+   "source": "58 — Fusions & acquisitions (M&A)",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "59 — Politique de financement & dividende",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "59 — Politique de financement & dividende",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "59 — Politique de financement & dividende",
+   "target": "18 — Financement"
+  },
+  {
+   "source": "59 — Politique de financement & dividende",
+   "target": "47 — Opérations sur capital"
+  },
+  {
+   "source": "59 — Politique de financement & dividende",
+   "target": "15 — Impôts (IS, IR, CM, CSS)"
+  },
+  {
+   "source": "59 — Politique de financement & dividende",
+   "target": "44 — Immobilisations financières & titres"
+  },
+  {
+   "source": "59 — Politique de financement & dividende",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "59 — Politique de financement & dividende",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "59 — Politique de financement & dividende",
+   "target": "55 — Choix d'investissement (VAN, TRI, Payback)"
+  },
+  {
+   "source": "59 — Politique de financement & dividende",
+   "target": "17 — Trésorerie"
   },
   {
    "source": "35 — Réforme comptable marocaine (convergence IFRS)",
@@ -1408,10 +2740,6 @@
   },
   {
    "source": "42 — Application Souss-Massa",
-   "target": "25 — Devises & ECA-ECP"
-  },
-  {
-   "source": "42 — Application Souss-Massa",
    "target": "22 — Stocks"
   },
   {
@@ -1452,10 +2780,6 @@
   },
   {
    "source": "42 — Application Souss-Massa",
-   "target": "09 — Ratios & SIG"
-  },
-  {
-   "source": "42 — Application Souss-Massa",
    "target": "37 — Loi 32-10 (délais de paiement)"
   },
   {
@@ -1481,6 +2805,778 @@
   {
    "source": "42 — Application Souss-Massa",
    "target": "04 — Analyse Financière Globale (Diagnostic Complet)"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "03 — Les Rapports d'Analyse Financière (Guide Complet)"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "10 — Retraitements (valeur comptable → valeur actuelle)"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "24 — Capitaux propres"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "18 — Financement"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "07 — Messages cachés (lecture entre les lignes)"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "22 — Stocks"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "23 — TVA"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "26 — Passage résultat comptable → fiscal"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "20 — Consolidation"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "42 — Application Souss-Massa"
+  },
+  {
+   "source": "43 — Cas pratique — Auto Hall S.A. (exercice 2025)",
+   "target": "README — Index des documents réels"
+  },
+  {
+   "source": "65 — Budget & contrôle budgétaire (écarts)",
+   "target": "02 — Cycle comptable quotidien"
+  },
+  {
+   "source": "65 — Budget & contrôle budgétaire (écarts)",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
+   "source": "65 — Budget & contrôle budgétaire (écarts)",
+   "target": "22 — Stocks"
+  },
+  {
+   "source": "65 — Budget & contrôle budgétaire (écarts)",
+   "target": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)"
+  },
+  {
+   "source": "65 — Budget & contrôle budgétaire (écarts)",
+   "target": "17 — Trésorerie"
+  },
+  {
+   "source": "65 — Budget & contrôle budgétaire (écarts)",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "65 — Budget & contrôle budgétaire (écarts)",
+   "target": "37 — Loi 32-10 (délais de paiement)"
+  },
+  {
+   "source": "65 — Budget & contrôle budgétaire (écarts)",
+   "target": "23 — TVA"
+  },
+  {
+   "source": "65 — Budget & contrôle budgétaire (écarts)",
+   "target": "55 — Choix d'investissement (VAN, TRI, Payback)"
+  },
+  {
+   "source": "65 — Budget & contrôle budgétaire (écarts)",
+   "target": "28 — Comptabilité analytique (classe 9)"
+  },
+  {
+   "source": "65 — Budget & contrôle budgétaire (écarts)",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "65 — Budget & contrôle budgétaire (écarts)",
+   "target": "66 — Tableaux de bord & KPIs (pilotage)"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "16 — Créances"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "22 — Stocks"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "18 — Financement"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "37 — Loi 32-10 (délais de paiement)"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "28 — Comptabilité analytique (classe 9)"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "17 — Trésorerie"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "42 — Application Souss-Massa"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "23 — TVA"
+  },
+  {
+   "source": "66 — Tableaux de bord & KPIs (pilotage)",
+   "target": "07 — Messages cachés (lecture entre les lignes)"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "65 — Budget & contrôle budgétaire (écarts)"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "56 — Valorisation d'entreprise (ANR, multiples, DCF)"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "42 — Application Souss-Massa"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "15 — Impôts (IS, IR, CM, CSS)"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "26 — Passage résultat comptable → fiscal"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "17 — Trésorerie"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "55 — Choix d'investissement (VAN, TRI, Payback)"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "18 — Financement"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "47 — Opérations sur capital"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "58 — Fusions & acquisitions (M&A)"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "66 — Tableaux de bord & KPIs (pilotage)"
+  },
+  {
+   "source": "67 — Le prévisionnel financier & le business plan",
+   "target": "70 — Restructuration & entreprises en difficulté (Loi 73-17)"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "22 — Stocks"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "16 — Créances"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "37 — Loi 32-10 (délais de paiement)"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "07 — Messages cachés (lecture entre les lignes)"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "05 — Amortissements"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "10 — Retraitements (valeur comptable → valeur actuelle)"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "52 — Dissolution & liquidation"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "19 — Cessions & réévaluation"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "47 — Opérations sur capital"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "45 — Effets de commerce (LCR, BOR, escompte, protêt)"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "15 — Impôts (IS, IR, CM, CSS)"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "71 — Diagnostic de défaillance & scoring"
+  },
+  {
+   "source": "70 — Restructuration & entreprises en difficulté (Loi 73-17)",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "45 — Effets de commerce (LCR, BOR, escompte, protêt)"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "15 — Impôts (IS, IR, CM, CSS)"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "19 — Cessions & réévaluation"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "07 — Messages cachés (lecture entre les lignes)"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "37 — Loi 32-10 (délais de paiement)"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "22 — Stocks"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "16 — Créances"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "30 — Affacturage"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "47 — Opérations sur capital"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "71 — Diagnostic de défaillance & scoring",
+   "target": "52 — Dissolution & liquidation"
+  },
+  {
+   "source": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "target": "56 — Valorisation d'entreprise (ANR, multiples, DCF)"
+  },
+  {
+   "source": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "target": "24 — Capitaux propres"
+  },
+  {
+   "source": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "target": "47 — Opérations sur capital"
+  },
+  {
+   "source": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "target": "76 — Gouvernance d'entreprise & contrôle interne"
+  },
+  {
+   "source": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "target": "07 — Messages cachés (lecture entre les lignes)"
+  },
+  {
+   "source": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "target": "70 — Restructuration & entreprises en difficulté (Loi 73-17)"
+  },
+  {
+   "source": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "target": "59 — Politique de financement & dividende"
+  },
+  {
+   "source": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "target": "18 — Financement"
+  },
+  {
+   "source": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
+   "source": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "target": "71 — Diagnostic de défaillance & scoring"
+  },
+  {
+   "source": "73 — Droit des sociétés marocain (formes & gouvernance légale)",
+   "target": "52 — Dissolution & liquidation"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "37 — Loi 32-10 (délais de paiement)"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "52 — Dissolution & liquidation"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "58 — Fusions & acquisitions (M&A)"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "41 — Incitations fiscales & zones"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "76 — Gouvernance d'entreprise & contrôle interne"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "59 — Politique de financement & dividende"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "56 — Valorisation d'entreprise (ANR, multiples, DCF)"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "10 — Retraitements (valeur comptable → valeur actuelle)"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "75 — ESG & reporting extra-financier (AMMC)",
+   "target": "36 — Facturation électronique"
+  },
+  {
+   "source": "76 — Gouvernance d'entreprise & contrôle interne",
+   "target": "24 — Capitaux propres"
+  },
+  {
+   "source": "76 — Gouvernance d'entreprise & contrôle interne",
+   "target": "59 — Politique de financement & dividende"
+  },
+  {
+   "source": "76 — Gouvernance d'entreprise & contrôle interne",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
+   "source": "76 — Gouvernance d'entreprise & contrôle interne",
+   "target": "71 — Diagnostic de défaillance & scoring"
+  },
+  {
+   "source": "76 — Gouvernance d'entreprise & contrôle interne",
+   "target": "02 — Cycle comptable quotidien"
+  },
+  {
+   "source": "76 — Gouvernance d'entreprise & contrôle interne",
+   "target": "36 — Facturation électronique"
+  },
+  {
+   "source": "76 — Gouvernance d'entreprise & contrôle interne",
+   "target": "22 — Stocks"
+  },
+  {
+   "source": "76 — Gouvernance d'entreprise & contrôle interne",
+   "target": "56 — Valorisation d'entreprise (ANR, multiples, DCF)"
+  },
+  {
+   "source": "76 — Gouvernance d'entreprise & contrôle interne",
+   "target": "07 — Messages cachés (lecture entre les lignes)"
+  },
+  {
+   "source": "76 — Gouvernance d'entreprise & contrôle interne",
+   "target": "44 — Immobilisations financières & titres"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "76 — Gouvernance d'entreprise & contrôle interne"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "02 — Cycle comptable quotidien"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "23 — TVA"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "22 — Stocks"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "05 — Amortissements"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "13 — Régularisations de fin d'exercice"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "36 — Facturation électronique"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "50 — Paie & charges sociales 2026 (CNSS, IR, CIMR)"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "75 — ESG & reporting extra-financier (AMMC)"
+  },
+  {
+   "source": "79 — Fraude financière & cybersécurité",
+   "target": "26 — Passage résultat comptable → fiscal"
+  },
+  {
+   "source": "80 — Couverture des risques financiers (dérivés)",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "80 — Couverture des risques financiers (dérivés)",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "80 — Couverture des risques financiers (dérivés)",
+   "target": "29 — IFRS vs CGNC"
+  },
+  {
+   "source": "80 — Couverture des risques financiers (dérivés)",
+   "target": "10 — Retraitements (valeur comptable → valeur actuelle)"
+  },
+  {
+   "source": "80 — Couverture des risques financiers (dérivés)",
+   "target": "42 — Application Souss-Massa"
+  },
+  {
+   "source": "80 — Couverture des risques financiers (dérivés)",
+   "target": "17 — Trésorerie"
+  },
+  {
+   "source": "80 — Couverture des risques financiers (dérivés)",
+   "target": "81 — Cash pooling & trésorerie de groupe"
+  },
+  {
+   "source": "81 — Cash pooling & trésorerie de groupe",
+   "target": "66 — Tableaux de bord & KPIs (pilotage)"
+  },
+  {
+   "source": "81 — Cash pooling & trésorerie de groupe",
+   "target": "31 — Comptes de liaison siège_succursales"
+  },
+  {
+   "source": "81 — Cash pooling & trésorerie de groupe",
+   "target": "18 — Financement"
+  },
+  {
+   "source": "81 — Cash pooling & trésorerie de groupe",
+   "target": "26 — Passage résultat comptable → fiscal"
+  },
+  {
+   "source": "81 — Cash pooling & trésorerie de groupe",
+   "target": "70 — Restructuration & entreprises en difficulté (Loi 73-17)"
+  },
+  {
+   "source": "81 — Cash pooling & trésorerie de groupe",
+   "target": "14 — Provisions"
+  },
+  {
+   "source": "81 — Cash pooling & trésorerie de groupe",
+   "target": "59 — Politique de financement & dividende"
+  },
+  {
+   "source": "81 — Cash pooling & trésorerie de groupe",
+   "target": "20 — Consolidation"
+  },
+  {
+   "source": "81 — Cash pooling & trésorerie de groupe",
+   "target": "44 — Immobilisations financières & titres"
+  },
+  {
+   "source": "81 — Cash pooling & trésorerie de groupe",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "82 — Financements structurés & titrisation",
+   "target": "12 — Crédit-bail"
+  },
+  {
+   "source": "82 — Financements structurés & titrisation",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "82 — Financements structurés & titrisation",
+   "target": "30 — Affacturage"
+  },
+  {
+   "source": "82 — Financements structurés & titrisation",
+   "target": "20 — Consolidation"
+  },
+  {
+   "source": "82 — Financements structurés & titrisation",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "82 — Financements structurés & titrisation",
+   "target": "10 — Retraitements (valeur comptable → valeur actuelle)"
+  },
+  {
+   "source": "82 — Financements structurés & titrisation",
+   "target": "56 — Valorisation d'entreprise (ANR, multiples, DCF)"
+  },
+  {
+   "source": "82 — Financements structurés & titrisation",
+   "target": "22 — Stocks"
+  },
+  {
+   "source": "82 — Financements structurés & titrisation",
+   "target": "18 — Financement"
+  },
+  {
+   "source": "82 — Financements structurés & titrisation",
+   "target": "57 — Structure de capital & CMPC (WACC)"
+  },
+  {
+   "source": "82 — Financements structurés & titrisation",
+   "target": "71 — Diagnostic de défaillance & scoring"
+  },
+  {
+   "source": "📚 Bibliothèque recommandée — corpus RAG",
+   "target": "README — Index des documents réels"
+  },
+  {
+   "source": "📚 Bibliothèque recommandée — corpus RAG",
+   "target": "21 — Liasse fiscale"
+  },
+  {
+   "source": "📚 Bibliothèque recommandée — corpus RAG",
+   "target": "15 — Impôts (IS, IR, CM, CSS)"
+  },
+  {
+   "source": "📚 Bibliothèque recommandée — corpus RAG",
+   "target": "Le Fil Conducteur"
+  },
+  {
+   "source": "📚 Bibliothèque recommandée — corpus RAG",
+   "target": "📖 Lexique — Comprendre les rapports"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "15 — Impôts (IS, IR, CM, CSS)"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "23 — TVA"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "26 — Passage résultat comptable → fiscal"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "41 — Incitations fiscales & zones"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "21 — Liasse fiscale"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "07 — Messages cachés (lecture entre les lignes)"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "10 — Retraitements (valeur comptable → valeur actuelle)"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "32 — Plans comptables sectoriels"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "42 — Application Souss-Massa"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "01 — Logique du PCGE & principes"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "04 — États de synthèse (BL, CPC, ESG, TF, ETIC)"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "18 — Financement"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "12 — Crédit-bail"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "16 — Créances"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "20 — Consolidation"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "34 — Normes comptables de l'État"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "27 — Engagements hors bilan (classe 0)"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "22 — Stocks"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "09 — Ratios & SIG"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "24 — Capitaux propres"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "03 — Les Rapports d'Analyse Financière (Guide Complet)"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "08 — FRF, BFG & TN (analyse dynamique)"
+  },
+  {
+   "source": "README — Index des documents réels",
+   "target": "Le Fil Conducteur"
   }
  ]
 }

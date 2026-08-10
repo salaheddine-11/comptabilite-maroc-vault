@@ -49,5 +49,24 @@ corpus: OUI
 - Circuit 3 : socle du FRF → [[08 — FRF, BFG & TN (analyse dynamique)]] · accueille la réévaluation → [[19 — Cessions & réévaluation]]
 - Dividendes + RAS → [[26 — Passage résultat comptable → fiscal]] · le circuit d'affectation rejoint la trésorerie → [[17 — Trésorerie]]
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Un capital social jamais entièrement libéré (3462 permanent), des comptes courants d'associés (4463) qui dépassent le capital, une réserve légale non constituée (1140 < 5 % du bénéfice), ou un RAN négatif (1169) accompagné d'une distribution (→ [[59 — Politique de financement & dividende]]).
+
+> [!warning] L'intention
+> Le circuit des capitaux propres est la **carte d'identité des décisions des associés** : capital non libéré = promesses non tenues ; 4463 énormes = la dette des associés envers la société (ou l'inverse) ; distributions au-delà du résultat distribuable = sortie de cash déguisée. L'écart de réévaluation (1130, non distribuable) distribué est une fraude à la loi.
+
+> [!warning] Le risque caché
+> Les quasi-fonds propres illusoires (le capital « annoncé » n'est pas là), la requalification fiscale des intérêts sur CCA non libérés (art. 10-II-A), et l'interdiction de distribution violée — la nullité des décisions et la responsabilité des dirigeants.
+
+> [!danger] Red Flags & Omissions
+> 1. 4463 > capital social — les associés financent plus que leur mise ; que se passe-t-il s'ils retirent ?
+> 2. Réserve légale non constituée ou plafonnée prématurément — le bénéfice a-t-il été réel ?
+> 3. RAN négatif (1169) avec dividende versé — d'où vient l'argent distribué ?
+> 4. Le silence : l'ETIC ne détaille pas le tableau de répartition du résultat (→ [[04 — États de synthèse (BL, CPC, ESG, TF, ETIC)]]) — la direction ne dit pas qui a reçu quoi.
+
 ## Sources
 PCGE (11, 13, 118, 119) · loi 17-95 / 5-96 · CGI art. 10-II-A, 247-XXXVII-C · thèses ISCAE.

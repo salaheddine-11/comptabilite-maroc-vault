@@ -48,5 +48,24 @@ Les intérêts versés aux associés sur leurs comptes courants ne sont déducti
 - Circuit 3 : alimente le FRF → [[08 — FRF, BFG & TN (analyse dynamique)]] · variante → [[12 — Crédit-bail]] · alternative → [[33 — Financements participatifs]]
 - CCA → intérêts → réintégrations → [[26 — Passage résultat comptable → fiscal]] · subventions → [[24 — Capitaux propres]]
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Une dette financière qui croît sans investissements correspondants (le BFG financé par du long terme, ou pire : des emprunts qui financent des pertes), des refinancements fréquents, ou des intérêts (631x) qui dépassent les plafonds de déductibilité (art. 10-II-A — capital non libéré, base, taux BAM).
+
+> [!warning] L'intention
+> Masquer la dégradation : emprunter pour payer le passé (pertes, BFG) en présentant cela comme du « financement de la croissance ». Les CCA des associés (4463) gonflés remplacent la trésorerie réelle ; les subventions (1311) en hausse masquent la dépendance à l'État (→ [[48 — Subventions (exploitation, équilibre, investissement)]]).
+
+> [!warning] Le risque caché
+> La capacité de remboursement (dette/CAF, → [[09 — Ratios & SIG]]) qui se dégrade ; l'échéancier concentré (ETIC B7/B8) qui crée un « mur de la dette » ; les intérêts non déductibles réintégrés au T22 — la dette devient plus chère que son taux nominal.
+
+> [!danger] Red Flags & Omissions
+> 1. Emprunts en devises non couverts (→ [[25 — Devises & ECA-ECP]], [[80 — Couverture des risques financiers (dérivés)]]) — le risque de change s'ajoute au risque de taux.
+> 2. Échéancier concentré sur 1-2 ans (ETIC B7/B8) sans plan de refinancement documenté.
+> 3. Taux d'intérêt effectif > taux BAM + marge normale — ou intérêts sur CCA non libérés (art. 10-II-A) réintégrés sans commentaire.
+> 4. Le silence : aucune information sur les garanties données aux banques (classe 0, → [[27 — Engagements hors bilan (classe 0)]]) — la dette affichée n'est pas toute la dette.
+
 ## Sources
 PCGE (14, 1311/1319, 4463, 1481-1488) · CGI art. 10-II-A · guides bancaires (comités de crédit) · corpus NotebookLM.

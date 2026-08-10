@@ -40,5 +40,24 @@ corpus: OUI
 - Circuit 4 : créances/dettes en devises (34/44) → [[16 — Créances]] · ECA/ECP → résultats et provisions → [[14 — Provisions]]
 - Exportateurs : couverture → [[27 — Engagements hors bilan (classe 0)]] · retraitement → [[10 — Retraitements (valeur comptable → valeur actuelle)]]
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Des pertes de change récurrentes (633) sans instruments de couverture documentés (→ [[80 — Couverture des risques financiers (dérivés)]]), des ECA (27/37) provisionnées à minima, ou des ECP (17/47) « oubliés » à la clôture alors que le cours a bougé.
+
+> [!warning] L'intention
+> Ignorer le risque de change coûte moins cher à court terme : pas de prime de couverture, pas de provision — et si le cours bouge dans le bon sens, les gains (733) embellissent le résultat sans réalité économique. La direction « gère » le change comme une loterie, pas comme un risque.
+
+> [!warning] Le risque caché
+> Le choc de change unique (dévaluation, crise) transforme des pertes latentes en pertes réelles massives ; les ECA non provisionnées sont réintégrées au T22 ; et l'exportateur nu (→ [[42 — Application Souss-Massa]]) voit sa marge disparaître en une seule variation de parité.
+
+> [!danger] Red Flags & Omissions
+> 1. Créances ou dettes en devises non réévaluées au dernier cours (la réévaluation est obligatoire à la clôture).
+> 2. ECP (17/47) contre-passés « oubliés » ou partiels — le passif latent est sous-estimé.
+> 3. Gains de change (733) récurrents sans politique de couverture — la roulette finit toujours par perdre.
+> 4. Le silence : aucune information sur l'exposition nette en devises ni sur la politique de couverture dans le rapport de gestion — la direction ne dit pas à quel taux elle dort.
+
 ## Sources
 CGNC (écarts de conversion) · PCGE (17, 27, 37, 47, 633, 733, 6393) · PCEC (381) · CGI (T22).

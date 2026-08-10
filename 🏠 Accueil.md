@@ -5,7 +5,7 @@ tags: [hub, moc, accueil, comptabilite, maroc]
 # 🏠 Accueil — Recherche Comptabilité & Analyse Financière Maroc
 
 > [!important] Bienvenue
-> Ce vault est la **base de connaissances complète** sur la comptabilité et l'analyse financière des entreprises marocaines : **68 thèmes interconnectés**, 6 rapports fondateurs, et un **fil conducteur** qui relie tout.
+> Ce vault est la **base de connaissances complète** sur la comptabilité et l'analyse financière des entreprises marocaines : **71 thèmes interconnectés**, 6 rapports fondateurs, et un **fil conducteur** qui relie tout.
 > Construit à partir du corpus **NotebookLM (577+ sources)** : CGNC, loi 9-88, PCGE officiel, CGI, AMMC, Bank Al-Maghrib, DGI, liasse fiscale, documents de référence d'émetteurs marocains.
 
 **Règle d'or de cette recherche** : *un ratio = une relation entre deux lignes des états financiers. Un poste du bilan = une décision passée. Un choix comptable = une intention.*
@@ -127,18 +127,21 @@ tags: [hub, moc, accueil, comptabilite, maroc]
 | --- | --- | --- |
 | 65 | [[65 — Budget & contrôle budgétaire (écarts)]] | Chaîne budgétaire, budget de trésorerie, analyse des écarts, slack & ratchet |
 | 66 | [[66 — Tableaux de bord & KPIs (pilotage)]] | KPI décisionnels, DSO/DIO/DPO, cash forecast 13 semaines, vanity metrics |
+| 67 | [[67 — Le prévisionnel financier & le business plan]] | Prévisionnel 3-5 ans, bilan prévisionnel, plan de financement, scénarios |
 
 ### 🆘 Restructuration & Difficultés — le cycle de vie extrême
 | # | Thème | Contenu |
 | --- | --- | --- |
 | 70 | [[70 — Restructuration & entreprises en difficulté (Loi 73-17)]] | Mandat ad hoc, conciliation, redressement, liquidation — la comptabilité de la crise |
 | 71 | [[71 — Diagnostic de défaillance & scoring]] | Z-score, incidents externes, signaux précoces, du diagnostic au plan |
+| 73 | [[73 — Droit des sociétés marocain (formes & gouvernance légale)]] | SNC/SCS/SARL/SA, conventions réglementées, seuils légaux, transparence |
 
 ### 🌱 ESG & Modernité — le reporting de demain
 | # | Thème | Contenu |
 | --- | --- | --- |
 | 75 | [[75 — ESG & reporting extra-financier (AMMC)]] | E/S/G, passifs environnementaux, greenwashing, impact sur le coût du capital |
 | 76 | [[76 — Gouvernance d'entreprise & contrôle interne]] | Conseil, comités, conventions réglementées, séparation des fonctions |
+| 79 | [[79 — Fraude financière & cybersécurité]] | Triangle de la fraude, faux états, détection forensique, risques cyber |
 
 ### 🛡️ Trésorerie avancée & Risques — la couverture
 | # | Thème | Contenu |
@@ -179,11 +182,11 @@ tags: [hub, moc, accueil, comptabilite, maroc]
 
 ## 📌 État d'avancement & méthode
 
-- **Avancement** : **68/68 thèmes** expliqués (complété le 09/08/2026 — 9 fiches complémentaires ajoutées par recherche profonde NotebookLM : immobilisations financières, effets de commerce, RRR & emballages, opérations sur capital, subventions, transferts de charges & réouverture, paie 2026, TVA import/export, dissolution & liquidation — + tableau de référence des templates d'écritures + la logique des écritures).
-- **Piliers Finance d'Entreprise & Modernité** (10/08/2026) : 14 fiches ajoutées — création de valeur (55-59), pilotage (65-66), restructuration & loi 73-17 (70-71), ESG & gouvernance (75-76), trésorerie avancée & risques (80-82) — toutes avec blocs forensiques standardisés `[!warning]` / `[!danger]` ; fiche [[14 — Provisions]] mise à niveau forensique (Mission 2).
+- **Avancement** : **71/71 thèmes** expliqués (complété le 09/08/2026 — 9 fiches complémentaires ajoutées par recherche profonde NotebookLM : immobilisations financières, effets de commerce, RRR & emballages, opérations sur capital, subventions, transferts de charges & réouverture, paie 2026, TVA import/export, dissolution & liquidation — + tableau de référence des templates d'écritures + la logique des écritures).
+- **Piliers Finance d'Entreprise & Modernité** (10/08/2026) : 17 fiches ajoutées — création de valeur (55-59), pilotage (65-67), restructuration & loi 73-17 (70-71, 73), ESG & gouvernance (75-76, 79), trésorerie avancée & risques (80-82) — toutes avec blocs forensiques standardisés `[!warning]` / `[!danger]` ; **13 fiches historiques mises à niveau forensique** (04, 05, 08, 09, 13, 14, 16, 17, 18, 22, 24, 25, 26) ; lexique enrichi (15 nouveaux termes).
 - **Bibliothèque de documents réels** (08/08/2026) : 10 textes officiels (CGI 2025, **LF 2026**, circulaires 717/721, charte d'investissement, thèse ISCAE…) + **15 documents de référence AMMC exercice 2025** (Salafin, CFG Bank, Bank of Africa, FEC, CDG Capital, Auto Hall, CIH, Immorente Invest…) → voir [[README — Index des documents réels]] (dossier `96 Documents Réels`).
 - **Bibliothèque livres pour BookRAG** (08/08/2026) : table des ouvrages cités par le corpus + recommandés — logique → BookRAG, faits datés → NotebookLM → voir [[📚 Bibliothèque recommandée — corpus RAG]].
-- **Graph interactif** : `Concept Graph.canvas` (Obsidian natif, 73 cartes, 384 connexions) + `Concept Graph Interactif.html` (autonome).
+- **Graph interactif** : `Concept Graph.canvas` (Obsidian natif, 92 cartes, 710 connexions) + `Concept Graph Interactif.html` (autonome).
 - **Marqueurs d'honnêteté** : `[standard]` = formule classique non couverte par le corpus (à confirmer avec le cours) ; `[À VÉRIFIER]` = à confirmer sur texte officiel (CGI / LF en cours).
 - **Règle des deux traitements** : chaque fiche distingue **Traitement comptable (CGNC)** et **Traitement fiscal (CGI)** quand ils divergent.
 - **Sources** : CGNC · loi 9-88 (modifiée 44-03) · PCGE officiel · loi 17-95 / 5-96 · CGI (LF 2023→2026) · circulaires AMMC 03/19, 06-05 · circulaire BAM 19/G/2002 · liasse fiscale DGI (23 tableaux) · documents de référence (Wafasalaf, CDG Capital, CFG Bank, FEC) · thèses ISCAE · guides Upsilon/CRMEF.

@@ -42,5 +42,24 @@ corpus: OUI
 - Circuit 1 : variation = SF − SI relie achats et produits du CPC → [[03 — Écritures comptables types]] · DIO → BFG → [[08 — FRF, BFG & TN (analyse dynamique)]]
 - Dépréciés par provisions → [[14 — Provisions]] · coûts de production en classe 9 → [[28 — Comptabilité analytique (classe 9)]]
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Des stocks qui croissent plus vite que le chiffre d'affaires (DIO en hausse), ou un inventaire physique qui ne se concilie pas avec la comptabilité — surtout en fin d'exercice.
+
+> [!warning] L'intention
+> Le stock est le **réceptacle préféré du résultat** : une variation de stock gonflée (SF surévaluée) augmente le résultat sans aucun flux de trésorerie. À l'inverse, un stock sous-évalué crée des réserves cachées pour les années difficiles. Le choix CMUP/FIFO et la valorisation des encours sont des leviers discrets.
+
+> [!warning] Le risque caché
+> La dépréciation massive (391) quand la réalité rattrape l'inventaire — chute brutale du résultat, redressement TVA/IS sur les stocks fictifs, et un BFG (→ [[08 — FRF, BFG & TN (analyse dynamique)]]) qui explose au moment où la banque regarde.
+
+> [!danger] Red Flags & Omissions
+> 1. DIO en hausse continue alors que le CA stagne — le stock n'est plus une valeur, c'est un pari.
+> 2. Marge brute en baisse avec stocks en hausse — les invendus sont peut-être valorisés au-dessus de leur valeur réelle.
+> 3. ETIC C6 (stocks) qui ne se concilie pas avec le bilan, ou « stocks en transit » jamais réceptionnés depuis des mois.
+> 4. Le silence : aucune information sur les produits invendables ou démodés — la direction ne dit pas ce que l'inventaire sait.
+
 ## Sources
 CGNC (stocks) · PCGE (311/312/313/314/315, 6114/6124, 713x, 391) · ETIC C6 · loi 9-88.

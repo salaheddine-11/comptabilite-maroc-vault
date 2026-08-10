@@ -45,5 +45,24 @@ corpus: OUI
 - Circuit 2 : touche résultat ET bilan ; lié aux non-valeurs → [[11 — Non-valeurs]] · au crédit-bail → [[12 — Crédit-bail]] · au TF (renouvellement) → [[08 — FRF, BFG & TN (analyse dynamique)]]
 - L'analyse : exclu de la CAF additive (dotations **stables** réintégrées) → [[09 — Ratios & SIG]]
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Des durées d'amortissement allongées (le levier n° 1 des thèses ISCAE), des dotations (6191) en baisse alors que le parc d'immobilisations vieillit, ou des immobilisations entièrement amorties encore actives sans remplacement visible.
+
+> [!warning] L'intention
+> Gonfler le résultat court terme : étaler la charge sur plus longtemps, c'est moins de dotation aujourd'hui et plus demain. Les « investissements de modernisation » (→ [[55 — Choix d'investissement (VAN, TRI, Payback)]]) qui égalent exactement les amortissements annuels sont du remplacement déguisé en croissance.
+
+> [!warning] Le risque caché
+> Le **mur d'amortissements** : quand les actifs usés doivent être remplacés, la charge tombe en une fois (ou en dépréciation massive 29) — le résultat des années « lissées » était emprunté à l'avenir.
+
+> [!danger] Red Flags & Omissions
+> 1. Durées d'usage différentes des pratiques sectorielles sans justification (ETIC A2 — changements de méthodes).
+> 2. Immobilisations entièrement amorties (VNA nulle) encore utilisées et non remplacées — la capacité se dégrade.
+> 3. ETIC B2/B2bis qui ne se concilie pas avec le bilan (amortissements cumulés).
+> 4. Le silence : aucune information sur les immobilisations hors service ou cédées à la ferraille (→ [[19 — Cessions & réévaluation]]) — la direction ne dit pas l'état réel de son outil de production.
+
 ## Sources
 CGNC · loi 9-88 art. 14 · CGI art. 10 · ETIC B2/B2bis · thèses ISCAE (gestion du résultat).

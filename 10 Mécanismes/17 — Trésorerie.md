@@ -48,5 +48,24 @@ Explique l'écart entre le solde du compte **5141** et le relevé bancaire :
 - Circuit 1 : TN = FRF − BFG → [[08 — FRF, BFG & TN (analyse dynamique)]] · découvert = financement forcé → [[18 — Financement]] · crédit de TVA → [[23 — TVA]]
 - Rapprochement = zone de contrôle → [[07 — Messages cachés (lecture entre les lignes)]] · effets et escompte → [[16 — Créances]]
 
+---
+
+## 🕵️ The Forensic Deduction (Le Signe)
+
+> [!warning] L'anomalie
+> Une trésorerie nette positive au bilan mais des découverts (5541) récurrents en cours de mois — ou un résultat positif accompagné d'une TN structurellement négative (→ [[08 — FRF, BFG & TN (analyse dynamique)]]).
+
+> [!warning] L'intention
+> Le **window dressing** de fin de mois : encaissements accélérés, reports de décaissements, cessions de créances temporaires (→ [[82 — Financements structurés & titrisation]]) pour présenter un solde bancaire présentable à la banque. La direction photographie le bilan au meilleur moment — le relevé du 31 ne raconte pas le mois.
+
+> [!warning] Le risque caché
+> La dépendance bancaire totale (découvert permanent = le BFG est financé par du court terme), les frais financiers cachés (agios), et au premier refus de la banque : la cessation des paiements (→ [[70 — Restructuration & entreprises en difficulté (Loi 73-17)]]).
+
+> [!danger] Red Flags & Omissions
+> 1. TF (tableau de flux) qui ne se concilie pas avec la variation de trésorerie du bilan — le cash raconte une autre histoire.
+> 2. Découvert permanent (5541) présenté comme « saisonnier » depuis plusieurs exercices.
+> 3. Cessions de créances ou affacturage (→ [[30 — Affacturage]]) concentrés en fin de mois.
+> 4. Le silence : les conventions de découvert (plafonds, garanties — classe 0) jamais mentionnées — la direction ne dit pas à quel fil elle est suspendue.
+
 ## Sources
 PCGE (51, 55, 59) · PCEC (2211/2213, 5520/5530) · guides de travaux de fin d'exercice · corpus NotebookLM.
