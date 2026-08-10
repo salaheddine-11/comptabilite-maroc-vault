@@ -1,21 +1,11 @@
 {
     "nodes": [
         {
-            "id": "1d5b7019-4b5c-4689-a05c-31960031d53e",
-            "type": "group",
-            "x": 2269,
-            "y": 1659,
-            "width": 1291,
-            "height": 392,
-            "color": "6",
-            "label": "📚 Documents maîtres — le hub"
-        },
-        {
             "id": "477cbdf7-90f7-4b3a-9e46-b3db5423a4ae",
             "type": "file",
             "file": "Le Fil Conducteur.md",
-            "x": 2324,
-            "y": 1846,
+            "x": 2175,
+            "y": 44,
             "width": 320,
             "height": 150,
             "color": "6"
@@ -24,8 +14,8 @@
             "id": "44e1721a-8f9d-4b24-887e-e3dd07a640fc",
             "type": "file",
             "file": "🏠 Accueil.md",
-            "x": 2347,
-            "y": 1714,
+            "x": 2515,
+            "y": 44,
             "width": 320,
             "height": 150,
             "color": "6"
@@ -34,18 +24,18 @@
             "id": "3e4e35f4-18cd-4908-a5d8-31185234de77",
             "type": "file",
             "file": "📖 Lexique — Comprendre les rapports.md",
-            "x": 2364,
-            "y": 1887,
-            "width": 260,
-            "height": 130,
+            "x": 2855,
+            "y": 44,
+            "width": 320,
+            "height": 150,
             "color": "6"
         },
         {
             "id": "94fd5ee7-67b9-47f6-9b59-affc32ec1db8",
             "type": "file",
             "file": "00 Fondations/01 — Logique du PCGE & principes.md",
-            "x": 1963,
-            "y": 2135,
+            "x": 30,
+            "y": 604,
             "width": 260,
             "height": 130,
             "color": "4"
@@ -54,8 +44,8 @@
             "id": "96f7a2e1-7723-4966-af98-aaec599f5ffd",
             "type": "file",
             "file": "00 Fondations/02 — Cycle comptable quotidien.md",
-            "x": 2185,
-            "y": 1197,
+            "x": 300,
+            "y": 604,
             "width": 260,
             "height": 130,
             "color": "4"
@@ -64,8 +54,8 @@
             "id": "4ec041da-1b8c-4ca4-bd58-c2c99326c373",
             "type": "file",
             "file": "00 Fondations/03 — Écritures comptables types.md",
-            "x": 1973,
-            "y": 1306,
+            "x": 570,
+            "y": 604,
             "width": 260,
             "height": 130,
             "color": "4"
@@ -74,8 +64,8 @@
             "id": "e5c811cc-64aa-4c25-ab44-9ff2e9cc38b2",
             "type": "file",
             "file": "00 Fondations/04 — États de synthèse (BL, CPC, ESG, TF, ETIC).md",
-            "x": 1301,
-            "y": 1449,
+            "x": 30,
+            "y": 774,
             "width": 260,
             "height": 130,
             "color": "4"
@@ -84,238 +74,238 @@
             "id": "c7a6b36f-6de5-46b8-9ff4-c6d172494669",
             "type": "file",
             "file": "10 Mécanismes/05 — Amortissements.md",
-            "x": 2100,
-            "y": 1659,
+            "x": 990,
+            "y": 604,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "27c86bdc-aa8f-4a83-a802-6eaa4c63319a",
             "type": "file",
             "file": "10 Mécanismes/06 — Contrats à long terme.md",
-            "x": 2865,
-            "y": 1276,
+            "x": 1260,
+            "y": 604,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "5f71d174-f473-47f9-8ee6-06d6faaf6aea",
             "type": "file",
             "file": "10 Mécanismes/11 — Non-valeurs.md",
-            "x": 2485,
-            "y": 2227,
+            "x": 1530,
+            "y": 604,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "1bc513d8-e338-4b1a-8904-1293b6f55fec",
             "type": "file",
             "file": "10 Mécanismes/12 — Crédit-bail.md",
-            "x": 2343,
-            "y": 2199,
+            "x": 1800,
+            "y": 604,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "f4083bb2-4b2f-4d23-8261-f0ecb37d483c",
             "type": "file",
             "file": "10 Mécanismes/13 — Régularisations de fin d'exercice.md",
-            "x": 1847,
-            "y": 1438,
+            "x": 2070,
+            "y": 604,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "40f421a2-5f63-4a6a-9ccb-a6f640641924",
             "type": "file",
             "file": "10 Mécanismes/14 — Provisions.md",
-            "x": 2005,
-            "y": 1773,
+            "x": 2340,
+            "y": 604,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "5254d502-ab20-4c65-9ceb-b394acc20988",
             "type": "file",
             "file": "10 Mécanismes/16 — Créances.md",
-            "x": 2332,
-            "y": 1276,
+            "x": 2610,
+            "y": 604,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "1f138364-d167-4c83-950c-7dc86ca102a2",
             "type": "file",
             "file": "10 Mécanismes/17 — Trésorerie.md",
-            "x": 2537,
-            "y": 1929,
+            "x": 2880,
+            "y": 604,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "c47b190f-443d-407c-b0d0-b9aaa2c82c78",
             "type": "file",
             "file": "10 Mécanismes/18 — Financement.md",
-            "x": 2407,
-            "y": 1695,
+            "x": 990,
+            "y": 774,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "9f11c881-5e71-41cc-b008-1061e75aad08",
             "type": "file",
             "file": "10 Mécanismes/19 — Cessions & réévaluation.md",
-            "x": 1984,
-            "y": 1969,
+            "x": 1260,
+            "y": 774,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "af6a74ac-bd56-45c5-865b-c865ba32ac31",
             "type": "file",
             "file": "10 Mécanismes/22 — Stocks.md",
-            "x": 2245,
-            "y": 1473,
+            "x": 1530,
+            "y": 774,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "0ab64ee7-96b1-4a0d-98dc-e8e0bd5dd4b8",
             "type": "file",
             "file": "10 Mécanismes/24 — Capitaux propres.md",
-            "x": 2197,
-            "y": 2172,
+            "x": 1800,
+            "y": 774,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "92a8bf23-7325-482f-a14b-3e7d802d0bee",
             "type": "file",
             "file": "10 Mécanismes/25 — Devises & ECA-ECP.md",
-            "x": 2270,
-            "y": 1505,
+            "x": 2070,
+            "y": 774,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "4800be1c-10f3-41a7-bb96-60088e6b2b8b",
             "type": "file",
             "file": "10 Mécanismes/44 — Immobilisations financières & titres.md",
-            "x": 2206,
-            "y": 1655,
+            "x": 2340,
+            "y": 774,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "7516934b-4283-4102-9485-8f4df44dddb3",
             "type": "file",
             "file": "10 Mécanismes/45 — Effets de commerce (LCR, BOR, escompte, protêt).md",
-            "x": 1912,
-            "y": 2338,
+            "x": 2610,
+            "y": 774,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "f9037c71-1ddb-407e-ba74-e7016e468244",
             "type": "file",
             "file": "10 Mécanismes/46 — RRR & emballages (rabais, remises, ristournes).md",
-            "x": 2079,
-            "y": 1041,
+            "x": 2880,
+            "y": 774,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "fc53add5-f5cd-4ecd-ba68-cda1a24a5cae",
             "type": "file",
             "file": "10 Mécanismes/47 — Opérations sur capital.md",
-            "x": 2726,
-            "y": 1728,
+            "x": 990,
+            "y": 944,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "3233aba2-02f1-41b1-aa12-c8859397f7bf",
             "type": "file",
             "file": "10 Mécanismes/48 — Subventions (exploitation, équilibre, investissement).md",
-            "x": 2339,
-            "y": 2465,
+            "x": 1260,
+            "y": 944,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "8a35b69d-3975-473b-83df-39039871b3e7",
             "type": "file",
             "file": "10 Mécanismes/49 — Transferts de charges, clôture & réouverture.md",
-            "x": 1935,
-            "y": 1070,
+            "x": 1530,
+            "y": 944,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "915f03b4-d11b-415b-9aae-bcb51e005706",
             "type": "file",
             "file": "10 Mécanismes/50 — Paie & charges sociales 2026 (CNSS, IR, CIMR).md",
-            "x": 1993,
-            "y": 1842,
+            "x": 1800,
+            "y": 944,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "23c56e45-1f19-4a99-afa9-e0e8bfc59efc",
             "type": "file",
             "file": "10 Mécanismes/52 — Dissolution & liquidation.md",
-            "x": 2741,
-            "y": 1513,
+            "x": 2070,
+            "y": 944,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "f4e14f4b-84cb-441e-bbf2-6d523e0597af",
             "type": "file",
             "file": "10 Mécanismes/53 — Templates d'écritures comptables.md",
-            "x": 1782,
-            "y": 1638,
+            "x": 2340,
+            "y": 944,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "0e0f1f29-6314-430a-9b3f-ccc22ff9d9cc",
             "type": "file",
             "file": "10 Mécanismes/54 — La logique des écritures comptables.md",
-            "x": 1877,
-            "y": 1256,
+            "x": 2610,
+            "y": 944,
             "width": 260,
             "height": 130,
-            "color": "1"
+            "color": "3"
         },
         {
             "id": "ec039578-377b-443a-872a-eb3f153ed4e6",
             "type": "file",
             "file": "20 Analyse/07 — Messages cachés (lecture entre les lignes).md",
-            "x": 2178,
-            "y": 1782,
+            "x": 3300,
+            "y": 604,
             "width": 260,
             "height": 130,
             "color": "5"
@@ -324,8 +314,8 @@
             "id": "29fdae31-1d20-412b-ae45-ad9a91f33489",
             "type": "file",
             "file": "20 Analyse/08 — FRF, BFG & TN (analyse dynamique).md",
-            "x": 2311,
-            "y": 2091,
+            "x": 3570,
+            "y": 604,
             "width": 260,
             "height": 130,
             "color": "5"
@@ -334,8 +324,8 @@
             "id": "97e08adf-d2d8-4cb4-9cb3-cbd846fd5a2b",
             "type": "file",
             "file": "20 Analyse/09 — Ratios & SIG.md",
-            "x": 2615,
-            "y": 1802,
+            "x": 3840,
+            "y": 604,
             "width": 260,
             "height": 130,
             "color": "5"
@@ -344,8 +334,8 @@
             "id": "6f44f203-ab2b-4120-b4b3-34bae99effee",
             "type": "file",
             "file": "20 Analyse/10 — Retraitements (valeur comptable → valeur actuelle).md",
-            "x": 2153,
-            "y": 1588,
+            "x": 3300,
+            "y": 774,
             "width": 260,
             "height": 130,
             "color": "5"
@@ -354,193 +344,198 @@
             "id": "d50df07c-4803-45ff-a689-28b4d145f0b6",
             "type": "file",
             "file": "30 Fiscal/15 — Impôts (IS, IR, CM, CSS).md",
-            "x": 2437,
-            "y": 2324,
+            "x": 4260,
+            "y": 604,
             "width": 260,
             "height": 130,
-            "color": "2"
+            "color": "1"
         },
         {
             "id": "22e53fee-53cc-4298-9ad3-e6ae85c6b1bb",
             "type": "file",
             "file": "30 Fiscal/21 — Liasse fiscale.md",
-            "x": 1944,
-            "y": 1474,
+            "x": 4530,
+            "y": 604,
             "width": 260,
             "height": 130,
-            "color": "2"
+            "color": "1"
         },
         {
             "id": "c5068e3f-9a55-4f7d-9004-17c985485e29",
             "type": "file",
             "file": "30 Fiscal/23 — TVA.md",
-            "x": 951,
-            "y": 2220,
+            "x": 4800,
+            "y": 604,
             "width": 260,
             "height": 130,
-            "color": "2"
+            "color": "1"
         },
         {
             "id": "813fc2b0-7c09-4b46-8c02-c10c9e8ff811",
             "type": "file",
             "file": "30 Fiscal/26 — Passage résultat comptable → fiscal.md",
-            "x": 3127,
-            "y": 1618,
+            "x": 5070,
+            "y": 604,
             "width": 260,
             "height": 130,
-            "color": "2"
+            "color": "1"
         },
         {
             "id": "ac3ba1f1-1cd3-43eb-9ac4-63badb4074ac",
             "type": "file",
             "file": "30 Fiscal/51 — TVA à l'importation & exportation.md",
-            "x": 2724,
-            "y": 1969,
+            "x": 4260,
+            "y": 774,
             "width": 260,
             "height": 130,
-            "color": "2"
+            "color": "1"
         },
         {
             "id": "d79ffe4b-9170-4ac6-9664-0154720ea044",
             "type": "file",
             "file": "40 Avancé/20 — Consolidation.md",
-            "x": 1691,
-            "y": 1723,
+            "x": 30,
+            "y": 1274,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "6"
         },
         {
             "id": "b0fa7a19-ee8b-4593-92a9-b2208d41a8de",
             "type": "file",
             "file": "40 Avancé/27 — Engagements hors bilan (classe 0).md",
-            "x": 2108,
-            "y": 1970,
+            "x": 300,
+            "y": 1274,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "6"
         },
         {
             "id": "8294f1a5-9803-4782-bc86-92afff3007cb",
             "type": "file",
             "file": "40 Avancé/28 — Comptabilité analytique (classe 9).md",
-            "x": 3019,
-            "y": 1461,
+            "x": 570,
+            "y": 1274,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "6"
         },
         {
             "id": "8017ad40-4644-4663-8f66-309eee009026",
             "type": "file",
             "file": "40 Avancé/29 — IFRS vs CGNC.md",
-            "x": 2660,
-            "y": 1930,
+            "x": 30,
+            "y": 1444,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "6"
         },
         {
             "id": "f5c23c77-6517-470c-95f8-f22041e92a3f",
             "type": "file",
             "file": "50 Sectoriel/30 — Affacturage.md",
-            "x": 2575,
-            "y": 2026,
+            "x": 990,
+            "y": 1274,
             "width": 260,
             "height": 130,
-            "color": "4"
+            "color": "5"
         },
         {
             "id": "83806e2d-9ecd-4eca-9e68-fe9ca2580831",
             "type": "file",
             "file": "50 Sectoriel/31 — Comptes de liaison siège_succursales.md",
-            "x": 1681,
-            "y": 1305,
+            "x": 1260,
+            "y": 1274,
             "width": 260,
             "height": 130,
-            "color": "4"
+            "color": "5"
         },
         {
             "id": "059f5167-b28b-4233-be5e-14466d45d626",
             "type": "file",
             "file": "50 Sectoriel/32 — Plans comptables sectoriels.md",
-            "x": 2829,
-            "y": 1656,
+            "x": 1530,
+            "y": 1274,
             "width": 260,
             "height": 130,
-            "color": "4"
+            "color": "5"
         },
         {
             "id": "c3113e61-8925-4a86-8ec7-7c6c0786a54f",
             "type": "file",
             "file": "50 Sectoriel/33 — Financements participatifs.md",
-            "x": 2627,
-            "y": 1400,
+            "x": 1800,
+            "y": 1274,
             "width": 260,
             "height": 130,
-            "color": "4"
+            "color": "5"
         },
         {
             "id": "03f5ce3f-60f0-492e-8b25-6aa7f1b6f222",
             "type": "file",
             "file": "50 Sectoriel/34 — Normes comptables de l'État.md",
-            "x": 1691,
-            "y": 2040,
+            "x": 990,
+            "y": 1444,
             "width": 260,
             "height": 130,
-            "color": "4"
+            "color": "5"
         },
         {
             "id": "23aa3fef-8276-4d18-af42-66fe99ab04a1",
             "type": "file",
             "file": "55 Finance d'Entreprise/55 — Choix d'investissement (VAN, TRI, Payback).md",
-            "x": 2564,
-            "y": 2152,
+            "x": 3720,
+            "y": 1274,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "4"
         },
         {
             "id": "bc77a0ce-4a86-4cf0-b949-5f0750e22699",
             "type": "file",
             "file": "55 Finance d'Entreprise/56 — Valorisation d'entreprise (ANR, multiples, DCF).md",
-            "x": 2248,
-            "y": 2094,
+            "x": 3990,
+            "y": 1274,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "4"
         },
         {
             "id": "240c7952-b370-42cd-aebe-bda52ce0d09e",
             "type": "file",
             "file": "55 Finance d'Entreprise/57 — Structure de capital & CMPC (WACC).md",
-            "x": 2467,
-            "y": 2024,
+            "x": 4260,
+            "y": 1274,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "4"
         },
         {
             "id": "807d58df-93ce-410f-8493-698232f137e7",
             "type": "file",
             "file": "55 Finance d'Entreprise/58 — Fusions & acquisitions (M&A).md",
-            "x": 2145,
-            "y": 2043,
+            "x": 4530,
+            "y": 1274,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "4"
         },
         {
             "id": "36d522f6-c614-42c6-8b35-735f613a2b0b",
             "type": "file",
             "file": "55 Finance d'Entreprise/59 — Politique de financement & dividende.md",
-            "x": 2046,
-            "y": 1745,
+            "x": 3720,
+            "y": 1444,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "4"
         },
         {
             "id": "058d5aaf-ceea-465f-9fde-151f681aea29",
             "type": "file",
             "file": "60 Compléments/35 — Réforme comptable marocaine (convergence IFRS).md",
-            "x": 2746,
-            "y": 2157,
+            "x": 2220,
+            "y": 1274,
             "width": 260,
             "height": 130,
             "color": "2"
@@ -549,8 +544,8 @@
             "id": "cfbc65e5-511f-4806-b0ea-1d6e6cf2f505",
             "type": "file",
             "file": "60 Compléments/36 — Facturation électronique.md",
-            "x": 2479,
-            "y": 1350,
+            "x": 2490,
+            "y": 1274,
             "width": 260,
             "height": 130,
             "color": "2"
@@ -559,8 +554,8 @@
             "id": "c2a18ea6-651c-4d9c-b63d-305f3375b95d",
             "type": "file",
             "file": "60 Compléments/37 — Loi 32-10 (délais de paiement).md",
-            "x": 2504,
-            "y": 1294,
+            "x": 2760,
+            "y": 1274,
             "width": 260,
             "height": 130,
             "color": "2"
@@ -569,8 +564,8 @@
             "id": "70cc43b5-aa76-41c7-b1c2-590d78a12658",
             "type": "file",
             "file": "60 Compléments/38 — Impôts différés.md",
-            "x": 2257,
-            "y": 1316,
+            "x": 3030,
+            "y": 1274,
             "width": 260,
             "height": 130,
             "color": "2"
@@ -579,8 +574,8 @@
             "id": "8cf7b9ef-5651-4ce9-9f27-b22f7451a81a",
             "type": "file",
             "file": "60 Compléments/39 — Fusions & scissions.md",
-            "x": 2540,
-            "y": 1716,
+            "x": 3300,
+            "y": 1274,
             "width": 260,
             "height": 130,
             "color": "2"
@@ -589,8 +584,8 @@
             "id": "676630c3-b2b9-4a83-ac62-b1f29508df25",
             "type": "file",
             "file": "60 Compléments/40 — Flux de trésorerie (IFRS vs TF CGNC).md",
-            "x": 2875,
-            "y": 2033,
+            "x": 2220,
+            "y": 1444,
             "width": 260,
             "height": 130,
             "color": "2"
@@ -599,8 +594,8 @@
             "id": "dcf3b46b-2aab-44c1-b4c2-bb5c9dd0552d",
             "type": "file",
             "file": "60 Compléments/41 — Incitations fiscales & zones.md",
-            "x": 2106,
-            "y": 2323,
+            "x": 2490,
+            "y": 1444,
             "width": 260,
             "height": 130,
             "color": "2"
@@ -609,8 +604,8 @@
             "id": "38e76128-c068-4085-b4e3-551915972b83",
             "type": "file",
             "file": "60 Compléments/42 — Application Souss-Massa.md",
-            "x": 2696,
-            "y": 1798,
+            "x": 2760,
+            "y": 1444,
             "width": 260,
             "height": 130,
             "color": "2"
@@ -619,216 +614,228 @@
             "id": "aacca583-9d69-4727-83bf-92bc058f1e77",
             "type": "file",
             "file": "60 Compléments/43 — Cas pratique — Auto Hall S.A. (exercice 2025).md",
-            "x": 2510,
-            "y": 1362,
+            "x": 3030,
+            "y": 1444,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "2"
         },
         {
             "id": "1a3c243e-23fd-41c9-914c-dd6601f2c0ff",
             "type": "file",
             "file": "65 Pilotage/65 — Budget & contrôle budgétaire (écarts).md",
-            "x": 2798,
-            "y": 1811,
+            "x": 30,
+            "y": 1774,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "3"
         },
         {
             "id": "3e3e7328-c7a9-48b7-905e-549e78830ffe",
             "type": "file",
             "file": "65 Pilotage/66 — Tableaux de bord & KPIs (pilotage).md",
-            "x": 2685,
-            "y": 1606,
+            "x": 300,
+            "y": 1774,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "3"
         },
         {
             "id": "1f9abaa8-7f17-4d17-9de7-3ecdfcce1461",
             "type": "file",
             "file": "65 Pilotage/67 — Le prévisionnel financier & le business plan.md",
-            "x": 4276,
-            "y": 2470,
+            "x": 570,
+            "y": 1774,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "3"
         },
         {
             "id": "71092c79-9903-4a87-9b20-96fb5729f188",
             "type": "file",
             "file": "70 Restructuration/70 — Restructuration & entreprises en difficulté (Loi 73-17).md",
-            "x": 2881,
-            "y": 2095,
+            "x": 990,
+            "y": 1774,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "1"
         },
         {
             "id": "9d4482bc-c91e-45b4-8f3f-675832f5fbae",
             "type": "file",
             "file": "70 Restructuration/71 — Diagnostic de défaillance & scoring.md",
-            "x": 2207,
-            "y": 2032,
+            "x": 1260,
+            "y": 1774,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "1"
         },
         {
             "id": "d3ebdc31-8e67-4747-a0cb-3f8b4b21c8a8",
             "type": "file",
             "file": "70 Restructuration/73 — Droit des sociétés marocain (formes & gouvernance légale).md",
-            "x": 2076,
-            "y": 2375,
+            "x": 1530,
+            "y": 1774,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "1"
         },
         {
             "id": "9b2060aa-bf7a-4315-8fcb-acede1a8c83f",
             "type": "file",
             "file": "75 ESG & Modernité/75 — ESG & reporting extra-financier (AMMC).md",
-            "x": 2011,
-            "y": 2100,
+            "x": 1950,
+            "y": 1774,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "3"
         },
         {
             "id": "98dfe2af-a5f5-4104-b26e-6a736931a973",
             "type": "file",
             "file": "75 ESG & Modernité/76 — Gouvernance d'entreprise & contrôle interne.md",
-            "x": 1845,
-            "y": 1634,
+            "x": 2220,
+            "y": 1774,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "3"
         },
         {
             "id": "48485e14-d7d5-4de1-a375-4d5c77533846",
             "type": "file",
             "file": "75 ESG & Modernité/79 — Fraude financière & cybersécurité.md",
-            "x": 2446,
-            "y": 1548,
+            "x": 2490,
+            "y": 1774,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "3"
         },
         {
             "id": "88cb018d-af0f-4953-a335-57279a1dc763",
             "type": "file",
             "file": "80 Trésorerie & Risques/80 — Couverture des risques financiers (dérivés).md",
-            "x": 2757,
-            "y": 1524,
+            "x": 2910,
+            "y": 1774,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "5"
         },
         {
             "id": "e73cb816-1663-4c8d-8837-291fb7bc9fc4",
             "type": "file",
             "file": "80 Trésorerie & Risques/81 — Cash pooling & trésorerie de groupe.md",
-            "x": 2184,
-            "y": 1439,
+            "x": 3180,
+            "y": 1774,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "5"
         },
         {
             "id": "9f049af1-6899-4241-8f76-7655467ca869",
             "type": "file",
             "file": "80 Trésorerie & Risques/82 — Financements structurés & titrisation.md",
-            "x": 1676,
-            "y": 1683,
+            "x": 3450,
+            "y": 1774,
             "width": 260,
-            "height": 130
+            "height": 130,
+            "color": "5"
         },
         {
             "id": "e52b43a2-0b56-4493-995d-f61afca04c71",
             "type": "file",
             "file": "90 Rapports/01 — Analyse Financière des Entreprises Marocaines (Guide Méthodologique).md",
-            "x": 2685,
-            "y": 2959,
+            "x": 30,
+            "y": 2104,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "6"
         },
         {
             "id": "0a33d550-3f18-41ee-9ec6-4407951482da",
             "type": "file",
             "file": "90 Rapports/02 — Le Plan Comptable Marocain (PCGE) et l'Analyse Financière.md",
-            "x": 2056,
-            "y": 2749,
+            "x": 300,
+            "y": 2104,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "6"
         },
         {
             "id": "9401a3d6-b1b2-4e2a-acc1-acf14ee7205e",
             "type": "file",
             "file": "90 Rapports/03 — Les Rapports d'Analyse Financière (Guide Complet).md",
-            "x": 3007,
-            "y": 1628,
+            "x": 570,
+            "y": 2104,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "6"
         },
         {
             "id": "0dbec6fe-8c7b-4e5c-934f-b76859608e5f",
             "type": "file",
             "file": "90 Rapports/04 — Analyse Financière Globale (Diagnostic Complet).md",
-            "x": 3084,
-            "y": 2301,
+            "x": 840,
+            "y": 2104,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "6"
         },
         {
             "id": "b9e969ec-dabc-4563-819d-aa5cbb95d879",
             "type": "file",
             "file": "90 Rapports/05 — PCGE × Analyse Financière (Carte Mentale).md",
-            "x": 3412,
-            "y": 2111,
+            "x": 30,
+            "y": 2274,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "6"
         },
         {
             "id": "4e87c6db-7450-41d3-a738-b087d7931fc2",
             "type": "file",
             "file": "90 Rapports/06 — L'Histoire que racontent les chiffres (Manuel).md",
-            "x": 2960,
-            "y": 2731,
+            "x": 300,
+            "y": 2274,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "6"
         },
         {
             "id": "6965eb48-b89e-485f-b31a-736440b1b513",
             "type": "file",
             "file": "95 Ressources/Carte des relations — thèmes et liens.md",
-            "x": 2415,
-            "y": 2917,
+            "x": 1260,
+            "y": 2104,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "4"
         },
         {
             "id": "1ba825e1-ca7d-48c9-b8c7-f88ac347ab32",
             "type": "file",
             "file": "95 Ressources/📚 Bibliothèque recommandée — corpus RAG.md",
-            "x": 1635,
-            "y": 2149,
+            "x": 1530,
+            "y": 2104,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "4"
         },
         {
             "id": "abe454ad-8672-42e0-9d38-205f46fbda64",
             "type": "file",
             "file": "96 Documents Réels/README — Index des documents réels.md",
-            "x": 2092,
-            "y": 1878,
+            "x": 1950,
+            "y": 2104,
             "width": 260,
             "height": 130,
-            "color": "3"
+            "color": "2"
         },
         {
             "id": "171320ea-adbc-4a02-8e42-532b3b88c841",
             "type": "file",
             "file": "98 Outils/synth/00_rrr_emballages.md",
-            "x": 1426,
-            "y": 3135,
+            "x": 2370,
+            "y": 2104,
             "width": 260,
             "height": 130,
             "color": "3"
@@ -837,8 +844,8 @@
             "id": "bbe1fc6e-011b-4be4-8390-c3529133d94d",
             "type": "file",
             "file": "98 Outils/synth/01_immobilisations_financieres.md",
-            "x": 1340,
-            "y": 542,
+            "x": 2640,
+            "y": 2104,
             "width": 260,
             "height": 130,
             "color": "3"
@@ -847,8 +854,8 @@
             "id": "57ca1116-8fc0-4dac-972c-da69082026c5",
             "type": "file",
             "file": "98 Outils/synth/02_effets_commerce.md",
-            "x": 2681,
-            "y": 217,
+            "x": 2910,
+            "y": 2104,
             "width": 260,
             "height": 130,
             "color": "3"
@@ -857,8 +864,8 @@
             "id": "6bef93a1-d00a-4240-ad52-82d728f1b7aa",
             "type": "file",
             "file": "98 Outils/synth/03_capital.md",
-            "x": 3444,
-            "y": 330,
+            "x": 3180,
+            "y": 2104,
             "width": 260,
             "height": 130,
             "color": "3"
@@ -867,8 +874,8 @@
             "id": "6e92d9bd-15e9-4b9e-a314-baefdb333c32",
             "type": "file",
             "file": "98 Outils/synth/04_subventions.md",
-            "x": 4052,
-            "y": 1904,
+            "x": 3450,
+            "y": 2104,
             "width": 260,
             "height": 130,
             "color": "3"
@@ -877,8 +884,8 @@
             "id": "56733525-e663-4975-8c2e-edec67b9e2e1",
             "type": "file",
             "file": "98 Outils/synth/05_transferts_reouverture.md",
-            "x": 664,
-            "y": 2109,
+            "x": 2370,
+            "y": 2274,
             "width": 260,
             "height": 130,
             "color": "3"
@@ -887,8 +894,8 @@
             "id": "0b030ad7-a562-4eff-b3c3-fe393877a170",
             "type": "file",
             "file": "98 Outils/synth/06_paie_2026.md",
-            "x": 3255,
-            "y": 590,
+            "x": 2640,
+            "y": 2274,
             "width": 260,
             "height": 130,
             "color": "3"
@@ -897,8 +904,8 @@
             "id": "6f7db991-394e-4ede-86ba-ae019dfc292e",
             "type": "file",
             "file": "98 Outils/synth/07_tva_import_export.md",
-            "x": 2458,
-            "y": -65,
+            "x": 2910,
+            "y": 2274,
             "width": 260,
             "height": 130,
             "color": "3"
@@ -907,8 +914,8 @@
             "id": "65388610-4ee4-48f7-9035-29432ad38ca6",
             "type": "file",
             "file": "98 Outils/synth/08_dissolution_liquidation.md",
-            "x": 701,
-            "y": 1404,
+            "x": 3180,
+            "y": 2274,
             "width": 260,
             "height": 130,
             "color": "3"
@@ -917,11 +924,181 @@
             "id": "b62eb783-6c95-4a46-9ff5-59b8507183cf",
             "type": "file",
             "file": "🧵 Le Grand Récit — De la Facture à la Stratégie.md",
-            "x": 3185,
-            "y": 1747,
+            "x": 2175,
+            "y": 244,
             "width": 320,
             "height": 150,
             "color": "6"
+        },
+        {
+            "id": "fa8e376d-d3d0-4adf-ac68-d8d3e3f659ac",
+            "type": "group",
+            "label": "📚 Documents maîtres — le hub",
+            "x": 2133,
+            "y": -12,
+            "width": 1104,
+            "height": 494,
+            "color": "6"
+        },
+        {
+            "id": "4a75eb75-2274-40d9-947a-bb63eb3135d8",
+            "type": "group",
+            "label": "🧱 Fondations",
+            "x": -12,
+            "y": 548,
+            "width": 894,
+            "height": 434,
+            "color": "4"
+        },
+        {
+            "id": "7e7b9b30-2f0e-4062-b956-0651b21c1103",
+            "type": "group",
+            "label": "⚙️ Mécanismes",
+            "x": 948,
+            "y": 548,
+            "width": 2244,
+            "height": 604,
+            "color": "3"
+        },
+        {
+            "id": "8d86a673-9e43-4a4b-af67-acc7d043d3fa",
+            "type": "group",
+            "label": "🔍 Analyse",
+            "x": 3258,
+            "y": 548,
+            "width": 894,
+            "height": 434,
+            "color": "5"
+        },
+        {
+            "id": "772d76a6-388d-4410-9b32-ee798aa4e9ef",
+            "type": "group",
+            "label": "💰 Fiscal",
+            "x": 4218,
+            "y": 548,
+            "width": 1164,
+            "height": 434,
+            "color": "1"
+        },
+        {
+            "id": "435a47d6-c2c2-421d-9afe-f088286c41d5",
+            "type": "group",
+            "label": "🎓 Avancé",
+            "x": -12,
+            "y": 1218,
+            "width": 894,
+            "height": 434,
+            "color": "6"
+        },
+        {
+            "id": "18d75bc6-f093-42b6-8239-5b16fa44550b",
+            "type": "group",
+            "label": "🏭 Sectoriel",
+            "x": 948,
+            "y": 1218,
+            "width": 1164,
+            "height": 434,
+            "color": "5"
+        },
+        {
+            "id": "4da6b2a7-d2f8-4078-a2e2-5c37f7c2f4f0",
+            "type": "group",
+            "label": "🆕 Compléments 2026",
+            "x": 2178,
+            "y": 1218,
+            "width": 1434,
+            "height": 434,
+            "color": "2"
+        },
+        {
+            "id": "9d0d2615-f7c4-4b5d-8faa-8ac30fd1e990",
+            "type": "group",
+            "label": "💼 Finance d'Entreprise",
+            "x": 3678,
+            "y": 1218,
+            "width": 1164,
+            "height": 434,
+            "color": "4"
+        },
+        {
+            "id": "b8e4f937-1849-4684-863f-2602857fd172",
+            "type": "group",
+            "label": "📊 Pilotage",
+            "x": -12,
+            "y": 1718,
+            "width": 894,
+            "height": 264,
+            "color": "3"
+        },
+        {
+            "id": "d7a73579-7cc5-4a4f-9d9c-3997cf395336",
+            "type": "group",
+            "label": "🆘 Restructuration",
+            "x": 948,
+            "y": 1718,
+            "width": 894,
+            "height": 264,
+            "color": "1"
+        },
+        {
+            "id": "ae4e5191-a323-4985-b52b-b57e271f7865",
+            "type": "group",
+            "label": "🌱 ESG & Modernité",
+            "x": 1908,
+            "y": 1718,
+            "width": 894,
+            "height": 264,
+            "color": "3"
+        },
+        {
+            "id": "11ec3836-8018-4f82-b922-789567aa08bd",
+            "type": "group",
+            "label": "🛡️ Trésorerie & Risques",
+            "x": 2868,
+            "y": 1718,
+            "width": 894,
+            "height": 264,
+            "color": "5"
+        },
+        {
+            "id": "2cc3156e-7089-428a-b128-f4eb0805b941",
+            "type": "group",
+            "label": "📑 Rapports",
+            "x": -12,
+            "y": 2048,
+            "width": 1164,
+            "height": 434,
+            "color": "6"
+        },
+        {
+            "id": "29865cf9-6e4b-4b60-9c2c-2d89f9b7d1c0",
+            "type": "group",
+            "label": "🗃️ Ressources",
+            "x": 1218,
+            "y": 2048,
+            "width": 624,
+            "height": 264,
+            "color": "4"
+        },
+        {
+            "id": "0e6aed88-17e1-400b-be9d-b9089a60f75e",
+            "type": "group",
+            "label": "📁 Documents Réels",
+            "x": 1908,
+            "y": 2048,
+            "width": 354,
+            "height": 264,
+            "color": "2"
+        },
+        {
+            "id": "8d06da6a-d2c7-4427-a893-90f1a805d38d",
+            "type": "group",
+            "label": "🧰 Outils",
+            "x": 2328,
+            "y": 2048,
+            "width": 1434,
+            "height": 434,
+            "color": "3"
         }
     ],
     "edges": [
