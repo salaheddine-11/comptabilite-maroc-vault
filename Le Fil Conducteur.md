@@ -2,10 +2,10 @@
 tags: [fil-conducteur, moc, systeme, vue-ensemble]
 ---
 
-# 🧭 Le Fil Conducteur — 59 thèmes, un seul système
+# 🧭 Le Fil Conducteur — 68 thèmes, un seul système
 
 > [!abstract] Pourquoi ce document existe
-> Les 59 thèmes du vault ne sont pas une liste à cocher : ce sont les **pièces d'une seule machine**. Ce document raconte comment elles s'emboîtent — le *flow* complet, de la facture du jour au rapport de l'analyste, en passant par l'impôt et le groupe.
+> Les 68 thèmes du vault ne sont pas une liste à cocher : ce sont les **pièces d'une seule machine**. Ce document raconte comment elles s'emboîtent — le *flow* complet, de la facture du jour au rapport de l'analyste, en passant par l'impôt et le groupe.
 >
 > **La règle d'or :** tout thème est un *organe* (compte), un *flux* (écriture), un *état* (sortie) ou un *contrôle* (audit/fiscal). Trouvez le circuit, vous trouvez le rôle.
 
@@ -170,6 +170,43 @@ Les **[[03 — Écritures comptables types]]** sont les briques du quotidien : v
 | [[58 — Fusions & acquisitions (M&A)]] | L'acquisition : prime de contrôle, due diligence, survaleur (écart d'acquisition) — payer le juste prix d'un pari |
 | [[59 — Politique de financement & dividende]] | Le retour aux actionnaires : taux de distribution, RAS, signaux — la politique de dividende comme message |
 
+## 5quinquies. Le pilotage — le pont vers l'avenir (10/08/2026)
+
+> Les 4 circuits racontent le passé ; le pilotage projette la machine dans l'avenir. Le budget promet, l'écart mesure l'honnêteté de la promesse, le KPI déclenche la décision.
+
+| Thème | Pourquoi il complète le système |
+| --- | --- |
+| [[65 — Budget & contrôle budgétaire (écarts)]] | La projection des circuits 1-2 : budget de trésorerie = la survie ; écarts = la vérité de l'exécution |
+| [[66 — Tableaux de bord & KPIs (pilotage)]] | Les 5-7 indicateurs qui pilotent : DSO/DIO/DPO, CAF, cash forecast — chaque KPI est une décision attachée |
+
+## 5sexies. Le cycle de vie extrême — la restructuration (10/08/2026)
+
+> Quand la machine casse : l'échelle de secours de la loi 73-17, du mandat ad hoc confidentiel à la liquidation judiciaire publique — et l'art de lire la défaillance deux ans avant le tribunal.
+
+| Thème | Pourquoi il complète le système |
+| --- | --- |
+| [[70 — Restructuration & entreprises en difficulté (Loi 73-17)]] | Les 4 dispositifs légaux + la comptabilité de la crise (continuité d'exploitation, provisions) |
+| [[71 — Diagnostic de défaillance & scoring]] | Le radar FRF → BFG → TN + les signaux externes (protêts, incidents BAM) + le plan de redressement |
+
+## 5septies. La modernité — ESG, gouvernance, digitalisation (10/08/2026)
+
+> La machine s'ouvre au monde : le reporting extra-financier (AMMC) liste les passifs que le bilan n'a pas provisionnés ; la gouvernance est le système immunitaire ; la facturation électronique (36) numérise la piste d'audit.
+
+| Thème | Pourquoi il complète le système |
+| --- | --- |
+| [[75 — ESG & reporting extra-financier (AMMC)]] | Le E/S/G comme indicateur avancé du passif — provisions environnementales, coût du capital, greenwashing |
+| [[76 — Gouvernance d'entreprise & contrôle interne]] | Conseil, comités, conventions réglementées, séparation des fonctions — le contrôle de tous les circuits |
+
+## 5octies. La couverture — trésorerie avancée & risques (10/08/2026)
+
+> La machine face à l'incertitude : dérivés pour couvrir le change et les taux (80), mutualisation de la trésorerie du groupe (81), ingénierie des financements hors bilan (82) — et la lecture forensique de ce que le bilan ne montre pas.
+
+| Thème | Pourquoi il complète le système |
+| --- | --- |
+| [[80 — Couverture des risques financiers (dérivés)]] | Forwards/options/swaps : la couverture de l'exposition (25) — et le hors bilan qui peut cacher la spéculation |
+| [[81 — Cash pooling & trésorerie de groupe]] | La centralisation des soldes : frais financiers réduits, mais contagion et tunneling inversé (31, 20) |
+| [[82 — Financements structurés & titrisation]] | FCT, SPV, sale & lease-back : la liquidité sur flux futurs — et les recours cachés que l'analyste retraite |
+
 ---
 
 ## 6. Les 3 fils transversaux (présents dans chaque circuit)
@@ -197,4 +234,4 @@ Actif fictif · stocks gonflés · pertes clients masquées (3424) · asphyxie f
 
 ---
 
-*Document maître du vault — généré le 08/08/2026, mis à jour le 10/08/2026. Les liens pointent vers les 59 fiches thématiques et les 6 rapports fondateurs.*
+*Document maître du vault — généré le 08/08/2026, mis à jour le 10/08/2026. Les liens pointent vers les 68 fiches thématiques et les 6 rapports fondateurs.*
