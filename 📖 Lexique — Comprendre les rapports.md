@@ -171,6 +171,19 @@ corpus: Synthèse de tous les rapports + fiches
 
 ---
 
+## 6bis. 🧵 Le Grand Récit — le fil narratif du vault
+
+> [!quote] Le « roman » du système
+> Si les sigles te bloquent, commence par l'histoire : [[🧵 Le Grand Récit — De la Facture à la Stratégie]] raconte les **71 thèmes dans l'ordre** (de la naissance de l'entreprise à la stratégie, en 7 actes), et chaque chapitre renvoie aux fiches. Les pages marquées `#grand-récit` se listent toutes seules ci-dessous :
+
+```dataview
+LIST
+FROM #grand-récit
+SORT file.name ASC
+```
+
+---
+
 ## 🎯 Le mot de la fin
 > [!note] La méthode en 3 questions
 > Quand tu butes sur un terme : **qui ?** (quelle institution/personne) → **quand ?** (quel moment du cycle) → **quoi ?** (quel poste des états). Si les 3 réponses mènent à une fiche du vault, tu as compris le mot.

@@ -17,7 +17,8 @@ tags: [hub, moc, accueil, comptabilite, maroc]
 > [!tip] **Ce vault n'est pas une collection de fiches isolées : c'est UN système à 4 circuits.**
 > Tout thème est soit un *organe* (compte), soit un *flux* (écriture), soit un *état* (sortie), soit un *contrôle* (audit/fiscal). Si vous savez dans quel circuit il se trouve, vous savez déjà 80 % de son rôle.
 
-➡️ **→ [[Le Fil Conducteur]]** : le document maître qui relie les 54 thèmes en une histoire unique.
+🧵 **→ [[🧵 Le Grand Récit — De la Facture à la Stratégie]]** : le « roman » du vault — l'histoire complète racontée de la première facture à la stratégie (7 actes, idéal pour commencer par la compréhension).
+➡️ **→ [[Le Fil Conducteur]]** : le document maître qui relie les 54 thèmes en une histoire unique (la carte technique).
 📖 **→ [[📖 Lexique — Comprendre les rapports]]** : les sigles et termes des rapports (AGO, greffe, après inventaire…) expliqués en une ligne.
 
 | Circuit | Thèmes | Question |
@@ -174,6 +175,7 @@ tags: [hub, moc, accueil, comptabilite, maroc]
 | Parcours | Pour qui | Itinéraire |
 | --- | --- | --- |
 | 🐣 **Débutant (4 semaines)** | Repartir de zéro | [[06 — L'Histoire que racontent les chiffres (Manuel)]] → semaines 1-4 du manuel |
+| 🧵 **Le roman** | Comprendre le système par l'histoire, sans prérequis | [[🧵 Le Grand Récit — De la Facture à la Stratégie]] → [[Le Fil Conducteur]] → votre chapitre préféré |
 | 🔬 **Analyste** | Lire une entreprise | Circuit 1 → circuit 2 → [[09 — Ratios & SIG]] → [[07 — Messages cachés (lecture entre les lignes)]] → [[04 — Analyse Financière Globale (Diagnostic Complet)]] |
 | 🏦 **Crédit / banque** | Décision de financement | [[08 — FRF, BFG & TN (analyse dynamique)]] → [[10 — Retraitements (valeur comptable → valeur actuelle)]] → [[03 — Les Rapports d'Analyse Financière (Guide Complet)]] |
 | 📝 **Révision examen** | Master Finance, Conseil & Audit | Les 54 fiches → les 12 pièges du référentiel (fiche [[01 — Logique du PCGE & principes]]) → [[26 — Passage résultat comptable → fiscal]] |
@@ -186,7 +188,7 @@ tags: [hub, moc, accueil, comptabilite, maroc]
 - **Piliers Finance d'Entreprise & Modernité** (10/08/2026) : 17 fiches ajoutées — création de valeur (55-59), pilotage (65-67), restructuration & loi 73-17 (70-71, 73), ESG & gouvernance (75-76, 79), trésorerie avancée & risques (80-82) — toutes avec blocs forensiques standardisés `[!warning]` / `[!danger]` ; **13 fiches historiques mises à niveau forensique** (04, 05, 08, 09, 13, 14, 16, 17, 18, 22, 24, 25, 26) ; lexique enrichi (15 nouveaux termes).
 - **Bibliothèque de documents réels** (08/08/2026) : 10 textes officiels (CGI 2025, **LF 2026**, circulaires 717/721, charte d'investissement, thèse ISCAE…) + **15 documents de référence AMMC exercice 2025** (Salafin, CFG Bank, Bank of Africa, FEC, CDG Capital, Auto Hall, CIH, Immorente Invest…) → voir [[README — Index des documents réels]] (dossier `96 Documents Réels`).
 - **Bibliothèque livres pour BookRAG** (08/08/2026) : table des ouvrages cités par le corpus + recommandés — logique → BookRAG, faits datés → NotebookLM → voir [[📚 Bibliothèque recommandée — corpus RAG]].
-- **Graph interactif** : `Concept Graph.canvas` (Obsidian natif, 92 cartes, 710 connexions) + `Concept Graph Interactif.html` (autonome).
+- **Graph interactif** : `Concept Graph.canvas` (Obsidian natif, 94 cartes, 714 connexions, groupe « 📚 Documents maîtres ») + `Concept Graph Interactif.html` (autonome, à régénérer après chaque modification du canvas).
 - **Marqueurs d'honnêteté** : `[standard]` = formule classique non couverte par le corpus (à confirmer avec le cours) ; `[À VÉRIFIER]` = à confirmer sur texte officiel (CGI / LF en cours).
 - **Règle des deux traitements** : chaque fiche distingue **Traitement comptable (CGNC)** et **Traitement fiscal (CGI)** quand ils divergent.
 - **Sources** : CGNC · loi 9-88 (modifiée 44-03) · PCGE officiel · loi 17-95 / 5-96 · CGI (LF 2023→2026) · circulaires AMMC 03/19, 06-05 · circulaire BAM 19/G/2002 · liasse fiscale DGI (23 tableaux) · documents de référence (Wafasalaf, CDG Capital, CFG Bank, FEC) · thèses ISCAE · guides Upsilon/CRMEF.
